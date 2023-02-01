@@ -27,7 +27,7 @@
 
 
 ## **Deployed app**
-[![App Screenshot](https://user-images.githubusercontent.com/55409076/216035141-a58a6356-6a51-43b8-b5d5-15382069bc9d.PNG)(https://vsuraj25-whatsapp-chat-analyser-app-kjjjlr.streamlit.app/)]
+[App Screenshot](https://user-images.githubusercontent.com/55409076/216035141-a58a6356-6a51-43b8-b5d5-15382069bc9d.PNG)
 
 
 [Deployed app link](https://vsuraj25-whatsapp-chat-analyser-app-kjjjlr.streamlit.app/)
