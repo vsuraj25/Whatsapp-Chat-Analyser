@@ -51,7 +51,9 @@ def most_common_words(selected_user, dataframe):
     stopwords = file.read()
     if selected_user != 'Overall':       
         dataframe = dataframe[dataframe['user'] == selected_user]
-    temp = dataframe[dataframe['user'] != 'group_nortification']
+    temp = dataframe.copy()
+    if 'group_nortification' in dataframe.columns:
+        temp = dataframe[dataframe['user'] != 'group_nortification']
     temp = temp[temp['message'] != '<Media omitted>']
 
     words = []

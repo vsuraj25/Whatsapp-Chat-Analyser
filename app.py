@@ -22,7 +22,8 @@ if uploaded_file is not None:
 
 
     ## Removing group nortification, adding overall and sorting the users list
-    users_list.remove('group_nortification')
+    if 'group_nortification' in users_list:
+        users_list.remove('group_nortification')
     users_list.sort()
     users_list.insert(0,'Overall')
     selected_user = st.sidebar.selectbox("Show Analysis w.r.t", users_list)
@@ -39,7 +40,7 @@ if uploaded_file is not None:
             st.title(num_messages)
         
         with col2: 
-            st.header('Total Words')
+            st.header('Total Words  ')
             st.title(words)
 
         with col3: 
@@ -47,11 +48,11 @@ if uploaded_file is not None:
             st.title(media)
 
         with col4: 
-            st.header('Total Links')
+            st.header('Total Links  ')
             st.title(links)
 
         ## Daily Timeline
-        st.title('Messages Timeline')
+        st.title('Daily Message Timeline')
         daily_timeline = helper.daily_timeline(selected_user, df)
         fig, ax = plt.subplots()
 
@@ -62,7 +63,7 @@ if uploaded_file is not None:
         st.pyplot(fig)
 
         ## Monthly Timeline
-        st.title('Messages Timeline')
+        st.title('Monthly Messages Timeline')
         monthly_timeline = helper.monthly_timeline(selected_user, df)
         fig, ax = plt.subplots()
 
