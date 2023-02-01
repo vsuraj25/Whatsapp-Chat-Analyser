@@ -41,8 +41,10 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p> 
 
+
 <!-- Steps -->
 <div id="steps"></div>
+
 ## **Steps**
 * Export any group or 1-on-1 chat as text in whatsapp
 * Upload the chat in the Whatsapp Chat Analyser app.
@@ -76,9 +78,10 @@
 [![Suraj Verma | G Mail](https://img.shields.io/badge/sv255255-eeeeee?style=for-the-badge&logo=gmail&logoColor=ffffff&labelColor=EA4335)][reach_gmail]
 [![Suraj Verma | Portfolio](https://img.shields.io/badge/My_Portfolio-eeeeee?style=for-the-badge)][reach_portfolio]
 
+[reach_portfolio]: http://vsuraj25.github.io
 [reach_linkedin]: https://www.linkedin.com/in/suraj-verma-982b31157/
 [reach_gmail]: mailto:sv255255@gmail.com?subject=Github
-[reach_portfolio] : vsuraj25.github.io
+
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
