@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/vsuraj25">
-    <img src="https://img.icons8.com/dotty/80/null/whatsapp.png" alt="Logo" width="80" height="80"/> 
+    <img src="https://img.icons8.com/cotton/128/null/whatsapp--v3.png" alt="Logo" width="80" height="80"/> 
   </a>
 
     
