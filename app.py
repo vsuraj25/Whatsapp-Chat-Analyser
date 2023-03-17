@@ -70,7 +70,7 @@ if uploaded_file is not None:
         plt.ylabel('Number of Messages')
         plt.xlabel('Month')
         plt.xticks(rotation = 'vertical')
-        ax.plot(monthly_timeline['time'], monthly_timeline['message'], color = 'green')
+        ax.plot(monthly_timeline['time'].values, monthly_timeline['message'], color = 'green')
         st.pyplot(fig)
     
         ## Activity Map

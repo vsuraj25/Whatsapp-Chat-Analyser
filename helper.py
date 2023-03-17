@@ -82,10 +82,10 @@ def monthly_timeline(selected_user, dataframe):
     if selected_user != 'Overall':       
         dataframe = dataframe[dataframe['user'] == selected_user]
     
-    timeline = dataframe.groupby(['year', 'month']).count()['message'].reset_index()
+    timeline = dataframe.groupby(['year', 'month_num']).count()['message'].reset_index()
     time = []
     for i in range(timeline.shape[0]):
-        time.append(timeline['month'][i] + '-' + str(timeline['year'][i]))
+        time.append(str(timeline['month_num'][i]) + '-' + str(timeline['year'][i]))
 
     timeline['time'] = time
     

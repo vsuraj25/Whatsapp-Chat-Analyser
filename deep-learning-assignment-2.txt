@@ -1,0 +1,70 @@
+Suppose if you are solving a four class problem, how many discriminant function you will need for solving?
+a. 1
+b. 2
+c. 3
+d. 4
+
+Two random variable X1 and X2 follows Gaussian distribution with following mean and covariance.
+X1~N (0, 3) and X2~N (0, 2).
+Which of following will is true.
+a. Distribution of X1 will be more flat than the distribution of X2.
+b. Distribution of X2 will be more flat than the distribution of X1.
+c. Peak of the both distribution will be same
+d. None of above.
+
+﻿
+Which of the following is true with respect to the discriminant function for normal density.\? 
+a. Decision surface is always orthogonal bisector to two surfaces when the covariance matrices of different classes are identical but otherwise arbitrary 
+b. Decision surface is generally not orthogonal to two surfaces when the covariance matrices of different classes are identical but otherwise arbitrary
+c. Decision surface is always orthogonal to two surfaces but not bisector when the covariance matrices of different classes are identical but otherwise arbitrary
+d. Decision surface is arbitrary when the covariance matrices of different classes are identical but otherwise arbitrary
+
+﻿
+In which of following case the decision surface intersect the line joining two means of two class at midpoint? (Consider class variance is large relative to the difference of two means)
+a. When both the covariance matrices are identical and diagonal matrix.
+b. When the covariance matrices for both the class are identical but otherwise arbitrary.
+c. When both the covariance matrices are identical and diagonal matrix, and both the class has equal class probability.
+d. When the covariance matrices for both class are arbitrary and different.
+
+﻿
+For minimum distance classifier which of the following must be satisfied?
+a. All the classes should have identical covariance matrix and diagonal matrix.
+b. All the classes should have identical covariance matrix but otherwise arbitrary. 
+c.  All the classes should have equal class probability.
+d. None of above.
+
+﻿
+You found your designed software for detecting spam mails has achieved an accuracy of 99%, i.e., it can detect 99% of the spam emails, and the false positive (a non-spam email detected as spam) probability turned out to be 5%. It is known that 50% of mails are spam mails. Now if an email is detected as spam, then what is the probability that it is in fact a non-spam email?
+a. 5/104
+b. 5/100
+c. 4.9/100
+d. .25/100
+
+﻿
+Which of the following statements are true with respect to K-NN classifier?
+1. In case of very large value of k, we may include points from other classes into the neighbourhood.
+2. In case of too small value of k the algorithm is very sensitive to noise.
+3. KNN classifier classify unknown samples by assigning the label which is most frequent
+among the k nearest training samples.
+a. Statement 1 only
+b. Statement 1 and 2 only
+c. Statement 1, 2, and 3 
+d. Statement 1 and 3 only
+
+
+﻿
+You have given the following 2 statements, find which of these option is/are true in case of k- NN?
+1. In case of very large value of k, we may include points from other classes into the neighbourhood.
+2. In case of too small value of k the algorithm is very sensitive to noise.
+
+
+﻿
+The decision boundary of linear classifier is given by the following equation.
+4x1+6x2-11 = 0
+What will be class of the following two unknown input example? (Consider class 1 as positive class, and class 2 as the negative class)
+a1= [1, 2]
+a2= [1, 1]
+a. a1 belongs to class 1, a2 belongs to class 2 
+b. a2 belongs to class 1, a1 belongs to class 2 
+c. a1 belongs to class 2, a2 belongs to class 2 
+d. a1 belongs to class 1, a2 belongs to class 1

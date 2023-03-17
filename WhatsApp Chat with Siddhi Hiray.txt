@@ -1,0 +1,3621 @@
+15/12/22, 10:16 am - Messages and calls are end-to-end encrypted. No one outside of this chat, not even WhatsApp, can read or listen to them. Tap to learn more.
+15/12/22, 10:16 am - Kratis: import java.util.*;
+public class LIExample
+{
+	public static void main(String args[])
+	{
+		Vector v = new Vector();
+		for(int i=0;i<=10;i++)
+		{
+			v.addElement(i);
+		}
+		System.out.println("Vector Elements:-"+v);
+		ListIterator litr = v.listIterator();
+		while(litr.hasNext())
+		{
+			Integer item=(Integer)litr.next();
+			System.out.println("Items are:-"+item);
+			if(item == 5)
+			{
+				litr.set("Nishi");
+			}
+			if(item==10)
+			{
+				litr.add("Vishal");
+			}
+			if(item==6)
+			{
+				litr.remove();
+			}
+		}
+		System.out.println("*******************************");
+		System.out.println("After Updation:-");
+		System.out.println("Items are :-"+v);
+		System.out.println("*******************************");
+		System.out.println("Reverse Direction:-");
+		while(litr.hasPrevious())
+		{
+			System.out.println(litr.previous());
+		}
+	}
+}
+15/12/22, 10:16 am - Kratis: import java.util.*;
+
+public class ALDemo
+{
+	public static void main(String args[])
+	{
+		ArrayList al= new ArrayList();
+		for(int i=0;i<=10;i++)
+		{
+			al.add(i);
+		}
+		System.out.println("ArrayList Items are :- "+al);
+	}
+	System.out.println("***********fore each loop demo***********");
+	for(int item.al)
+	{
+		System.out.println(al+"Nishi");
+	}
+}
+15/12/22, 10:16 am - Kratis: import java.util.*;
+public class Demostr
+{
+	public static void main(String args[])
+	{
+		List<String>lstr = new ArrayList<String>();
+		lstr.add("AAA");
+		lstr.add("BBB");
+		lstr.add("CCC");
+		lstr.add("DDD");
+		System.out.println("****Index Position of BBB "+lstr.indexOf("BBB"));
+		System.out.println("****Last Position of DDD "+lstr.lastIndexOf("DDD"));
+		System.out.println("****Index of Elements not present "+lstr.indexOf("Hello"));
+		System.out.println("****Enter the name to seach");
+		Scanner sc = new Scanner(System.in);
+		String name= sc.next();
+		if(lstr.indexOf(name)!=-1)
+		{
+		System.out.println("****Nam exist");
+		}
+		else
+		{
+		System.out.println("****Not found"+name);
+		}
+		System.out.println("Values between index number 1 and 3"+lstr.subList(1,3));
+		System.out.println("****Collection interface methods demo******");
+		System.out.println("****list befire suffing******");
+		System.out.println(lstr);
+		Collections.shuffle(lstr);
+		System.out.println("****list after suffing******");
+		System.out.println(lstr);
+		System.out.println("****reverse after suffing******");	
+		Collections.reverse(lstr);
+		System.out.println(lstr);
+
+	}
+
+}
+15/12/22, 11:34 am - Siddhi Hiray: Thankyou
+15/12/22, 6:17 pm - Kratis: It's okay re
+15/12/22, 6:18 pm - Kratis: 5-30 la  sutlo amhi tila thambavla nahi nashib
+15/12/22, 6:41 pm - Siddhi Hiray: Ohh yevda late
+15/12/22, 6:41 pm - Siddhi Hiray: Aamhi tr lagych gelo
+15/12/22, 6:43 pm - Kratis: Poster banvat hote udhya saathi he loka amhi thamblo hoto
+15/12/22, 6:44 pm - Kratis: Ajun mi ghari pan nahi pochlo aahe vichar kr
+15/12/22, 6:45 pm - Siddhi Hiray: 😳kupch late zala
+15/12/22, 6:45 pm - Siddhi Hiray: Uday lectures kashala thevlay ahet 😅
+15/12/22, 7:02 pm - Kratis: Are scene jhala hota tumhi gele na tya nantar
+15/12/22, 7:03 pm - Kratis: Divakar bola fakta 2 volunteers have aahet baki kathayla sangitla aahe nimesh bhadkel mhanun
+15/12/22, 7:04 pm - Siddhi Hiray: Kunacha
+15/12/22, 7:04 pm - Kratis: Tya saathi aata kami kele aahet volunteets
+15/12/22, 7:04 pm - Siddhi Hiray: Hay tayni aadhi sangaycha na
+15/12/22, 7:04 pm - Siddhi Hiray: Ek divas aadhi kon sangta ka
+15/12/22, 7:04 pm - Siddhi Hiray: Mg ata kiti Jana thevnar ahe
+15/12/22, 7:08 pm - Kratis: Are Tu ata job war aahes ki ghari?
+15/12/22, 7:10 pm - Siddhi Hiray: Ghari
+15/12/22, 7:28 pm - Kratis: Phone karun saangu ki chats wr long story aahe?
+15/12/22, 7:41 pm - Siddhi Hiray: Ha call kartay
+15/12/22, 11:30 pm - Kratis: Bhavesh la ss pathav na
+15/12/22, 11:31 pm - Kratis: Pay kelele
+16/12/22, 1:54 am - Siddhi Hiray: Are pay baki rahila 🤦🏻‍♀️
+16/12/22, 1:57 am - Siddhi Hiray: Uday cash detay Tayla Kiva morning madaych pay kartay online
+16/12/22, 7:20 am - Kratis: Mala vatla tu diles ratri call karun sangitla hota tyala tujhe naav add karayla
+16/12/22, 7:21 am - Kratis: Konala sangu nakos
+16/12/22, 7:21 am - Kratis: Class pochtach rutik kivha bhavesh le de
+16/12/22, 7:26 am - Siddhi Hiray: Kelay pay bhavesh la
+16/12/22, 3:07 pm - Kratis: Chall nice 👍👍
+16/12/22, 3:08 pm - Siddhi Hiray: Haa
+16/12/22, 4:44 pm - Kratis: Yes maan
+16/12/22, 4:44 pm - Kratis: Maam
+16/12/22, 4:45 pm - Kratis: Dp madhye kaa ragat baghte aahes
+16/12/22, 7:15 pm - Siddhi Hiray: Kuthe ragat Ahet
+16/12/22, 8:09 pm - Kratis: Bagh ekda profile pic tuch ghabarshil
+16/12/22, 8:23 pm - Siddhi Hiray: Chal yevda ky nhi vatat
+16/12/22, 8:32 pm - Kratis: Masti karto aahe re changla pic aahe
+16/12/22, 8:43 pm - Siddhi Hiray: Hm😏
+16/12/22, 9:00 pm - Kratis: Baki tired jhali asnar na
+16/12/22, 10:21 pm - Siddhi Hiray: Haa, ata Roz ahe he
+16/12/22, 10:46 pm - Kratis: Blood camp hota na aaj mhanun ig
+16/12/22, 10:46 pm - Kratis: Aaj cha baghun tri majha interest gela aahe isr activities
+16/12/22, 11:13 pm - Siddhi Hiray: Ha kharach
+16/12/22, 11:13 pm - Siddhi Hiray: Kup jasta volunteer zale hote 😂
+16/12/22, 11:22 pm - Kratis: Are majhi halat tight jhali ahe majhe donni legs madhye cramp jhala aahe ghri kasa gelo kay mahit
+16/12/22, 11:22 pm - Kratis: Ardhe tr kahi kaam karat navhte mostly amhi karat hoto , amhi burger anle hote baharun
+17/12/22, 12:34 am - Siddhi Hiray: Ha na yevda karun pn ata appreciation pn nhi certificate**😂 pn nhi
+17/12/22, 12:46 am - Kratis: Ha na yaar kamit kami appreciate kra te sudha nhi mala tar aata interest pan nHi urla aahe next isr activities saathi even venue department sathi
+17/12/22, 12:46 am - Kratis: Tikde pan sunavtil fukat cha tya peksha ghari jhopin
+17/12/22, 12:47 am - Siddhi Hiray: Ha na
+17/12/22, 12:47 am - Siddhi Hiray: Asa vatay kasha maday pm participate noko karyla
+17/12/22, 12:50 am - Kratis: Haa naa yaar fukat mala martil he loka 😂 bhaii 2 divas madhye legs sujle tarash madhye tr sodh purna body sujavtil😂
+17/12/22, 12:50 am - Kratis: Aaj job nhi aahe na mag jhop itka volunteering kela aahes tu thakli asanr
+17/12/22, 1:45 pm - Siddhi Hiray: Ha na
+19/12/22, 4:47 pm - Siddhi Hiray: Hii
+19/12/22, 4:47 pm - Siddhi Hiray: Aaj ky zala re g's kasa change zala
+19/12/22, 4:53 pm - Kratis: Aree minesh la 10-13 letters  aale regarding rutik cha mistakes mag , minesh ne decide ke la tyala kadun kon tya tri dusrya la thevayla
+19/12/22, 4:55 pm - Siddhi Hiray: Aacha
+19/12/22, 4:56 pm - Siddhi Hiray: Mg ata hay grp maday yevda boltayt
+19/12/22, 5:06 pm - Kratis: Aree tu thamb mi tula ghari gelyawar call karto aata bahar aahe mi ghari pochlywar sangto sarva scene kay jhala aahe
+19/12/22, 5:06 pm - Siddhi Hiray: 😂
+20/12/22, 8:01 pm - Kratis: Happy birthday to your mother
+20/12/22, 8:07 pm - Siddhi Hiray: Thankyou 🥰
+20/12/22, 9:23 pm - Kratis: Aaj college la nhi aalis tu
+20/12/22, 9:23 pm - Kratis: Welcome
+20/12/22, 9:46 pm - Siddhi Hiray: Ha aaj morning shift hoti
+20/12/22, 9:46 pm - Siddhi Hiray: DS cha lecture zala hota ka aaj
+20/12/22, 10:04 pm - Kratis: Noopee java 3 hrs,  spm 1 hrs,  and maths 1 hrs lavkar sodla aaj exam hoti seniors chi mhanun
+20/12/22, 10:04 pm - Kratis: Mi pan 10 la aalo hoto pan nashib tyane attendance nhi ghetla mala 3 hi lecs cha miyala
+20/12/22, 10:11 pm - Siddhi Hiray: Waah masta
+20/12/22, 10:11 pm - Siddhi Hiray: Manje
+20/12/22, 10:11 pm - Siddhi Hiray: Shit mi pn attend karyla phje hota asa tr😂
+20/12/22, 10:17 pm - Kratis: Areee 8 te 11 lec hota java cha , mi ds assume krun 10 la aalo hoto ani exact 10 la tyane break dila mi lec baslo 1 taas ani tyane attendance nhi ghetlele mi aalo ani mala 3 tasacha attendance miyala 😂😂
+20/12/22, 10:18 pm - Kratis: Tujha kiti la sampli hoti shiftm
+20/12/22, 10:18 pm - Kratis: Udhya navin counsil chi meeting honar aahe college la
+20/12/22, 11:12 pm - Siddhi Hiray: Waah 😂
+20/12/22, 11:12 pm - Siddhi Hiray: 3
+20/12/22, 11:12 pm - Siddhi Hiray: Kasha sathi
+21/12/22, 6:47 am - Kratis: Navin elect krnar aahe, gsec, cr and all je positions amchya kade hote te aata mahit nhi baghu aaj kay hota te
+21/12/22, 6:47 am - Kratis: Sakayi 3
+21/12/22, 7:32 am - Siddhi Hiray: Aacha okay
+21/12/22, 7:33 am - Siddhi Hiray: Afternoon
+21/12/22, 3:51 pm - Kratis: Yes madam
+21/12/22, 3:58 pm - Siddhi Hiray: 🤣
+21/12/22, 3:58 pm - Siddhi Hiray: Java assignment Karshil Teva patv😅
+21/12/22, 3:59 pm - Kratis: Kuthla assignment?
+21/12/22, 4:14 pm - Siddhi Hiray: <Media omitted>
+21/12/22, 4:39 pm - Kratis: He tr udhya lab madhye basun karaycha aahe na?
+21/12/22, 4:40 pm - Siddhi Hiray: Mala nhi Maythi
+21/12/22, 4:40 pm - Siddhi Hiray: Assignment ka bole mg
+21/12/22, 4:40 pm - Siddhi Hiray: Ani adbms chi ky assignment ahe
+21/12/22, 4:43 pm - Kratis: Ho udhya practical saathi aahe hii normally one day prior lvtat te je practical karayche astat te
+21/12/22, 4:43 pm - Kratis: Thamb pathavto tula miyala ki
+21/12/22, 4:46 pm - Kratis: <Media omitted>
+21/12/22, 4:46 pm - Kratis: He ghe
+21/12/22, 4:48 pm - Siddhi Hiray: Aacha okay
+21/12/22, 4:49 pm - Siddhi Hiray: Thankyou 😁
+21/12/22, 7:35 pm - Kratis: Aree tyattt kay yevtha thank you and all😂
+21/12/22, 8:15 pm - Siddhi Hiray: 😂😅
+21/12/22, 8:15 pm - Siddhi Hiray: Tula ye problem solve karta yetat ka?
+21/12/22, 8:19 pm - Kratis: Haa yetat
+21/12/22, 8:20 pm - Kratis: Simple aahet
+21/12/22, 8:21 pm - Siddhi Hiray: Ekda sangshil
+21/12/22, 8:21 pm - Siddhi Hiray: Mala tr nhi samjat ti ma'am ky shikavtay🤦🏻‍♀️
+21/12/22, 9:01 pm - Siddhi Hiray: Right ahe te sum
+21/12/22, 9:01 pm - Siddhi Hiray: Logic dusra ahe taycha
+21/12/22, 9:17 pm - Kratis: Pakka?
+21/12/22, 9:33 pm - Kratis: Question wrong lihla aahe
+21/12/22, 9:34 pm - Kratis: T9 chi values i1, i2, i3 aahe
+21/12/22, 9:34 pm - Siddhi Hiray: 🤦🏻‍♀️
+21/12/22, 9:34 pm - Siddhi Hiray: Jaude ata
+21/12/22, 9:35 pm - Siddhi Hiray: Yevda nhi bagnar ti
+21/12/22, 9:35 pm - Kratis: Answer right aahe fakta question yaane chukicha lihla hota 😂😂 mi aata check kela
+21/12/22, 9:35 pm - Kratis: Ikr change nko karu tu tech thev
+21/12/22, 9:40 pm - Siddhi Hiray: Haa
+21/12/22, 10:02 pm - Kratis: Lavkar ye udhya seat book kr amchya sathi😂
+21/12/22, 10:11 pm - Siddhi Hiray: Same to you😂
+21/12/22, 10:11 pm - Siddhi Hiray: 3 seats 😂 w
+21/12/22, 10:34 pm - Kratis: Tu majhya aadhi yetes 😂😂 tu pakad majhya sathi seat 😂
+21/12/22, 10:35 pm - Kratis: 3 kon?
+22/12/22, 1:28 am - Siddhi Hiray: Haa
+22/12/22, 1:28 am - Siddhi Hiray: Majay sobat astat na don
+22/12/22, 6:48 am - Kratis: Ek kal basli hoti ti na?
+22/12/22, 6:48 am - Kratis: Dusri kon aahe
+22/12/22, 7:35 am - Siddhi Hiray: Aaj bag🤣
+22/12/22, 7:35 am - Siddhi Hiray: Aathvel kon te
+22/12/22, 7:52 am - Kratis: Bus miyayla pahije collegr yenya saathi😂😂
+22/12/22, 7:52 am - Kratis: Tu pochlis kay?
+22/12/22, 7:53 am - Siddhi Hiray: Nhi mala late honar ahe
+22/12/22, 7:55 am - Kratis: Sameee 8-15 hotil mala pan
+22/12/22, 9:02 am - Kratis: Code jhala ka tujha?
+22/12/22, 9:26 am - Siddhi Hiray: Patvla na grp madày
+22/12/22, 9:26 am - Siddhi Hiray: Maja program nhi run zala
+22/12/22, 9:34 am - Kratis: Noob aadhi cha message hota ga
+22/12/22, 9:38 am - Kratis: import java.util.*;
+public class HashMap
+{
+   public static void main(String args[])
+{
+    LinkedHashMap lhm = new LinkedHashMap();
+    lhm.put(1,"Mumbai");
+    lhm.put(2,"Thane");
+    lhm.put(3,"Pune");
+    lhm.put(4,"Ratnagiri");
+    lhm.put("Maharashtra","Vasai");
+    System.out.println("   "+lhm);
+    System.out.print("********");
+    Set s = lhm.keySet();
+    System.out.println(" "+s);
+    System.out.print("********");
+    Collection c = lhm.values();
+    System.out.println("  "+c);
+    System.out.print("********");
+    Set s2 = lhm.entrySet();
+    System.out.println("  "+s2);
+    Iterator itr= s2.iterator();
+    while(itr.hasNext())
+    {
+        Map.Entry m1 = (Map.Entry)itr.next();
+        System.out.println("Index : "+m1.getKey()+"  : "+m1.getValue());
+        if(m1.getKey().equals(1))
+        {
+           m1.setValue("Nashik");
+        }
+        if(m1.getKey().equals(3))
+        {
+            System.out.println("&&respective value"+m1.getValue());
+        }
+        System.out.println("  $$$ "+s2);
+        Vector v = new Vector();
+        v.addAll(s2);
+        ListIterator lii = v.listIterator();
+        while(lii.hasPrevious())
+       {
+           Map.Entry mpre = (Map.Entry)lii.previous();
+           System.out.println("Index : "+mpre.getKey()+"  : "+mpre.getValue());
+       }
+    }
+}
+}
+22/12/22, 9:38 am - Kratis: import java.util.*;
+class TreeMapDemo {
+
+    public static void main(String[] args) {
+        {
+            Map<String, String> mt = new TreeMap<String,String>();
+            mt.put("c","C lang");
+            mt.put("cpp","C++");
+            System.out.print("Elememts are:" +mt);
+            
+               
+                    
+        }
+    }
+    
+}
+22/12/22, 9:38 am - Kratis: He ghe paste kr majha jhala aahe run
+22/12/22, 9:53 am - Siddhi Hiray: Maja pn zala
+22/12/22, 10:55 am - Siddhi Hiray: import java.util.*;
+public class SetDemo
+{
+	public static void main(String args[])
+	{
+		Set s =new HashSet();
+		s.add("Siddhi");
+		s.add("Sus");
+		s.add("Sid");
+		s.add("Meena");
+		s.add("Leena");
+		s.add("Beena");
+		System.out.println("Set elemets"+s);
+		Vector v = new Vector();
+		v.addAll(s);
+		Enumeration e =v.elements();
+		while(e.hasMoreElements())
+		{
+		System.out.println("Elements are:"+e.nextElement());
+		}
+		Set<String> tree_set = new TreeSet<String>(s);
+		System.out.println(" "+tree_set);
+
+		Set<Integer> s1 = new HashSet<Integer>();
+		s1.add(1);
+		s1.add(2);
+		s1.add(3);
+		s1.add(4);
+		s1.add(5);
+		s1.add(7);
+		s1.add(8);
+
+		Set<Integer> s2 = new HashSet<Integer>();
+		s2.add(6);
+		s2.add(7);
+		s2.add(8);
+		s2.add(9);
+		s2.add(10);
+		
+		Set<Integer> union = new HashSet<Integer>(s1);
+		union.addAll(s2);
+		System.out.println(" uinon elemets" +union);
+
+		System.out.println(" ********Intersection*****");
+		Set<Integer> intersection = new HashSet<Integer>(s1);
+		intersection.retainAll(s2);
+		System.out.println("intersection "+intersection);
+
+		System.out.println(" ********Difference*****");
+		Set<Integer> difference = new HashSet<Integer>(s1);
+		difference.remove(s2);
+		System.out.println("difference  "+difference );
+		
+		
+	}
+}
+22/12/22, 3:45 pm - Kratis: Mala pan aalo hota op🥲
+22/12/22, 9:05 pm - Siddhi Hiray: Okay
+23/12/22, 7:15 pm - Kratis: Oye
+23/12/22, 7:15 pm - Kratis: Break nantr aaj kay shikavla?
+23/12/22, 7:17 pm - Siddhi Hiray: Java
+23/12/22, 7:17 pm - Siddhi Hiray: Ekch lecture zala
+23/12/22, 7:18 pm - Kratis: 12-30 la sodla mag?
+23/12/22, 7:18 pm - Kratis: Lec hota na ki prac ghetli tyane?
+23/12/22, 7:18 pm - Siddhi Hiray: Nhi 1 parint
+23/12/22, 7:20 pm - Kratis: Acha acha
+23/12/22, 7:20 pm - Kratis: Gsec parat rutik jhala aahe
+23/12/22, 7:20 pm - Kratis: Means venue department is back 😂 and tu pn
+23/12/22, 7:20 pm - Siddhi Hiray: Waah
+23/12/22, 7:21 pm - Siddhi Hiray: Grp maday taka na mg
+23/12/22, 7:21 pm - Siddhi Hiray: 😂😂waah
+23/12/22, 7:21 pm - Siddhi Hiray: Kon kon ahe venue maday
+23/12/22, 7:25 pm - Kratis: Are nako re baba
+23/12/22, 7:26 pm - Kratis: Mushkili ne parat jhala aahe toh council meeting ghetli hoti interview and all jhala tevha jhala aahe aata parat he sarva kela na amhi parat kadtil tyala
+23/12/22, 7:27 pm - Kratis: Mi ani aayush aahe a madhla
+23/12/22, 7:29 pm - Siddhi Hiray: Missed voice call
+23/12/22, 7:29 pm - Siddhi Hiray: Ha right
+23/12/22, 7:29 pm - Siddhi Hiray: Okay
+23/12/22, 7:31 pm - Siddhi Hiray: Missed voice call
+23/12/22, 7:34 pm - Kratis: Mala 15-20 mins de mi call krta tula gharat short circuit jhala aahe
+23/12/22, 7:34 pm - Kratis: Light geli amchi achanak
+23/12/22, 9:15 pm - Siddhi Hiray: Okay
+23/12/22, 11:07 pm - Siddhi Hiray: Uday kartay call
+23/12/22, 11:08 pm - Siddhi Hiray: Me jara kamat hoti
+23/12/22, 11:15 pm - Kratis: Haa chalel noo problem
+23/12/22, 11:15 pm - Kratis: Goa varun bolu apan😂😂
+23/12/22, 11:15 pm - Kratis: Job war hotis ka? Sorry disturb jhala aseltr
+23/12/22, 11:45 pm - Siddhi Hiray: Nhi , dusray kamat busy hoti
+24/12/22, 3:05 am - Kratis: Acha acha thik he chalel free ashil aaj tevh message kr karto tula call
+24/12/22, 12:40 pm - Siddhi Hiray: Ha
+25/12/22, 7:05 pm - Kratis: Merry Christmas!!
+25/12/22, 8:32 pm - Siddhi Hiray: Merry Christmas 🎅🏻
+25/12/22, 9:26 pm - Kratis: Santa send me gifts 😂
+25/12/22, 9:55 pm - Siddhi Hiray: Santa lach nhi milale😂
+25/12/22, 10:40 pm - Kratis: Loll nice comeback😂
+25/12/22, 10:48 pm - Siddhi Hiray: 😂😂
+25/12/22, 10:52 pm - Kratis: Aaj job asel na tula ratricha
+25/12/22, 11:18 pm - Siddhi Hiray: Ho
+26/12/22, 9:36 am - Kratis: Sad, vacation madhye pan ratri jagava lagta aahe na
+26/12/22, 11:24 am - Siddhi Hiray: 3 to 11 hota
+26/12/22, 11:24 am - Siddhi Hiray: Night shift nhi😂
+26/12/22, 2:54 pm - Kratis: Acha mala vatla ratrii nashib nahi tr vacation madhye pan ratri jaaga wr lagla asta
+26/12/22, 2:55 pm - Kratis: Everyday asa uneven timings ka aahet tumhala
+26/12/22, 3:07 pm - Siddhi Hiray: Ha na
+26/12/22, 3:07 pm - Siddhi Hiray: Ho
+26/12/22, 5:38 pm - Kratis: Mala pan job war ghe tujhya 😂
+26/12/22, 5:38 pm - Kratis: Assignment kela ka ds  cha?
+26/12/22, 5:50 pm - Siddhi Hiray: 😂😂job lagla ki samjel
+26/12/22, 5:50 pm - Siddhi Hiray: Konti
+26/12/22, 5:50 pm - Siddhi Hiray: Mala tr ekch maythi adbms chi
+26/12/22, 6:25 pm - Kratis: <Media omitted>
+26/12/22, 6:25 pm - Kratis: <Media omitted>
+26/12/22, 6:25 pm - Kratis: Tu lav na mala tujhya company madhye 😂
+26/12/22, 6:26 pm - Kratis: Ds cha aah bagh ma mca div b chya group madhye
+26/12/22, 6:26 pm - Kratis: Aaj submit karaycha aahe 12 chyaa adhi lavkar li
+26/12/22, 6:27 pm - Siddhi Hiray: Haa thik ahe😂
+26/12/22, 6:27 pm - Siddhi Hiray: Hay don ch ka
+26/12/22, 6:28 pm - Siddhi Hiray: Hay kadhi boli hoti ma'am
+26/12/22, 6:28 pm - Kratis: Hoyy aaj ratri submit karaycha aahe 12 chya aadhi
+26/12/22, 6:29 pm - Kratis: Link to upload assignments will shared in Google classroom by today evening
+26/12/22, 6:29 pm - Kratis: He bagh
+26/12/22, 6:35 pm - Siddhi Hiray: Aavaj nhi yet ahe
+26/12/22, 7:30 pm - Kratis: <Media omitted>
+26/12/22, 7:32 pm - Siddhi Hiray: Thanks
+26/12/22, 8:16 pm - Kratis: Bas kay
+26/12/22, 9:54 pm - Siddhi Hiray: 😃
+26/12/22, 9:54 pm - Siddhi Hiray: Missed voice call
+26/12/22, 9:55 pm - Siddhi Hiray: Tu kunachi copy keli ka assignment?
+26/12/22, 10:44 pm - Kratis: Kuthli waali?
+26/12/22, 10:47 pm - Kratis: Tula cursive handwriting nhi samjhat kay?
+26/12/22, 10:48 pm - Kratis: Tasa pan miss jhopli aahe aaj kay assignment yenar nhi aahe 😂
+26/12/22, 10:59 pm - Siddhi Hiray: 🤦🏻‍♀️😂
+26/12/22, 11:00 pm - Siddhi Hiray: Ali link
+26/12/22, 11:01 pm - Kratis: Are assignment 1 ani 2 majhii ghari aahe 😂😂 aata kay karu mi
+26/12/22, 11:01 pm - Kratis: Due date bagh re Thursday and next monday aahe
+26/12/22, 11:02 pm - Siddhi Hiray: Ha na sni ma'am bg ky boltay😂
+26/12/22, 11:02 pm - Siddhi Hiray: Vapas karo😂
+26/12/22, 11:04 pm - Kratis: Te ig assignment 1-2 badal bolte aahe , sheets wr apan 9 code lihle hote na te ahet
+26/12/22, 11:04 pm - Kratis: Haa tya eka assignment saathi parat ghari jaato ani return goa la yeto assignment gheun😂😂
+26/12/22, 11:06 pm - Siddhi Hiray: 😂😂😂
+26/12/22, 11:06 pm - Siddhi Hiray: Maythi ata ky option ahe ka
+26/12/22, 11:09 pm - Kratis: Message takin tila sakyi baghu aata nahi tr 3 tarke la yein na tevha submit krto
+26/12/22, 11:22 pm - Siddhi Hiray: Aaik na
+26/12/22, 11:23 pm - Siddhi Hiray: Mala jara sang Uday assignment 1 ch submit karychi ahe ka
+26/12/22, 11:24 pm - Kratis: Ho udhya assignment 1-2 submit karaychi aahe
+26/12/22, 11:24 pm - Kratis: You deleted this message
+26/12/22, 11:27 pm - Kratis: Udhya karaycha aahe before 10
+26/12/22, 11:28 pm - Kratis: Jasta page nahi aahet submit kar na udhyach before 10
+27/12/22, 12:25 am - Siddhi Hiray: Okay
+27/12/22, 12:25 am - Siddhi Hiray: Jasta pages ch ahet
+27/12/22, 12:25 am - Siddhi Hiray: Aapn fakta code lihla hota
+27/12/22, 12:25 am - Siddhi Hiray: Theory Ani algorithm on phje tay ma'am la
+27/12/22, 9:02 am - Kratis: Karan kal miss group war bolat hoti na 26 la 27 consider kara ani submit kara, plus to boli 11 chya aadhi submit
+27/12/22, 9:04 am - Kratis: Aree 2 page description aahe ani  baki page code aahe jasta nahi 1-30 hours lagtil donni assignment la
+27/12/22, 9:04 am - Kratis: Are haa naa navin kay na kay takte faltu giri ti
+27/12/22, 11:26 am - Kratis: Practical 1
+Practical 2  means assignment 1  aahe
+27/12/22, 11:26 am - Kratis: Practical 3
+Practical 4 = assignment 2
+27/12/22, 11:27 am - Kratis: Assignment 3 ahe prac 5
+27/12/22, 12:36 pm - Siddhi Hiray: Nhi
+27/12/22, 12:36 pm - Siddhi Hiray: Partical 1 and 2 assignment 1and 2
+27/12/22, 12:36 pm - Siddhi Hiray: Practical 3 assignment 3
+27/12/22, 12:37 pm - Siddhi Hiray: Practical 4 assignment 4
+27/12/22, 12:37 pm - Siddhi Hiray: Mi kela submit je ky hota te
+27/12/22, 12:38 pm - Siddhi Hiray: Tay pdf maday assignment 1&2 mentioned ch nhi ahe
+27/12/22, 12:38 pm - Siddhi Hiray: So taychi theory chi garaj nhi
+27/12/22, 2:02 pm - Kratis: Theory nako aahe code je aahe apan lihila aahe na tevdach aahe te
+27/12/22, 2:09 pm - Siddhi Hiray: Ok
+27/12/22, 2:20 pm - Kratis: Tu insta snap wr nahi aahes?
+27/12/22, 3:07 pm - Siddhi Hiray: Nhi
+27/12/22, 3:40 pm - Kratis: Abhyasu mulgi aahes baba tu tr 😂
+27/12/22, 3:41 pm - Kratis: <Media omitted>
+27/12/22, 3:41 pm - Kratis: Udhyacha aahe he
+27/12/22, 3:44 pm - Kratis: <Media omitted>
+27/12/22, 3:44 pm - Kratis: 6-7 assignment 4 aahe 2 la submit karaycha aahe
+27/12/22, 3:45 pm - Siddhi Hiray: Ho mg 😂
+27/12/22, 3:45 pm - Siddhi Hiray: Thankyou
+27/12/22, 3:45 pm - Siddhi Hiray: Oaky
+27/12/22, 5:45 pm - Kratis: Help karshil na mag mala exams madhye 😂
+27/12/22, 5:45 pm - Kratis: Are tyat kay
+27/12/22, 6:30 pm - Siddhi Hiray: 😂😂
+27/12/22, 6:30 pm - Siddhi Hiray: Pas hou det
+27/12/22, 6:35 pm - Kratis: Tu abhyas krte na mag asa nay bolaych 😂
+27/12/22, 6:36 pm - Kratis: New year cha kay plan aahe mag tujha
+27/12/22, 6:40 pm - Siddhi Hiray: Ajun ky decide nhi
+27/12/22, 6:45 pm - Kratis: Job wr ashil ajun kay
+27/12/22, 7:36 pm - Siddhi Hiray: Haa😂
+27/12/22, 7:43 pm - Kratis: Acha listen udhya tula possible aahe college la jayla team venue chi meeting aahe decorations and all sathi? Arch waale bolvat aahe
+27/12/22, 7:44 pm - Siddhi Hiray: Nhi re
+27/12/22, 7:45 pm - Siddhi Hiray: Head kon ahe venue cha?
+27/12/22, 7:56 pm - Kratis: Ayush aahe pan amhi dogha asa headch aahot decision ekatra amhich gheto
+27/12/22, 7:56 pm - Kratis: Kay jhala bolna
+27/12/22, 7:57 pm - Siddhi Hiray: Aacha
+27/12/22, 7:57 pm - Siddhi Hiray: Ky nhi mi. Just v4la
+27/12/22, 7:59 pm - Kratis: Haa are venue madhye decorations and all pan asta na tya saathi ayush bolat hota pan mi svata goa madhye aahe mi kay yenar mhanun toh vicharat hota
+27/12/22, 7:59 pm - Siddhi Hiray: Aacha
+27/12/22, 7:59 pm - Siddhi Hiray: Tho pn nhi janar ahe ka
+27/12/22, 8:00 pm - Siddhi Hiray: Online meet Teva na
+27/12/22, 10:36 pm - Kratis: Jaato aahe toh udhya ani 2-3 janna jaat aahet
+27/12/22, 10:37 pm - Kratis: Mi sangitla aahe tyala , Tu ekda rutik la message tak mi bola aahe tyala tu fakta saang tyala
+27/12/22, 10:52 pm - Siddhi Hiray: Aacha
+27/12/22, 10:52 pm - Siddhi Hiray: Ky sangaych ahe tayla
+28/12/22, 7:13 am - Kratis: Are saang meet ghe mhanun mala yayla jamnar nhi mhanun
+28/12/22, 3:32 pm - Siddhi Hiray: Ha
+28/12/22, 3:32 pm - Siddhi Hiray: Ek divas janar ahe
+28/12/22, 3:48 pm - Kratis: College la ki meet?
+28/12/22, 6:32 pm - Siddhi Hiray: Help😂
+28/12/22, 6:32 pm - Siddhi Hiray: Volunteer
+28/12/22, 8:05 pm - Kratis: Kayala nahi mala 😂😂 kay bolte aahes tu?
+28/12/22, 9:02 pm - Siddhi Hiray: Are volunteering sathi janar ahe
+28/12/22, 9:02 pm - Siddhi Hiray: Adbms chi assignment kadhi submit karaychi ahe
+28/12/22, 9:50 pm - Kratis: Haa jaa udhya tasa hi sheetal ne lecture thevla aahe udhya 😂😂
+28/12/22, 9:50 pm - Kratis: Majeh kra tumhi majha hi kaam kr haa tu 😂😂
+28/12/22, 9:50 pm - Kratis: Friday 30 th la last date aahe
+28/12/22, 9:51 pm - Kratis: He bagh pathvla aahe mi tula
+28/12/22, 10:10 pm - Siddhi Hiray: Ok
+28/12/22, 10:10 pm - Siddhi Hiray: Haa
+28/12/22, 10:10 pm - Siddhi Hiray: Ha na assignment check karel ata🤦🏻‍♀️
+28/12/22, 10:16 pm - Kratis: Mala nahi vatat check karel ti, fakta vicharel koni submit kela nahi aahe assignment cause combine aahe na udhya lec mala tri vata shikvel ti udhya bagh saang mala sampla ki lec 😂😂
+28/12/22, 10:19 pm - Siddhi Hiray: Bagu ni geli tr jael
+28/12/22, 10:19 pm - Siddhi Hiray: Jar kami alay tr ti assignment check karnar
+28/12/22, 10:22 pm - Kratis: Poll bag group madhye 38 log jaat nahi aahet lec la 😂😂 kami tar asel public khup
+28/12/22, 10:23 pm - Siddhi Hiray: Are barobar jatat
+28/12/22, 10:23 pm - Siddhi Hiray: Hay asa bolela asta sagla
+28/12/22, 10:23 pm - Kratis: Tujha complete aahe na assignment mag ghabarte kashala aahe tu
+28/12/22, 10:23 pm - Siddhi Hiray: Viva
+28/12/22, 10:24 pm - Siddhi Hiray: Tho program run hotay ka nhi he kunala maythi😂
+28/12/22, 10:24 pm - Kratis: Ha na tya group war mala kahi bharosa nahi sarva palti khanare loka aahet ikde nahi boltil ani udhya 120 students lecture la present 😂😂
+28/12/22, 10:25 pm - Kratis: Areee thoda vachun jaa na concept kay aahe te explain krr bol code mahit nhi aahe concept lakshat ahe
+28/12/22, 10:24 pm - Siddhi Hiray: Haa
+28/12/22, 10:26 pm - Kratis: Udhya saang mala kay jhala  college la ani notes li sarva barobar😂😂
+28/12/22, 10:27 pm - Siddhi Hiray: Hmm
+28/12/22, 10:27 pm - Siddhi Hiray: Okay
+29/12/22, 2:59 pm - Kratis: Aaj kay shikavla
+29/12/22, 2:59 pm - Kratis: Tu geli hotis na?
+29/12/22, 3:55 pm - Siddhi Hiray: Nhi
+29/12/22, 5:18 pm - Kratis: Aree tuch geli nahi 😂😂
+29/12/22, 5:18 pm - Siddhi Hiray: <Media omitted>
+29/12/22, 5:18 pm - Kratis: Mala vatla tu janar aahes na?
+29/12/22, 5:19 pm - Siddhi Hiray: Tu je adbms ch patvla ahe
+29/12/22, 5:19 pm - Kratis: Ha?
+29/12/22, 5:19 pm - Siddhi Hiray: Tay maday last question ch last page maday he correction kar
+29/12/22, 5:19 pm - Siddhi Hiray: Wrong kela ahe final answer
+29/12/22, 5:19 pm - Kratis: He koni pathavla aahe tula?
+29/12/22, 5:20 pm - Siddhi Hiray: Me kela
+29/12/22, 5:20 pm - Siddhi Hiray: Solve kela tho question
+29/12/22, 5:59 pm - Kratis: Bhaii topper aahes ga tu tr
+29/12/22, 6:00 pm - Kratis: Last madhye 2/3*100=67 rejected yenar
+29/12/22, 6:00 pm - Kratis: Baki right aahe one strong association aahe
+29/12/22, 6:02 pm - Siddhi Hiray: Ha right😅
+29/12/22, 6:03 pm - Siddhi Hiray: Haa
+29/12/22, 6:04 pm - Siddhi Hiray: Mi assignment maday lihila vegla 😂 Ani rough vala photo patvla tula
+29/12/22, 6:07 pm - Kratis: <Media omitted>
+29/12/22, 6:07 pm - Kratis: Kiti abhyas krte tuu re
+29/12/22, 6:08 pm - Kratis: Chaltay majha tr rough ani assignment donni ekach asta chukla tri kayat nahi mala 😂😂
+29/12/22, 6:30 pm - Siddhi Hiray: 😂😂
+29/12/22, 10:07 pm - Kratis: Udhya college la jaate aahe na tu
+29/12/22, 10:49 pm - Siddhi Hiray: Ha
+29/12/22, 10:49 pm - Siddhi Hiray: Ds ch assignment patv na
+30/12/22, 8:22 am - Kratis: <Media omitted>
+30/12/22, 8:23 am - Kratis: <Media omitted>
+30/12/22, 8:23 am - Kratis: Tula warti ke la hota mi submit
+30/12/22, 8:36 am - Siddhi Hiray: Are next assignment
+30/12/22, 8:36 am - Siddhi Hiray: Practical 6 and 7
+30/12/22, 9:39 am - Kratis: Time aahe ajun 2 jan la submit karaycha aahe re
+30/12/22, 9:39 am - Kratis: 4 divas aahe
+30/12/22, 9:40 am - Kratis: Actually tu complete krun mala pathvayla pahije mi out of town aahe 😂😂
+30/12/22, 9:40 am - Kratis: Thamb miyala ki pathavto nhi tr evening madhye mi complete karto
+30/12/22, 10:09 am - Siddhi Hiray: 1 la
+30/12/22, 10:10 am - Siddhi Hiray: Haa thanks
+30/12/22, 2:24 pm - Kratis: Acha krto mag thamb sandhyakayi
+30/12/22, 2:24 pm - Kratis: Tu jaun aalis college la?
+30/12/22, 2:35 pm - Siddhi Hiray: Okay thanks
+30/12/22, 2:35 pm - Siddhi Hiray: Hi
+30/12/22, 2:35 pm - Siddhi Hiray: Ho*
+30/12/22, 3:05 pm - Kratis: Kiti te thanks 😂😂
+30/12/22, 3:05 pm - Kratis: Kay kela mag?
+30/12/22, 3:08 pm - Siddhi Hiray: Thoda help keli bas
+30/12/22, 6:18 pm - Kratis: Majha kam pan kelas na 😂
+30/12/22, 6:27 pm - Siddhi Hiray: Are ky Kam ch navta
+30/12/22, 6:27 pm - Siddhi Hiray: Ugach apla attendance sathi geli asa vatla
+30/12/22, 11:36 pm - Kratis: Mag kiti vey hotis tu college madhye?
+30/12/22, 11:36 pm - Kratis: Attendance? Lecture hota kay aaj?
+30/12/22, 11:36 pm - Kratis: Kahi kaam nhi kela kaa aaj tu?
+31/12/22, 11:10 am - Siddhi Hiray: 10 to 1
+31/12/22, 11:10 am - Siddhi Hiray: Nhi
+31/12/22, 11:10 am - Siddhi Hiray: Kela te ky staple karycha hota
+31/12/22, 11:10 am - Siddhi Hiray: Ani paint karycha hkta
+31/12/22, 12:16 pm - Kratis: Chal thik he
+31/12/22, 12:16 pm - Kratis: Venue madhye ashi kama pan astat kay mala  kahi mahit navhta 😂😂
+31/12/22, 12:17 pm - Siddhi Hiray: Ha tech na
+31/12/22, 12:39 pm - Kratis: Mi tr college la alyawar mast kama la lavnar aahet he mala
+31/12/22, 1:16 pm - Siddhi Hiray: Haa
+31/12/22, 1:16 pm - Siddhi Hiray: Tasa ky Kam ch ahe nhi
+31/12/22, 1:16 pm - Siddhi Hiray: Sagla architecture vale kartat
+31/12/22, 5:11 pm - Kratis: Kay bolte kharach? Mala rutik bolat hota ki khup kaam asta asa
+31/12/22, 5:11 pm - Kratis: Karu de tyana kam eternia pan aplyala handle karaycha aahe na tasa hi aata
+31/12/22, 5:24 pm - Siddhi Hiray: te ky grp maday work karat hote
+31/12/22, 5:25 pm - Siddhi Hiray: Heads ka present asna important ahe
+31/12/22, 7:25 pm - Kratis: Acha baghava lagnar mumbai madhye alyawar
+31/12/22, 7:26 pm - Kratis: Aplya la kai apan tr head nahi aahot
+31/12/22, 7:30 pm - Siddhi Hiray: Haa
+31/12/22, 7:32 pm - Kratis: Tula ds miyala ka 6-7?
+31/12/22, 8:16 pm - Siddhi Hiray: 7 milala
+31/12/22, 8:16 pm - Siddhi Hiray: <Media omitted>
+31/12/22, 8:33 pm - Kratis: https://www.collegenote.net/curriculum/data-structures-and-algorithms/82/459/
+31/12/22, 8:33 pm - Kratis: https://www.collegenote.net/curriculum/data-structures-and-algorithms/82/458/
+31/12/22, 8:34 pm - Kratis: https://www.collegenote.net/curriculum/data-structures-and-algorithms/82/457/
+31/12/22, 8:34 pm - Kratis: He practical 6 aahe
+31/12/22, 8:38 pm - Siddhi Hiray: Hay kuthe v4la ahe circular ch
+31/12/22, 8:43 pm - Kratis: <Media omitted>
+31/12/22, 10:51 pm - Siddhi Hiray: Okay
+01/01/23, 9:01 am - Kratis: Happy New Year ❤️
+01/01/23, 2:49 pm - Kratis: <Media omitted>
+01/01/23, 2:50 pm - Kratis: He bagh aata 🥲
+01/01/23, 2:50 pm - Kratis: Majha jhala hota lihun
+01/01/23, 3:05 pm - Siddhi Hiray: Mg ata lihaycha ahe ka nhi
+01/01/23, 3:05 pm - Siddhi Hiray: Wish you and your family a wonderful new year!🥳✨✨
+01/01/23, 7:24 pm - Kratis: Nhi lihaycha aahe
+01/01/23, 7:25 pm - Kratis: Ti boli shikvel tevha liha
+01/01/23, 7:25 pm - Kratis: Aata prac 6 lihaycha aahe
+01/01/23, 7:25 pm - Kratis: Tu lihila ka?
+01/01/23, 7:31 pm - Siddhi Hiray: Ho
+01/01/23, 7:47 pm - Kratis: Kiti page aahet?
+01/01/23, 9:35 pm - Siddhi Hiray: 7 lihili ahe
+01/01/23, 9:35 pm - Siddhi Hiray: 6 ch tr tuch content patvla na
+01/01/23, 9:40 pm - Kratis: Hoo pan tu lihila aahe na right?
+01/01/23, 9:41 pm - Kratis: Mala 22 pages cha pdf miyala aahe
+01/01/23, 9:41 pm - Kratis: <Media omitted>
+02/01/23, 12:15 am - Siddhi Hiray: Ha
+02/01/23, 12:15 am - Siddhi Hiray: Hay half half ahe
+02/01/23, 12:16 am - Siddhi Hiray: Doni practical ch mix ahe
+02/01/23, 9:02 am - Kratis: Submit Tu donni kele na sparse matrix wala pan?
+02/01/23, 9:02 am - Kratis: Ha te mala kayala😅
+02/01/23, 3:08 pm - Siddhi Hiray: Submit nhi kela
+02/01/23, 3:15 pm - Kratis: Mi donni karun takla aahe
+02/01/23, 3:15 pm - Siddhi Hiray: Okay
+02/01/23, 3:15 pm - Siddhi Hiray: <Media omitted>
+02/01/23, 3:15 pm - Siddhi Hiray: <Media omitted>
+02/01/23, 6:39 pm - Kratis: Hicha tr prac 6 , 23 pages cha aahe re
+02/01/23, 6:40 pm - Kratis: Tu kuthla lihila aahe ya pekki?
+02/01/23, 6:40 pm - Kratis: Also udhya yete aahes na tu college la
+02/01/23, 7:41 pm - Siddhi Hiray: Maji tr 30 pages chi zale ahe
+02/01/23, 7:41 pm - Siddhi Hiray: 😂
+02/01/23, 7:41 pm - Siddhi Hiray: Nhi
+02/01/23, 7:42 pm - Kratis: Kay lihila aahes asa tu yevtha 😂😂,  majha tr 20 madhye sampla aahe
+02/01/23, 7:43 pm - Kratis: Lectures aahet udhya
+02/01/23, 7:43 pm - Siddhi Hiray: Kon bola
+02/01/23, 7:43 pm - Siddhi Hiray: 😮
+02/01/23, 7:43 pm - Kratis: Group war bagh na 😂
+02/01/23, 7:43 pm - Siddhi Hiray: Program ch mothe age
+02/01/23, 7:43 pm - Siddhi Hiray: Kuthe ky bole
+02/01/23, 7:46 pm - Kratis: Tu topper na shevti sarva line lihili asnar 😂
+02/01/23, 7:46 pm - Kratis: Thamb pathavtp
+02/01/23, 7:47 pm - Kratis: <Media omitted>
+02/01/23, 7:48 pm - Kratis: He bagh
+02/01/23, 8:57 pm - Siddhi Hiray: Ha final notice kuthe ali ahe lectures chi
+02/01/23, 8:58 pm - Kratis: Are gsec bola ki lecs aahe regular days wr pan
+02/01/23, 8:59 pm - Siddhi Hiray: Jaude asude😂
+02/01/23, 8:59 pm - Siddhi Hiray: Traditional ghalun tumhi lectures la basnar🤦🏻‍♀️
+02/01/23, 9:00 pm - Kratis: Kayy re majha sarkha ayshi mulga yeto aahe traditional day la tu yevtha nakhre krte Ahe😂😂
+02/01/23, 9:00 pm - Kratis: Lectures kon basta aahe mi fakta traditional day celebrate krayla yenar aahe
+02/01/23, 9:01 pm - Kratis: Guys kal lecture hoga confirm only if we go for lectures so u guys need to decide what to do baki samazdar ko isara kafi hai
+02/01/23, 9:16 pm - Siddhi Hiray: Waah
+02/01/23, 9:16 pm - Siddhi Hiray: 😂
+02/01/23, 9:16 pm - Siddhi Hiray: Mi nhi yenar ahe 😂 lecture zala tari Ani nhi zala tari
+02/01/23, 9:33 pm - Kratis: Kiti to ayshi pana re 😂
+02/01/23, 9:34 pm - Kratis: Chal sodh parva bhetu mag aapan
+02/01/23, 10:09 pm - Siddhi Hiray: Haa.. enjoy 🎊
+03/01/23, 8:09 pm - Siddhi Hiray: Hi
+03/01/23, 8:09 pm - Siddhi Hiray: Lecture zale hote ka aaj
+03/01/23, 8:22 pm - Kratis: Hoo jhale hote ek lec jhala fakta 8-9:30 aj cha bas tya nantar traditional day and theme reveal hota bas ajun kahi nhi jhala
+03/01/23, 8:22 pm - Kratis: Nashib tu aali nahi kay jasta shikavla nahi
+03/01/23, 8:22 pm - Kratis: Tu yeyla hava hota 😂
+03/01/23, 8:30 pm - Siddhi Hiray: Haa na😅😂
+03/01/23, 8:30 pm - Siddhi Hiray: Uday sagle lecture asnar ka
+03/01/23, 8:34 pm - Kratis: Masta photos kadhle aste sarva
+03/01/23, 8:34 pm - Kratis: Haare
+03/01/23, 8:35 pm - Kratis: Roj thodi sutti detil re 😂😂 aaj tr theme reveal hota na mhanun lecs nahi ghetle tyani
+03/01/23, 8:35 pm - Kratis: Udhya pasun daily aahe even saturday la pan asel aata lecs
+03/01/23, 10:06 pm - Siddhi Hiray: Are ky fayda mg baki daus celebrate nhi karayche ka
+03/01/23, 11:21 pm - Kratis: Lectures aaj pan hote ga ,  fakta aaj theme reveal krnar hote na after break tya muye jastach late jhala 11-30 la survat keli mhanun last lec cancel jhali aata udhya mostly koni dress nahi honar aahe pan lectures asnar aahe
+04/01/23, 12:09 am - Siddhi Hiray: Aacha  ha
+04/01/23, 12:10 am - Siddhi Hiray: Practical 11 keli ka tu
+04/01/23, 1:33 pm - Kratis: Nahiii
+04/01/23, 1:33 pm - Kratis: Java kr aata
+04/01/23, 1:57 pm - Siddhi Hiray: 😂
+04/01/23, 2:09 pm - Kratis: Kay chalu aahe he?
+04/01/23, 2:09 pm - Kratis: Kadhi sodnar
+04/01/23, 2:17 pm - Siddhi Hiray: Mi tr nigali pn
+04/01/23, 2:17 pm - Siddhi Hiray: Council members tu ahe na
+04/01/23, 4:01 pm - Kratis: Kadhiii tu tr nidhi barobar jaat hotis na
+04/01/23, 4:01 pm - Kratis: Amcha kahi kaam navhta re dance singing saathi members have hote tyana fukat sarvna thambavla hota
+04/01/23, 9:29 pm - Siddhi Hiray: Te bandra varun tetat
+04/01/23, 9:29 pm - Siddhi Hiray: Yetat*
+04/01/23, 9:30 pm - Siddhi Hiray: Mi kurla varun jatay so vel kami lagto na
+04/01/23, 9:30 pm - Siddhi Hiray: Ha samjla mala mahun h nigali
+04/01/23, 10:19 pm - Kratis: Aree tasa nahii mi lab madhye tula nidhi barobar jatana baghitla ani nidhi lec madhye hoti malla vatla tu badli ashil tyan sobatch 😂
+04/01/23, 10:20 pm - Kratis: Nashib jaam pakavla mala dancing ani singing madhye sangat hoti aquila mi bolo venue co head aahe time nhi miynar😂
+05/01/23, 12:24 am - Siddhi Hiray: Aacha
+05/01/23, 12:24 am - Siddhi Hiray: Ha mala maythi hota jabardasti naav detay ti
+05/01/23, 9:51 am - Kratis: <Media omitted>
+05/01/23, 10:04 am - Siddhi Hiray: import java.util.*;
+public class WildcardsDemo{
+public static double sum(List<?extends Number> list)
+{
+double sum=0.0;
+for(Number i:list)
+{
+sum =sum + i.doubleValue();
+}
+return sum;
+}
+
+public static void main (String args[])
+{
+
+List<Integer> list1 = new ArrayList<Integer>();
+list1.add(4);
+list1.add(5);
+list1.add(11);
+list1.add(12);
+System.out.println("Total sum " +sum(list1));
+
+List<Double> list2 = new ArrayList<Double>();
+list2.add(4.5);
+list2.add(1.1);
+list2.add(2.5);
+list2.add(8.5);
+System.out.println("Total sum " +sum(list2));
+
+}
+}
+05/01/23, 10:05 am - Siddhi Hiray: import java.util.*;
+interface Path<K,V>
+{
+	public K getKey();
+	public V getValue();
+}
+
+public class HashMap<K,V> implements Path<K,V>
+{
+	K key;
+	V value;
+public HashMap(K key, V value)
+{
+	this.key=key;
+	this.value=value;
+}
+public K getKey()
+{
+	return key;
+}
+public V getValue()
+{
+	return value;
+}
+
+public static void main(String args[])
+{
+HashMap<Integer,String> op1=new HashMap<Integer,String>(1,"siddhi");
+System.out.println("Key is"+op1.getKey()+ ": Value is" +op1.getValue());}
+}
+05/01/23, 10:05 am - Siddhi Hiray: import java.util.*;
+interface Path<K,V>
+{
+	public K getKey();
+	public V getValue();
+}
+
+public class OrderPair<K,V> implements Path<K,V>
+{
+	K key;
+	V value;
+public OrderPair(K key, V value)
+{
+	this.key=key;
+	this.value=value;
+}
+public K getKey()
+{
+	return key;
+}
+public V getValue()
+{
+	return value;
+}
+
+public static void main(String args[])
+{
+OrderPair<Integer,String> op1=new OrderPair<Integer,String>(1,"siddhi");
+System.out.println("Key is"+op1.getKey()+ ": Vlaue is" +op1.getValue());
+}
+}
+05/01/23, 7:48 pm - Kratis: Thankssss
+05/01/23, 7:48 pm - Kratis: Tu ds cha lihilas ka
+05/01/23, 9:48 pm - Siddhi Hiray: Nhi
+05/01/23, 10:58 pm - Kratis: Lih mag lavkar
+05/01/23, 11:02 pm - Siddhi Hiray: Haa
+05/01/23, 11:02 pm - Siddhi Hiray: Uday 11:30 te kiti vaje parint JSP ahe maythi?
+05/01/23, 11:04 pm - Kratis: Udhya nahii aahe jsp cha lec
+05/01/23, 11:04 pm - Kratis: Udhya spm adbms practical and maths chi exam ahe ds practical chya time madhye
+05/01/23, 11:05 pm - Kratis: Kal boli hoti na aquila exam asnar aahe
+05/01/23, 11:05 pm - Kratis: Research cha mahit nahi kon gheil
+05/01/23, 11:12 pm - Siddhi Hiray: Mg uday aaj chi adbms practical submit karychi ahe ka
+05/01/23, 11:12 pm - Siddhi Hiray: Uday lecture ch nhi ahe na ticha
+05/01/23, 11:12 pm - Siddhi Hiray: First chapter ahe na test la?
+06/01/23, 7:27 am - Kratis: Nahii re  khyati maam ghete na te waala practical he data minning cha r studio wala, idk lecs hotil ki pracs pan last time miss boli hoti fri la pracs honar
+06/01/23, 7:28 am - Kratis: Ds chi maam absent aahe ticha lecture ghenar aahe ti
+06/01/23, 7:28 am - Kratis: Ha stats wala
+06/01/23, 7:36 am - Siddhi Hiray: Aacha
+06/01/23, 7:36 am - Siddhi Hiray: Ticha lecture kon kon ghenar ahe😂
+06/01/23, 7:36 am - Siddhi Hiray: Kal Vikram sir bole ki me 11:30 cha lecture ghel
+06/01/23, 7:36 am - Siddhi Hiray: Ok
+06/01/23, 7:39 am - Siddhi Hiray: Lecture ahe ki practical sang ma'am ali ki
+06/01/23, 12:16 pm - Kratis: Haa toch gheto aahe 😂
+06/01/23, 12:17 pm - Kratis: Pan mala aquilla boli hoti ki exam gheil ti Wednesday laa aaj vicharla tr cancel kela aahe tine Monday la gheil boli
+06/01/23, 12:18 pm - Kratis: Mi what's app open nhi karat re kahi asel tr call kr mala tithe answer karin tula
+06/01/23, 12:25 pm - Siddhi Hiray: Acha okay
+06/01/23, 12:25 pm - Siddhi Hiray: Scholar tu kasa open karnar seriously attend karto na
+06/01/23, 6:41 pm - Kratis: Rahu de kon  konala scholar bolta aahe he bagha abhyas tu krte mi nhi ga🥲
+06/01/23, 6:41 pm - Kratis: Java basle lis ka tu aah
+06/01/23, 6:41 pm - Kratis: Aaj
+06/01/23, 7:32 pm - Siddhi Hiray: Ho
+06/01/23, 7:32 pm - Siddhi Hiray: JSP shikavla
+06/01/23, 8:23 pm - Kratis: easy aahe ka jsp?
+06/01/23, 8:23 pm - Kratis: Alsoo udhya lec aahe na?
+06/01/23, 8:23 pm - Kratis: Tu jaate aahes kay
+06/01/23, 8:30 pm - Siddhi Hiray: Ky maythi
+06/01/23, 8:30 pm - Siddhi Hiray: Ho
+06/01/23, 8:30 pm - Siddhi Hiray: Tu nhi attend karnar ahes?
+06/01/23, 8:59 pm - Kratis: Normally jasa notepad open krun shikavto tasach shikvat hota ka?
+06/01/23, 8:59 pm - Kratis: Mostly nhii are ha week khup hectic gela aahe mala thoda sa break hava aahe mhanun
+06/01/23, 9:11 pm - Siddhi Hiray: Diagram ni explain kela hota aaj
+06/01/23, 9:11 pm - Siddhi Hiray: Aacha ha
+06/01/23, 9:12 pm - Siddhi Hiray: Mi pn sutti karnar hoti pn 5hrs maday te ek unit khatam kartil😂
+06/01/23, 9:17 pm - Kratis: Yaar ek tr toh notepad madhye shikavto na kahi samjhat nahi re irritate hoto khup
+06/01/23, 9:17 pm - Kratis: Tula normally samajhta ka tyacha
+06/01/23, 9:18 pm - Kratis: Udhya pan notepad open krel ani shikvel toh jsp ig aplya la jhale aahe sem 4 madhye mala thoda yeta easy aahe tasa baghitla tr jsp and servelet
+06/01/23, 9:21 pm - Siddhi Hiray: Aaj shikavla tech samjala😂
+06/01/23, 9:22 pm - Siddhi Hiray: Ha, okay aamhala navta jsp
+06/01/23, 10:56 pm - Kratis: Cs hotis ki it Tu?
+06/01/23, 10:56 pm - Kratis: Ja mag notes lih ani pathav mala tu
+06/01/23, 10:56 pm - Kratis: Also placement cha kahi aahe udhya mostly lec 11-30 la start hoil
+06/01/23, 11:26 pm - Siddhi Hiray: It
+06/01/23, 11:26 pm - Siddhi Hiray: Bca
+06/01/23, 11:26 pm - Siddhi Hiray: Kon bola
+06/01/23, 11:28 pm - Kratis: Group war bag na placement cha lec aahe 8-30 to 11-30 te sarvana asel compulsory mag toh lec kasa gheil tyala tya nantar ghya va lagnat, avantika ani ghenar aahe mag samjh vikram kade chance nhi aadhi ghyaycha
+06/01/23, 11:28 pm - Kratis: Bca ki it re
+06/01/23, 11:29 pm - Siddhi Hiray: Bca
+06/01/23, 11:29 pm - Siddhi Hiray: Compulsory thodi asnar
+06/01/23, 11:29 pm - Siddhi Hiray: Tayt ti ky sangnar ahe
+06/01/23, 11:31 pm - Kratis: Placement cha aahe ree te compulsory asnar aahe sarvana job saathi main tr tech aahe
+06/01/23, 11:31 pm - Kratis: Te tila mahit ti jeh boli tech mi tula sangitl😂
+06/01/23, 11:32 pm - Siddhi Hiray: Accha
+07/01/23, 12:28 am - Kratis: Formal ghala aata
+07/01/23, 12:29 am - Siddhi Hiray: Mi nhi jat ahe
+07/01/23, 12:29 am - Siddhi Hiray: Ky Avantika ma'am cha lec ahe
+07/01/23, 12:29 am - Siddhi Hiray: Tay sathi formalas ghala
+07/01/23, 12:38 am - Kratis: Placement lecture la ki college laach jaat nhi aahe 😂
+07/01/23, 12:39 am - Kratis: Kay mahit re navin nakhre astat fukat hyanche majhya kade pan formals nahi aahe aata lecturrs saathi yevtha kon ghalnar aahet
+07/01/23, 1:02 am - Siddhi Hiray: Placement cha lecture kadhi sampnar konla maythi
+07/01/23, 1:02 am - Siddhi Hiray: Ha na , majay kday pn formal nhi ahe anii he ma'am sangtay te pn 7 nantr 🤦🏻‍♀️
+07/01/23, 9:46 am - Kratis: Ha na kahi boltat 1-30 hrs cha aahe kahi bolat hote 3 hrs cha aah 😂 vikram jaam bhadakla ashe
+07/01/23, 9:47 am - Kratis: Welcome to hiray college😂😂 ikde ardhi kaam ushira hotat  ani shivya aplyala padtat
+07/01/23, 9:47 am - Kratis: Tu geli aahes ka college la
+07/01/23, 11:20 am - Siddhi Hiray: Ka
+07/01/23, 11:20 am - Siddhi Hiray: 😂😂
+07/01/23, 11:20 am - Siddhi Hiray: Nhi
+07/01/23, 11:58 am - Kratis: Tyane aadhich lecture tharavlela na hi ne madhyech lec ghetla sarva lok ikde gela vikram chya lec la kami jana geli tr toh ordat hota class madhye
+07/01/23, 11:59 am - Kratis: Ajun sampla nahi aahe placement cha round2 chalu aahe asa bolat hote 😂
+07/01/23, 11:59 am - Kratis: Vachlis😂
+07/01/23, 12:15 pm - Siddhi Hiray: Aacha
+07/01/23, 12:15 pm - Siddhi Hiray: Lecture tr chalu ahe 9:30 pasjny
+07/01/23, 12:15 pm - Siddhi Hiray: Pasun*
+07/01/23, 1:47 pm - Kratis: Hoo pan khup loka placement cha lecture attend krt hote
+07/01/23, 1:47 pm - Kratis: Tu pan java cha lecture attend krte aahe
+07/01/23, 2:26 pm - Siddhi Hiray: Mi nhi geli lecture la
+07/01/23, 3:08 pm - Kratis: Ohh mala vatla tu jaat aahe
+07/01/23, 3:09 pm - Kratis: Java ds web ani adbms che assignment jhale ka kuthle tri
+07/01/23, 3:29 pm - Siddhi Hiray: Ho janar hoti but late uthli
+07/01/23, 3:29 pm - Siddhi Hiray: Nhii
+07/01/23, 6:10 pm - Kratis: Lolll ayshi😂
+07/01/23, 6:11 pm - Kratis: Kr mg topper asun ky faida re
+07/01/23, 7:01 pm - Siddhi Hiray: Tu topper ahes
+07/01/23, 7:01 pm - Siddhi Hiray: Tu patvnar assignment Teva lihinar me
+07/01/23, 7:29 pm - Kratis: Rahu de 😂
+07/01/23, 7:29 pm - Kratis: Tu pan lih thoda re sarva subjects la assignment dile aahe
+07/01/23, 7:30 pm - Kratis: Node js la tr assignment sheets wr lihaycha aahe
+07/01/23, 7:37 pm - Siddhi Hiray: Ha re
+07/01/23, 7:37 pm - Siddhi Hiray: Ha na
+07/01/23, 11:31 pm - Kratis: Udhya lihito mi ds tula pathvin
+07/01/23, 11:32 pm - Siddhi Hiray: Me da chi karel aaj ch
+07/01/23, 11:33 pm - Siddhi Hiray: Jamla tr
+07/01/23, 11:33 pm - Siddhi Hiray: Java chi Kay ahe
+07/01/23, 11:33 pm - Siddhi Hiray: Ani adbms maday ek ch assignment ahe na
+07/01/23, 11:33 pm - Siddhi Hiray: Sadhna ma'am ch
+07/01/23, 11:37 pm - Kratis: Haa chalel tu ds bagh mi adbms anii java baghto udhya parant
+07/01/23, 11:37 pm - Kratis: Java chi list nahii miyali aahe ajun
+07/01/23, 11:38 pm - Kratis: Adbms cha assignment nhi miyali aahe mala ajun?
+08/01/23, 12:12 am - Siddhi Hiray: Ha
+08/01/23, 12:13 am - Siddhi Hiray: Sadhana ma'am ni deli hoti na
+08/01/23, 12:48 am - Kratis: Kuthe dili hoti?
+08/01/23, 12:48 am - Kratis: Tine fakta code dila hota assignment vegayi hoti na?
+08/01/23, 12:55 am - Siddhi Hiray: Ha tech assignment maday karun anaycha ahe
+08/01/23, 1:01 am - Kratis: Pakka na?
+08/01/23, 1:01 am - Kratis: Mag hoil te, te tr easy hota khup
+08/01/23, 1:05 am - Siddhi Hiray: Data structure chi kar re
+08/01/23, 1:05 am - Siddhi Hiray: Te hard ahe
+08/01/23, 1:05 am - Siddhi Hiray: Code
+08/01/23, 1:05 am - Siddhi Hiray: Ho
+08/01/23, 1:06 am - Siddhi Hiray: Ajun kunala tri confirm kar
+08/01/23, 1:25 am - Kratis: Tu karat hotis na ds cha kay jhala?
+08/01/23, 1:25 am - Kratis: Kuthla code hawaa aahe tula?
+08/01/23, 1:25 am - Kratis: Haa div a madhye vicharto kunala tri
+08/01/23, 10:01 am - Siddhi Hiray: Binary search tree
+08/01/23, 10:02 am - Siddhi Hiray: Ek kela hota but tayt insert, delete vagre pn phje
+08/01/23, 10:16 am - Kratis: Ohh mala sang te question tine dila aahe toh purna ek code hava aahe ki veg vegaye code karun submit karu shakti?
+08/01/23, 10:49 am - Siddhi Hiray: Ek code phje
+08/01/23, 11:04 am - Kratis: Pan 4 parts na eka code madhye kasa ghalnar khup motha code nhi honar ka
+08/01/23, 11:19 am - Kratis: <Media omitted>
+08/01/23, 11:37 am - Siddhi Hiray: Ha te doubly link list cha kasa hota tasa
+08/01/23, 11:37 am - Siddhi Hiray: Tay ma'am ni nhi shikavla ahe re
+08/01/23, 12:01 pm - Kratis: Bhaiii pan eka code madhye karayla gelo na tr khup motha code hoil 10-14 pages cha
+08/01/23, 12:02 pm - Kratis: Ha na kahi samjhat nahii aahe mala height ani delete sodun code miyala aahe pan dk right aahe ka wrong
+08/01/23, 12:20 pm - Siddhi Hiray: Ha tech zala maja pn
+08/01/23, 12:20 pm - Siddhi Hiray: Mahun me thambli
+08/01/23, 12:20 pm - Kratis: Tujhya kade height cha hota ta na code
+08/01/23, 12:34 pm - Siddhi Hiray: #include<iostream> 
+#include<stdio.h> 
+#include<stdlib.h> 
+using namespace std; 
+void insert(int); 
+struct node 
+{ 
+int data; 
+struct node *left; 
+struct node *right; 
+}; 
+struct node *root; 
+int main () 
+{ 
+int choice,item; 
+do 
+{ 
+cout<<"\nEnter the item which you want to insert?\n"; 
+cin>>item; 
+insert(item); 
+cout<<"\n Press 0 to insert more? \n"; 
+cin>>choice; 
+}while(choice == 0); 
+return 0; 
+} 
+void insert(int item) 
+{ 
+struct node *ptr, *parentptr , *nodeptr; 
+ptr = (struct node *) malloc(sizeof (struct node)); 
+if(ptr == NULL) 
+{cout<<"cannot insert"; 
+} 
+else 
+{ 
+ptr -> data = item; 
+ptr -> left = NULL; 
+ptr -> right = NULL; 
+if(root == NULL) 
+{ 
+root = ptr; 
+root -> left = NULL; 
+root -> right = NULL; 
+} 
+else 
+{ 
+parentptr = NULL; 
+nodeptr = root; 
+while(nodeptr != NULL) 
+{ 
+parentptr = nodeptr; 
+if(item < nodeptr->data) 
+{ 
+nodeptr = nodeptr -> left; 
+} 
+else 
+{ 
+nodeptr = nodeptr -> right; 
+} 
+} 
+if(item < parentptr -> data) 
+{ 
+parentptr -> left = ptr;
+} 
+else 
+{ 
+parentptr -> right = ptr; 
+} 
+} 
+cout<<"Node Inserted"; 
+}
+08/01/23, 12:35 pm - Siddhi Hiray: Insert cha code
+08/01/23, 12:41 pm - Siddhi Hiray: nodej chi keli ka assignment
+08/01/23, 1:01 pm - Kratis: Ti aata nhi karnar pahila ds mag adbms mag js
+08/01/23, 1:07 pm - Siddhi Hiray: Hmm
+08/01/23, 1:07 pm - Siddhi Hiray: Wednesday la daycha ahe
+08/01/23, 1:19 pm - Kratis: Haa pan tyacha aadhi ds
+08/01/23, 1:19 pm - Kratis: Aahe na
+08/01/23, 1:19 pm - Kratis: Karu re dw
+08/01/23, 1:20 pm - Kratis: Mi majha op kadhin tya sobat tujha hi kadhin ekatra
+08/01/23, 1:24 pm - Kratis: <Media omitted>
+08/01/23, 1:24 pm - Kratis: <Media omitted>
+08/01/23, 1:25 pm - Kratis: <Media omitted>
+08/01/23, 1:25 pm - Kratis: <Media omitted>
+08/01/23, 1:25 pm - Kratis: <Media omitted>
+08/01/23, 1:25 pm - Kratis: <Media omitted>
+08/01/23, 1:25 pm - Kratis: Adbms cha aahee he toh paryant he lig
+08/01/23, 4:00 pm - Siddhi Hiray: Konta
+08/01/23, 4:02 pm - Siddhi Hiray: Hay koni dila tula
+08/01/23, 4:03 pm - Kratis: Node js ga
+08/01/23, 4:03 pm - Kratis: Thamb mi tula sandhya kayi call karto confusion hota aahe thoda
+08/01/23, 4:03 pm - Siddhi Hiray: Ok
+08/01/23, 4:03 pm - Kratis: Rutik
+08/01/23, 4:03 pm - Siddhi Hiray: Ha
+08/01/23, 4:03 pm - Siddhi Hiray: Adbms chi ek ch assignment karychi ahe
+08/01/23, 4:04 pm - Siddhi Hiray: <Media omitted>
+08/01/23, 4:04 pm - Siddhi Hiray: Hay madla
+08/01/23, 4:12 pm - Kratis: Nahii re adbms chi 2 assignment dile aahet pan te A la dili aahe aplyala ajun takla nahii aahe ti ne
+08/01/23, 4:12 pm - Kratis: Hich aahe assignment 1-2 lihun thev nantar magel ti
+08/01/23, 4:12 pm - Siddhi Hiray: Nhi re
+08/01/23, 4:14 pm - Kratis: Hooo gaa thamb mi call karin tevha bolto tula
+08/01/23, 4:15 pm - Siddhi Hiray: Ok
+08/01/23, 4:15 pm - Siddhi Hiray: Ani udya maths chi test ahe ka
+08/01/23, 4:33 pm - Kratis: Hooo aahe
+08/01/23, 4:34 pm - Kratis: Fri la ti boli next lecture madhye gheil monday la
+08/01/23, 6:35 pm - Siddhi Hiray: Uday tr nhi vatat mala hoil
+08/01/23, 6:35 pm - Siddhi Hiray: Half Jana tr baher asnar na
+08/01/23, 7:33 pm - Kratis: 🛑🛑 *TARASH SPORTS*✨✨
+
+Students kindly note that there is a small change in the schedule, the updated schedule is mentioned below, Kindly refer to it👇👇👇
+
+11th January:
+ Football and Athletics 
+ 
+12th January:
+Open ground cricket
+
+13th January:
+Kabbadi and Tug of war
+
+14th January: 
+Vollyball and Throwball and Valorant
+
+15th January:
+ Inter college football and Badminton 
+
+16th January:
+Chess.
+
+17th January: 
+Carrom and Chess
+
+18th January:
+Box cricket 
+
+For any queries, contact:
+
+Sports Head:
+Ranjit Sethi
+(+91 79770 63130)
+
+Sports Co-head:
+Prathamesh Sale
+(+91 86918 12973)
+
+General Secretary
+Rutik Sankapal
+(+91 9082486697)
+09/01/23, 11:54 am - Kratis: Assignment pathav
+09/01/23, 12:47 pm - Siddhi Hiray: <Media omitted>
+09/01/23, 12:47 pm - Kratis: Oye attendance laav jara majha adbms cha bol council meeting la gelo aahe mhanun
+09/01/23, 12:52 pm - Siddhi Hiray: Zali attendance
+09/01/23, 12:53 pm - Siddhi Hiray: Meeting zala ki ekda ma'am la sang
+09/01/23, 12:53 pm - Siddhi Hiray: 2:30 parint lecture ahe
+09/01/23, 1:51 pm - Kratis: Aadhi kashi ghetli pan tine?
+09/01/23, 1:51 pm - Kratis: Haa thik he
+09/01/23, 2:06 pm - Siddhi Hiray: Sports vale gelay mahun
+09/01/23, 2:16 pm - Kratis: Areee kay yedi aahe re tiii
+09/01/23, 2:16 pm - Kratis: Tu jar mi nasin na attendance laav majha kadhiii ya nantr pasun
+09/01/23, 2:16 pm - Kratis: Karan madhech he loka bolvat astat
+09/01/23, 2:17 pm - Siddhi Hiray: Okay
+09/01/23, 2:17 pm - Siddhi Hiray: Nishikant ni pn lavli attendance sports sathi
+09/01/23, 5:25 pm - Kratis: Acha mala nhii sangitla tyane sodh pan next time bagh jr mi college la asin ani baslo nahi tr laav Attendance mi tula bolin jaata na
+09/01/23, 6:55 pm - Siddhi Hiray: Okay
+09/01/23, 7:12 pm - Kratis: Tujha ds sampla nam
+09/01/23, 8:49 pm - Siddhi Hiray: Nhi
+09/01/23, 9:15 pm - Kratis: Ka?
+09/01/23, 9:16 pm - Kratis: <Media omitted>
+09/01/23, 9:16 pm - Kratis: He ghe
+09/01/23, 10:28 pm - Siddhi Hiray: Thanks
+09/01/23, 10:30 pm - Kratis: Kiti baki aahe tujha?
+09/01/23, 11:49 pm - Siddhi Hiray: Just submit kela
+09/01/23, 11:49 pm - Siddhi Hiray: Bst cha program wrong ahe but thik ahe nannatr me parat right lihayl😂
+10/01/23, 3:35 pm - Siddhi Hiray: Node js chi assignment zali ka?
+10/01/23, 5:20 pm - Kratis: Itka late ja jhala tula? Tu tr class madhye pan lihit hotis na?
+10/01/23, 5:21 pm - Kratis: Tu seperate book banavli aahes na assignment saathi?  Tyatach jagah sodh ani pudhe lihh correct wala
+10/01/23, 5:21 pm - Kratis: Nhiii Monday la de aata
+10/01/23, 6:35 pm - Siddhi Hiray: Ho 2 page zale hote nustay
+10/01/23, 6:35 pm - Siddhi Hiray: Kadhi nhi te sir kal ch lecture maday page ky fadat hote mobile ky ghet hote😂
+10/01/23, 6:35 pm - Siddhi Hiray: Nhi
+10/01/23, 6:35 pm - Siddhi Hiray: Assignment pages ahe
+10/01/23, 6:36 pm - Siddhi Hiray: Hooo
+10/01/23, 7:28 pm - Kratis: Acha mala vatla tujha sampat aalay
+10/01/23, 7:29 pm - Kratis: Majha pan ghetla yaar mobile he venue  waale call karat hote baherun cut karayla geloo mala hi pakadla😂
+10/01/23, 7:29 pm - Kratis: Sambhayun thev  file kr nantr mag tu ti pages check krnar aahe last madhye
+10/01/23, 8:07 pm - Siddhi Hiray: Nhi
+10/01/23, 8:08 pm - Siddhi Hiray: Ha maythi
+10/01/23, 8:34 pm - Kratis: Ohkk madam
+10/01/23, 8:34 pm - Kratis: Udhya kay aahe ki nahi lectures?
+10/01/23, 8:34 pm - Kratis: Kay idea aahe
+10/01/23, 11:14 pm - Siddhi Hiray: Tu council member ahe na
+10/01/23, 11:14 pm - Siddhi Hiray: Tu sangayla phej
+10/01/23, 11:17 pm - Kratis: Kay boltes mala mahit navhta😂😂
+10/01/23, 11:17 pm - Kratis: Geec jhopla aahe asa vatay phone nhi uchlat hota tyala kiti call lavle
+10/01/23, 11:18 pm - Kratis: Udhya baghu aata mi tr chalo jhopayla sakayi 7 la ground var jaycha aahe 5 la utha wa lagnar 🥲
+10/01/23, 11:19 pm - Kratis: Nhi aahe udhya lecs
+11/01/23, 12:02 am - Siddhi Hiray: Kiti Kam asta Tayla ghari jaun khasala phn uchlel😂
+11/01/23, 12:03 am - Siddhi Hiray: Confirm na
+11/01/23, 5:48 am - Kratis: Ha re pan update karayla hava na tyane amhala mahit navhta ki udhya kiti la ground vr pochaycha aahe aata arch wala bola 7 la ya mhanun
+11/01/23, 5:49 am - Kratis: Shruti tr bolte aahe nahi aahe lec mahit nahi aata mala
+11/01/23, 11:21 am - Siddhi Hiray: Aacha
+11/01/23, 11:22 am - Siddhi Hiray: Rutik bola mala ahe karun
+11/01/23, 1:48 pm - Kratis: Hoo Mala pan aata bola ki aahe college mhanun
+11/01/23, 1:48 pm - Kratis: Shruti boli ki holiday aahe
+11/01/23, 1:52 pm - Siddhi Hiray: Ha
+11/01/23, 1:52 pm - Siddhi Hiray: Lecture nhi zale
+11/01/23, 2:04 pm - Kratis: Nhi jhale ka?
+11/01/23, 2:04 pm - Kratis: Mala he loka bole lec jhale mhanun
+11/01/23, 2:32 pm - Siddhi Hiray: Kon bolta tula asa wrong information
+11/01/23, 2:33 pm - Siddhi Hiray: 😂
+11/01/23, 2:33 pm - Siddhi Hiray: Nhi
+11/01/23, 3:59 pm - Kratis: Haa aata aalo hoto mi college la tikde bole nhi hote lecture mhanun sorry
+11/01/23, 3:59 pm - Kratis: Ha
+11/01/23, 4:00 pm - Kratis: Are tujha aj jhala ka practical?
+11/01/23, 4:00 pm - Kratis: Ki mi karu?
+11/01/23, 4:16 pm - Siddhi Hiray: Are nhi zala lecture
+11/01/23, 4:16 pm - Siddhi Hiray: Maji sobt astay na ti clg madaych hoti
+11/01/23, 4:16 pm - Siddhi Hiray: Nhi
+11/01/23, 4:16 pm - Siddhi Hiray: Kar tu Ani mala pn patv
+11/01/23, 5:00 pm - Kratis: Haa tech sangto aahe
+11/01/23, 5:00 pm - Kratis: Tu ghari ashil as usual😂
+11/01/23, 5:00 pm - Kratis: Aree kiti ayshi aahes ga tu
+11/01/23, 5:33 pm - Siddhi Hiray: Tyat ky alshi
+11/01/23, 5:33 pm - Siddhi Hiray: Tu free asto mahun mantla
+11/01/23, 7:34 pm - Kratis: Acha acha karto radavu nakos aata mala 😂😂
+11/01/23, 7:38 pm - Siddhi Hiray: 😂😂
+11/01/23, 7:39 pm - Siddhi Hiray: Sports maday aplaych hote ka?
+11/01/23, 7:39 pm - Siddhi Hiray: Architecture vale nhi ahe?
+11/01/23, 7:39 pm - Kratis: Boys madhye aple aale  gold ayush single gold and ayush relay madhye gold
+11/01/23, 7:40 pm - Kratis: Te silver bronze jinkle
+11/01/23, 7:40 pm - Kratis: Girls madhun id gold marle single and relay madhye
+11/01/23, 7:42 pm - Siddhi Hiray: Masta
+11/01/23, 7:42 pm - Siddhi Hiray: Relay maday kon hota mca cha
+11/01/23, 7:46 pm - Kratis: Prathamesh, ayush,  satyajit, vishal
+11/01/23, 7:46 pm - Kratis: Ayush ani relay madhye single handedly jinkle khup lead hoti tyanchii start pasunach
+11/01/23, 7:52 pm - Siddhi Hiray: Ohh masta
+11/01/23, 7:52 pm - Siddhi Hiray: Indoor games clg maday ch honar ahe ka
+11/01/23, 8:50 pm - Kratis: hoo chess ani carrom aplya college madhye aahe
+11/01/23, 8:50 pm - Kratis: tula part ghyaycha aahe ka
+11/01/23, 9:17 pm - Siddhi Hiray: Ok
+11/01/23, 9:17 pm - Siddhi Hiray: Bagu Teva ch teva
+11/01/23, 9:17 pm - Siddhi Hiray: Ky sangitla ahe ma'am ni
+11/01/23, 9:17 pm - Siddhi Hiray: Yevda request kartay
+11/01/23, 9:18 pm - Kratis: Areeee tine na 14 practical dile aahet ani bolte ahe 25 la submit kara purna journal
+11/01/23, 9:18 pm - Kratis: With code and output
+11/01/23, 9:19 pm - Siddhi Hiray: Ha mg thik. Ahe na
+11/01/23, 9:19 pm - Siddhi Hiray: Je assignment te lihaycha ba
+11/01/23, 9:19 pm - Siddhi Hiray: Na*
+11/01/23, 9:20 pm - Kratis: Hoo bakicha pan aahe na? Node js, java adbms ani aata he
+11/01/23, 9:20 pm - Kratis: Are amhi ghari pochtoch 5 la?
+11/01/23, 9:20 pm - Kratis: Aangat tran nhi rahat lihaycha khup jhop yete ga
+11/01/23, 9:20 pm - Siddhi Hiray: Are noko
+11/01/23, 9:20 pm - Siddhi Hiray: Nhi honat
+11/01/23, 9:20 pm - Siddhi Hiray: Kupch laguch magtay hi ma'am
+11/01/23, 9:20 pm - Siddhi Hiray: Ani index kuthe
+11/01/23, 9:21 pm - Siddhi Hiray: Ani lihaycha khasa vr lihaycha
+11/01/23, 9:22 pm - Kratis: Mi tula call krto dinner nantr majha kaam aahe tujhya kade jara uchal 10 la
+11/01/23, 9:22 pm - Kratis: Tevha bol kay bolaycha aahe
+11/01/23, 9:23 pm - Siddhi Hiray: Ok
+11/01/23, 9:55 pm - Kratis: Free jhalis ki call kr tu
+11/01/23, 11:18 pm - Kratis: <Media omitted>
+11/01/23, 11:18 pm - Kratis: <Media omitted>
+11/01/23, 11:18 pm - Kratis: <Media omitted>
+11/01/23, 11:18 pm - Kratis: <Media omitted>
+11/01/23, 11:18 pm - Kratis: <Media omitted>
+11/01/23, 11:18 pm - Kratis: Practical 1 aahe he
+11/01/23, 11:18 pm - Kratis: 1.1
+11/01/23, 11:18 pm - Kratis: 1.2
+11/01/23, 11:18 pm - Kratis: 1.2
+11/01/23, 11:18 pm - Kratis: 1.3
+11/01/23, 11:19 pm - Kratis: 1.3
+11/01/23, 11:30 pm - Kratis: <Media omitted>
+11/01/23, 11:30 pm - Kratis: <Media omitted>
+11/01/23, 11:34 pm - Kratis: 2.1
+11/01/23, 11:34 pm - Kratis: 2.2
+11/01/23, 11:35 pm - Kratis: Baki udhya pathavto
+12/01/23, 7:37 am - Siddhi Hiray: Okay thx
+12/01/23, 9:05 am - Kratis: Aalis ka college
+12/01/23, 9:21 am - Siddhi Hiray: Nhi ajun
+12/01/23, 9:03 pm - Siddhi Hiray: Baki program kelay ka?
+12/01/23, 9:05 pm - Kratis: Aata aaloo aahe mi gharii😂😂
+12/01/23, 9:05 pm - Kratis: Thamb karto thodya veyat aani pathavtp
+12/01/23, 9:31 pm - Siddhi Hiray: Okay ha
+12/01/23, 10:48 pm - Kratis: <Media omitted>
+12/01/23, 10:48 pm - Kratis: <Media omitted>
+12/01/23, 10:52 pm - Siddhi Hiray: Output kasa attach karaycha ahe
+12/01/23, 10:54 pm - Kratis: Printout kr na
+12/01/23, 11:07 pm - Kratis: <Media omitted>
+12/01/23, 11:24 pm - Kratis: <Media omitted>
+12/01/23, 11:25 pm - Kratis: <Media omitted>
+12/01/23, 11:25 pm - Kratis: <Media omitted>
+12/01/23, 11:25 pm - Kratis: <Media omitted>
+12/01/23, 11:25 pm - Kratis: <Media omitted>
+12/01/23, 11:25 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: <Media omitted>
+12/01/23, 11:31 pm - Kratis: Done
+12/01/23, 11:48 pm - Siddhi Hiray: Code lihaycha ahe
+12/01/23, 11:50 pm - Kratis: Hooo aim and code
+12/01/23, 11:56 pm - Siddhi Hiray: Ok
+12/01/23, 11:56 pm - Siddhi Hiray: Thanks
+13/01/23, 8:57 am - Kratis: Node js jhala ka?
+13/01/23, 12:54 pm - Siddhi Hiray: Nhi
+13/01/23, 12:54 pm - Siddhi Hiray: Java sathi hay code nhi chalnar
+13/01/23, 12:54 pm - Siddhi Hiray: Sirani je shikavle tech phjet
+13/01/23, 3:26 pm - Kratis: Kaaa?
+13/01/23, 3:26 pm - Kratis: Kon bola?
+13/01/23, 3:41 pm - Siddhi Hiray: Vikram sir
+13/01/23, 5:15 pm - Kratis: Nhii bole aahe
+13/01/23, 5:15 pm - Kratis: Sir na aata vicharla mi te bole chaltil
+13/01/23, 7:55 pm - Siddhi Hiray: me tr aaj ch vicharla hota staff room maday
+13/01/23, 7:56 pm - Kratis: Mi pan vicharla aaj jatana te bole chaltil kuthla hi code use kela tr fakta op yayla pahije
+13/01/23, 7:57 pm - Siddhi Hiray: 😂
+13/01/23, 7:57 pm - Siddhi Hiray: thik shr mg
+13/01/23, 7:57 pm - Siddhi Hiray: ahe*
+13/01/23, 7:59 pm - Kratis: Haa baghu na udhya check krel wrong bola tr change kru ajunkay
+13/01/23, 7:59 pm - Kratis: Tu amcha tug of war baghitlas ka
+13/01/23, 8:00 pm - Siddhi Hiray: monday la submit karaych ahr
+13/01/23, 8:00 pm - Siddhi Hiray: java pn
+13/01/23, 8:00 pm - Siddhi Hiray: nhi
+13/01/23, 8:02 pm - Kratis: Kon bola?
+13/01/23, 8:02 pm - Kratis: Aata?
+13/01/23, 8:02 pm - Siddhi Hiray: aaj cls maday siddhi shirke bolat hoti
+13/01/23, 8:04 pm - Kratis: Aadhi bolaycha na mag mi lihat  hoto
+13/01/23, 8:04 pm - Siddhi Hiray: ekda kar na vikram sir la msg
+13/01/23, 8:04 pm - Siddhi Hiray: node js kr😃
+13/01/23, 8:06 pm - Kratis: Thamb karto mi tyana message
+13/01/23, 8:06 pm - Kratis: Ajun kahi 😂😂
+13/01/23, 8:07 pm - Kratis: Adbms aahe ani ds pan baki aahe re 🥲
+13/01/23, 8:08 pm - Siddhi Hiray: Ds chi assignment kuthe dili ata
+13/01/23, 8:08 pm - Siddhi Hiray: Ha
+13/01/23, 8:33 pm - Kratis: <Media omitted>
+13/01/23, 8:34 pm - Siddhi Hiray: open nhi hot ahe url
+13/01/23, 8:35 pm - Siddhi Hiray: zali
+13/01/23, 8:53 pm - Kratis: Url kuthe aahe
+13/01/23, 8:53 pm - Kratis: Pdf aahe
+13/01/23, 9:20 pm - Siddhi Hiray: ok
+13/01/23, 9:20 pm - Siddhi Hiray: 1. Write a Java program to create a Set containing list of items of type String and print 
+the items in the list using Iterator interface. Also print the list in reverse/ backword 
+direction.
+13/01/23, 9:20 pm - Siddhi Hiray: ha vala program patv na tu jo excute kelas
+13/01/23, 9:21 pm - Kratis: File pathavli hoti na mi sarva tyat aahe ha wala
+13/01/23, 9:21 pm - Kratis: Thamb bagto
+13/01/23, 9:22 pm - Kratis: Ha bagh
+13/01/23, 9:35 pm - Siddhi Hiray: ha list use kela ahes
+13/01/23, 9:35 pm - Siddhi Hiray: set use karun karaycha ahe na
+13/01/23, 9:46 pm - Kratis: Haa bagh haa ahe
+13/01/23, 9:46 pm - Kratis: Ha yaat set use kela aahe
+15/01/23, 1:01 pm - Siddhi Hiray: ✨🪁 *मकर संक्रांती हार्दिक शुभेच्छा* 🪁✨
+15/01/23, 1:01 pm - Siddhi Hiray: All the best badminton sathi👍🏻
+15/01/23, 1:49 pm - Kratis: मकर संक्रांतीच्या हार्दिक शुभेच्छा..💐🍁🤩तीळगूळ घ्या गोड बोला❤❤️
+15/01/23, 1:49 pm - Kratis: Thanks😁❤️❤️
+15/01/23, 2:28 pm - Siddhi Hiray: Node js chi assignment keli ka😂
+15/01/23, 4:26 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 4:28 pm - Kratis: Nhii re ajun amhi court wt aahot 8 vajta sampnar aahe
+15/01/23, 4:28 pm - Kratis: Wt chi submission kevha aqhe
+15/01/23, 4:29 pm - Siddhi Hiray: Uday
+15/01/23, 4:29 pm - Siddhi Hiray: Aacha
+15/01/23, 4:29 pm - Siddhi Hiray: Hay wt ch ahe
+15/01/23, 4:33 pm - Kratis: Code ani op chitkavaycha aahe na
+15/01/23, 6:39 pm - Siddhi Hiray: This message was deleted
+15/01/23, 6:39 pm - Siddhi Hiray: Code lihaycha ahe Ani output cha print attached karycha ahe
+15/01/23, 6:44 pm - Kratis: Tu output attached kela ahae ka
+15/01/23, 8:32 pm - Siddhi Hiray: Ky
+15/01/23, 8:42 pm - Kratis: Output kelas kay
+15/01/23, 8:46 pm - Siddhi Hiray: Nhi
+15/01/23, 8:57 pm - Kratis: Output jhala ki message kr mala
+15/01/23, 8:57 pm - Kratis: File pathav
+15/01/23, 9:23 pm - Siddhi Hiray: Ho
+15/01/23, 9:24 pm - Kratis: Thankss❤️❤️
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:07 pm - Siddhi Hiray: <Media omitted>
+15/01/23, 10:18 pm - Kratis: Thankksss  siddhiii❤️❤️
+15/01/23, 10:19 pm - Kratis: Tu java madhye program cand code lihila aahe na
+15/01/23, 10:19 pm - Kratis: Output lihila aahe ka?
+15/01/23, 10:20 pm - Siddhi Hiray: Baki assignment send kar ata😂
+15/01/23, 10:20 pm - Siddhi Hiray: Ky
+15/01/23, 10:21 pm - Siddhi Hiray: Print karyla sangitla ahe
+15/01/23, 10:21 pm - Kratis: Lihu nako naa mag output?
+15/01/23, 10:21 pm - Kratis: Kuthla baki aahe sang?
+16/01/23, 12:46 am - Kratis: He number wise saang na kuthle pracs aahet
+16/01/23, 6:59 am - Siddhi Hiray: Nhi print ghe
+16/01/23, 6:59 am - Siddhi Hiray: Sagla lihla ahe
+16/01/23, 6:59 am - Siddhi Hiray: Next coming assignment mantla😂
+16/01/23, 7:00 am - Siddhi Hiray: Te tula ch arrange karyla lagtil
+16/01/23, 7:00 am - Siddhi Hiray: Me ek tari program thoda journal sarkha kela ahe
+16/01/23, 9:45 am - Kratis: Hoo teh ghetlach aahe mi
+16/01/23, 9:46 am - Kratis: Haa ds cha na bagto  majha aadhi web t tari complete hou de
+16/01/23, 9:46 am - Kratis: Op cha printout kadla ka tu wt cha
+16/01/23, 9:46 am - Kratis: Ani kuthes tu
+16/01/23, 11:36 am - Kratis: <Media omitted>
+16/01/23, 5:10 pm - Siddhi Hiray: Ha ds ch bag
+16/01/23, 6:26 pm - Kratis: Hoo baghtoo mi
+16/01/23, 7:05 pm - Siddhi Hiray: Okay thanks
+16/01/23, 7:09 pm - Kratis: Wednesday la submission aahe na udhya paryant kadto mi
+16/01/23, 7:09 pm - Kratis: Udhya yete aahes na college la
+16/01/23, 7:24 pm - Siddhi Hiray: Ho
+16/01/23, 7:24 pm - Siddhi Hiray: Naki nhi ahe
+16/01/23, 7:29 pm - Kratis: Ds cha lab aahe na  udhay
+17/01/23, 12:36 am - Siddhi Hiray: Ho
+17/01/23, 7:21 am - Kratis: Ye mag college la
+17/01/23, 7:45 am - Siddhi Hiray: Ho
+17/01/23, 7:46 am - Siddhi Hiray: Laptop anla ahes ka tu?
+17/01/23, 7:54 am - Kratis: Hoo aanla aahe
+17/01/23, 8:09 am - Siddhi Hiray: Ok mala jara node js che output phje hote
+17/01/23, 8:09 am - Siddhi Hiray: Deshil ka?
+17/01/23, 8:20 am - Kratis: Haa ghe na kuthe aahes
+17/01/23, 8:24 am - Siddhi Hiray: Ata pochel clg maday
+17/01/23, 8:24 am - Kratis: Laptop gheu jaa mag
+17/01/23, 8:24 am - Kratis: Amcha tug of war aahe
+17/01/23, 8:25 am - Siddhi Hiray: Aacha
+17/01/23, 8:25 am - Siddhi Hiray: Rahude mg
+17/01/23, 10:07 am - Kratis: Aata hawa aahe tr ghe
+17/01/23, 10:08 am - Kratis: <Media omitted>
+17/01/23, 10:37 am - Siddhi Hiray: Thx
+17/01/23, 3:19 pm - Kratis: Tujhi file padli hoti class madhye nightana khali class madhye
+17/01/23, 3:19 pm - Kratis: Tu visrli hotis kay?
+17/01/23, 3:59 pm - Siddhi Hiray: Ha
+17/01/23, 3:59 pm - Siddhi Hiray: Ghetli ka tu
+17/01/23, 4:00 pm - Siddhi Hiray: Missed voice call
+17/01/23, 4:38 pm - Kratis: Haa ghetli aahe mi udhya  yete aahes na tum
+17/01/23, 6:28 pm - Siddhi Hiray: Thankyou so much
+17/01/23, 6:28 pm - Siddhi Hiray: Nhi uday nhi yet ahe
+17/01/23, 7:01 pm - Kratis: Kitiii tee thank you ree baba😂😂
+17/01/23, 7:02 pm - Kratis: Kaa?
+17/01/23, 7:26 pm - Siddhi Hiray: Asch
+17/01/23, 7:26 pm - Siddhi Hiray: Ky timepass karav tat
+17/01/23, 7:30 pm - Kratis: Hoo na yaar majha tr dokka khate to rashmima fukat cha
+17/01/23, 7:30 pm - Kratis: Alsoo carrom madhye tu ghetla ki nhi
+17/01/23, 7:31 pm - Siddhi Hiray: Ghetla
+17/01/23, 7:31 pm - Siddhi Hiray: Kasla kharab board hota
+17/01/23, 7:31 pm - Siddhi Hiray: Stiker pn pude jaat navta Ani me faul kup kelay😂
+17/01/23, 7:34 pm - Kratis: Kiti songtya baki hotya tujha shevti?
+17/01/23, 7:34 pm - Kratis: Max kiti fouls hote game madhye?
+17/01/23, 7:35 pm - Kratis: Mi pan part ghet hoto pan mala cramp aala legs madhye mhanun baslo mi class madhye yeun
+17/01/23, 7:51 pm - Siddhi Hiray: 3
+17/01/23, 7:52 pm - Siddhi Hiray: Ani faul 5 tari zale astil😂
+17/01/23, 7:52 pm - Siddhi Hiray: Ohh acha
+17/01/23, 7:52 pm - Siddhi Hiray: Aaj saglay tr assignment ch karat hote
+17/01/23, 9:20 pm - Kratis: Khelis trii tuu nice jara ne harlis
+17/01/23, 9:20 pm - Kratis: Yevtha veya kay foul jhala tuujha😂
+17/01/23, 9:21 pm - Kratis: Mala eternia madhye kahi interest nhi aahe mi fakta cod madhye head aahet tyacha kaam krin bas baki colleges and all la nhi janar aahe mi
+18/01/23, 12:18 am - Siddhi Hiray: Ky vicharu nokos😂😂😂
+18/01/23, 12:18 am - Siddhi Hiray: Hmm mala tr doni maday intrest nhi😂😂
+18/01/23, 9:38 am - Kratis: Eternia madhye aahe carrom tevha khey aata 😂
+18/01/23, 9:39 am - Kratis: Cod means call of duty game aahe mobile wr tyacha head aahe mi aata etrnia la
+18/01/23, 12:02 pm - Siddhi Hiray: Changle carrom ana 😂
+18/01/23, 12:02 pm - Siddhi Hiray: Tay mulech faul zale
+18/01/23, 12:03 pm - Siddhi Hiray: Waah masta
+18/01/23, 2:51 pm - Kratis: Majha papancha college nahi aahe ga te nahi tr sangitla asta
+18/01/23, 2:52 pm - Kratis: Pan carrom tr navin anle hote hyani kal me sports head shi bolat hoto toh bola direct factory madhun anle aahe carrom board
+18/01/23, 2:52 pm - Kratis: Ty madam
+18/01/23, 2:52 pm - Kratis: Are hi shetal majha naav ka ghete aahe group madhye
+18/01/23, 3:04 pm - Siddhi Hiray: Ha pn used phje hota😂
+18/01/23, 3:04 pm - Siddhi Hiray: Aavdlas tila tu😂
+18/01/23, 3:29 pm - Kratis: Kay bolnar aata te lokancha tasa event aahe apan yevthi bhandan nhi kru shakat
+18/01/23, 3:29 pm - Kratis: Rahuu dee kal counselling ghetli majhi😂
+18/01/23, 5:30 pm - Siddhi Hiray: Haa
+18/01/23, 5:30 pm - Siddhi Hiray: 😂
+18/01/23, 5:30 pm - Siddhi Hiray: Ds chi assignment submit keli ka?
+18/01/23, 5:34 pm - Kratis: Hooo kal keli mi jassi jhali tashi
+18/01/23, 5:34 pm - Kratis: Tu nhi keli ka)
+18/01/23, 5:34 pm - Siddhi Hiray: Nhi
+18/01/23, 5:34 pm - Siddhi Hiray: Aaj last date ahe na
+18/01/23, 5:34 pm - Siddhi Hiray: Submit karycha
+18/01/23, 5:35 pm - Siddhi Hiray: Ma'am la submit Kelis ka asa v4tay
+18/01/23, 5:38 pm - Kratis: Nahi 19 la bolii hoti tii udhya aahe last day
+18/01/23, 5:38 pm - Kratis: Mi college la aalo nhii aahe majhya donni legs la sprain aala hota kal tug of war madhye mhanun
+18/01/23, 8:02 pm - Siddhi Hiray: Ohh
+18/01/23, 8:02 pm - Siddhi Hiray: Aajun kela tug of war😂
+18/01/23, 8:03 pm - Siddhi Hiray: Ha program right ahe na
+18/01/23, 9:01 pm - Siddhi Hiray: Vicharla ka?
+18/01/23, 9:05 pm - Kratis: Ha lihaycha
+18/01/23, 9:05 pm - Siddhi Hiray: Ok
+18/01/23, 9:05 pm - Kratis: Thamb pathavto
+18/01/23, 9:05 pm - Siddhi Hiray: Ok
+18/01/23, 9:05 pm - Kratis: <Media omitted>
+18/01/23, 9:06 pm - Kratis: He ghe
+18/01/23, 9:06 pm - Kratis: Tu pan kheyli hotis visarlis😂😂
+18/01/23, 9:06 pm - Siddhi Hiray: 😂
+18/01/23, 9:07 pm - Siddhi Hiray: Thankyou
+18/01/23, 9:30 pm - Siddhi Hiray: Ky zala
+18/01/23, 9:36 pm - Kratis: <Media omitted>
+18/01/23, 9:36 pm - Kratis: Index page pan lih haa waala
+18/01/23, 9:42 pm - Siddhi Hiray: Ok
+18/01/23, 10:21 pm - Kratis: Udhya yete aahes na
+19/01/23, 11:29 am - Siddhi Hiray: Hoo
+19/01/23, 11:30 am - Siddhi Hiray: Thanks file sathi
+19/01/23, 1:48 pm - Kratis: Kiti te thanks baba
+19/01/23, 1:48 pm - Kratis: Book check jhali ka
+19/01/23, 2:44 pm - Siddhi Hiray: Nhi
+19/01/23, 2:44 pm - Siddhi Hiray: Submit keli ahe
+19/01/23, 9:27 pm - Kratis: Hooo mi pan submit kelii mala vatla ki check krun dete aahe
+19/01/23, 9:27 pm - Kratis: Aaj sarva lavkar nighale modi yenar hote na mhanun amchya ikde
+19/01/23, 10:18 pm - Siddhi Hiray: Ho mi pn lavkarch nigali
+19/01/23, 10:41 pm - Kratis: Mi late nighaloo 😂😂 nashib aala navhta modi
+19/01/23, 10:53 pm - Siddhi Hiray: Aacha
+19/01/23, 10:53 pm - Kratis: Ha udhya yete aahes na?
+19/01/23, 10:56 pm - Siddhi Hiray: Nhi
+19/01/23, 10:58 pm - Siddhi Hiray: Ho yetay😂
+19/01/23, 10:59 pm - Kratis: Ratrii kahi mix krtes ka tu jhoptana 😂😂
+19/01/23, 11:00 pm - Kratis: Achanak mind change kasa 😂
+19/01/23, 11:01 pm - Siddhi Hiray: Treasure hunt maday ghetla ahe
+19/01/23, 11:05 pm - Kratis: Tujha naav disat nahi aahe kuthlya team madhye
+19/01/23, 11:36 pm - Siddhi Hiray: Dila tr ahe
+19/01/23, 11:36 pm - Siddhi Hiray: Kiti vasta ahe te
+19/01/23, 11:46 pm - Kratis: Udhya 9-30 laa aahe te college madhye
+19/01/23, 11:46 pm - Kratis: Mala tr udya jaycha aahe vesit ani kelkar college la invitation saathi mag cod cha pan kaam karaycha ahe
+19/01/23, 11:47 pm - Kratis: All the best tula treasure hunt sathi
+20/01/23, 1:14 am - Siddhi Hiray: Thanks✨
+20/01/23, 1:15 am - Siddhi Hiray: Vesit tr chembur la ahe
+20/01/23, 1:15 am - Siddhi Hiray: Jo chembur maday rahato tayla deayla sangaycha na
+20/01/23, 8:24 am - Kratis: Hoo mahit aahe pan aata apan hiray madhye ahot na 😂😂
+20/01/23, 8:24 am - Kratis: Bhaii kay bolnar rashmika la samor yete kahi na kay kaam wr lavte to
+20/01/23, 8:25 am - Kratis: Chal tujha naav aala aahe treasure hunt madhye best of luck
+20/01/23, 11:31 am - Siddhi Hiray: Ani mi nhi geli😂
+20/01/23, 11:32 am - Siddhi Hiray: Mala khushali boli ki naav tini  grp maday nhi takla so noko jau
+20/01/23, 11:32 am - Siddhi Hiray: Ani sakali grp maday naav ahe😂
+20/01/23, 8:56 pm - Kratis: Ka nhii geli naav hota tr
+20/01/23, 9:08 pm - Siddhi Hiray: Mala hay varuj doubt ala ki naav dila ki nhi
+20/01/23, 9:08 pm - Siddhi Hiray: 😂
+20/01/23, 9:08 pm - Siddhi Hiray: So mg nhi geli mi
+20/01/23, 9:08 pm - Siddhi Hiray: Ani sakali grp maday naav
+20/01/23, 9:09 pm - Siddhi Hiray: Tari bara treasure hunt nhi zala
+20/01/23, 9:14 pm - Kratis: Kon bola treasure hunt jhala nhi mhanun?
+20/01/23, 9:15 pm - Kratis: Tula mahit aahe amhi aata ghari pochlo aahe
+20/01/23, 9:15 pm - Kratis: College varun
+20/01/23, 9:37 pm - Siddhi Hiray: Siddhi shirke
+20/01/23, 9:38 pm - Siddhi Hiray: 😳
+20/01/23, 9:39 pm - Kratis: Jhala aaj treasure hunt
+20/01/23, 9:39 pm - Kratis: Ig
+20/01/23, 9:39 pm - Kratis: T shirt miynar aahe eternia la
+20/01/23, 9:41 pm - Siddhi Hiray: Ha zala bhavtayk
+20/01/23, 9:41 pm - Siddhi Hiray: But je participate karnar hota na grp te nhi gelay asa ky tari
+20/01/23, 9:41 pm - Siddhi Hiray: Ha
+20/01/23, 9:41 pm - Siddhi Hiray: Mala chess maday takla ahe
+20/01/23, 9:41 pm - Siddhi Hiray: Kuni takla ky maythi🤦🏻‍♀️
+20/01/23, 9:49 pm - Kratis: Pahila group gela hota boys cha , dusrya group on the spot takla hota rutik ne asa mi aykla
+20/01/23, 9:49 pm - Kratis: Mi tr vesit ani kelkar college la gelo hoto invitation saathi
+20/01/23, 9:50 pm - Kratis: Tula kashat jaycha aahe saang?
+20/01/23, 9:50 pm - Kratis: Rutik ne takla aahe
+20/01/23, 10:22 pm - Siddhi Hiray: Ky maythi ata
+20/01/23, 10:22 pm - Siddhi Hiray: Kashat ch nhi😂
+20/01/23, 10:38 pm - Kratis: Ho asach jhala hota mi college la gelo hoto laye
+20/01/23, 10:38 pm - Kratis: Late
+20/01/23, 10:38 pm - Kratis: Are ghee na t shirt and all bhettil even miss pan khup impress aahe tujhya shii aaj tujhi tarif krt hoti ti
+20/01/23, 10:41 pm - Siddhi Hiray: Khushali bolat hoti ki ma'am ni tayna sangitla ki naka jau decoration ch Kam Kara complete
+20/01/23, 10:41 pm - Siddhi Hiray: Konti ma'am 👀
+20/01/23, 10:45 pm - Kratis: Are kayy faltu giri karat hote tula saangu amhala 6 paryant thambavla hota decorations and all sathi mag shirt and all sathi mahim laa aalo 9 tikde vajle amhala
+20/01/23, 10:45 pm - Kratis: Donni madam ga , itka proud feel hot hota na mala 😂😂😂
+20/01/23, 10:47 pm - Siddhi Hiray: Waah
+20/01/23, 10:48 pm - Siddhi Hiray: 😅
+20/01/23, 10:48 pm - Siddhi Hiray: Doni konti te tr sang
+20/01/23, 10:48 pm - Siddhi Hiray: Manje kam Karel majja pn🤣🤣🤣🤣
+20/01/23, 11:00 pm - Kratis: Aquilla ani rashmika re tech donn handle karat hote na 😂😂
+20/01/23, 11:29 pm - Siddhi Hiray: Aacha ha
+20/01/23, 11:29 pm - Siddhi Hiray: Pn Uday nhi yenar ahe mi
+20/01/23, 11:53 pm - Kratis: Mi pan nhi jaanar aahe udhya ani parva mii jaam damlo aahe aata monday la yein break gheun
+21/01/23, 12:30 am - Siddhi Hiray: Haa
+21/01/23, 11:53 am - Siddhi Hiray: Hi
+21/01/23, 11:54 am - Siddhi Hiray: Swayam che kiti course la register karycha ahe
+21/01/23, 3:01 pm - Kratis: 2 kr na total 4  credit hawa aahe
+21/01/23, 3:02 pm - Kratis: Mostly 1 subject la 3 credit astat pan full marks miyale tr 3 astat marks wr based tula credit miytil
+21/01/23, 3:02 pm - Kratis: Mhanun 2 kr register
+21/01/23, 3:21 pm - Siddhi Hiray: Aacha okay
+21/01/23, 3:21 pm - Siddhi Hiray: Ani DS chi test kadhi ahe?
+21/01/23, 3:21 pm - Siddhi Hiray: 26 ki 28?
+21/01/23, 3:21 pm - Siddhi Hiray: Any idea
+21/01/23, 3:21 pm - Kratis: 28 la hote aahe
+21/01/23, 3:22 pm - Kratis: 26 la file submission aahe
+21/01/23, 3:22 pm - Siddhi Hiray: Confirm na
+21/01/23, 3:22 pm - Siddhi Hiray: Okay
+21/01/23, 3:38 pm - Kratis: Helppp kr mala exam madhye
+21/01/23, 3:41 pm - Siddhi Hiray: Ho tu pn kr
+21/01/23, 3:41 pm - Siddhi Hiray: Online ch ahe na
+21/01/23, 4:22 pm - Kratis: Kon bola online aahe
+21/01/23, 4:27 pm - Siddhi Hiray: Google form through ghenar ahe
+21/01/23, 4:27 pm - Siddhi Hiray: Class madaych asnar exam 10 points ch
+21/01/23, 6:55 pm - Kratis: Computer wr ki mobile wr?
+21/01/23, 6:55 pm - Kratis: He sarva kadhi boli re ti
+21/01/23, 7:47 pm - Siddhi Hiray: Mobile
+21/01/23, 7:47 pm - Siddhi Hiray: Kadchit
+21/01/23, 7:47 pm - Siddhi Hiray: Online lecture madat
+21/01/23, 11:17 pm - Siddhi Hiray: Ha ky mhanat hota
+21/01/23, 11:18 pm - Kratis: Mobile wr asli pahije
+21/01/23, 11:18 pm - Kratis: Acha mi nvhto tevha
+21/01/23, 11:18 pm - Siddhi Hiray: Ha
+21/01/23, 11:18 pm - Kratis: Kay bolat hoto mi?
+21/01/23, 11:18 pm - Siddhi Hiray: Ol
+21/01/23, 11:18 pm - Siddhi Hiray: Journal complete zala ki patv🤣
+21/01/23, 11:34 pm - Kratis: Tula na? Ki tu mala bolat hotis😂😂
+22/01/23, 10:59 am - Siddhi Hiray: Nhi🤣
+22/01/23, 11:27 am - Kratis: ratri paryant baghtoo karaycha mi
+22/01/23, 11:27 am - Kratis: Aata college la chalo aahe
+22/01/23, 11:45 am - Siddhi Hiray: Okay
+22/01/23, 11:45 am - Siddhi Hiray: Heads la bolavla ahe ka
+22/01/23, 12:16 pm - Kratis: Gaming heads na bolavla aahe
+22/01/23, 12:16 pm - Kratis: Baghu ya kay boltat
+22/01/23, 12:17 pm - Kratis: Ajun mala entries sangitla na ho aahet yaani ani events aahet udhya
+22/01/23, 1:37 pm - Siddhi Hiray: Okay
+22/01/23, 1:37 pm - Siddhi Hiray: Okay
+22/01/23, 1:38 pm - Siddhi Hiray: Volunteer la reporting time ky ahe
+22/01/23, 3:06 pm - Kratis: 8 vajtaa aahe sakayi
+22/01/23, 3:06 pm - Kratis: Amhala 7 la yaycha aahe sakayi
+22/01/23, 4:35 pm - Siddhi Hiray: Okay thanks
+22/01/23, 5:56 pm - Kratis: Ail
+22/01/23, 5:57 pm - Kratis: Aik
+22/01/23, 5:57 pm - Kratis: Tu kuthlya event madhye aahe chess ki carrom?
+22/01/23, 5:59 pm - Siddhi Hiray: Chess maday naav hota
+22/01/23, 5:59 pm - Siddhi Hiray: Ata Uday maythi padel kasha maday ahe
+22/01/23, 9:12 pm - Kratis: Carrom madhye takto aahe mi tula, chess sodhh
+22/01/23, 9:13 pm - Kratis: Tula carrom yeta na te handle kr
+22/01/23, 9:36 pm - Siddhi Hiray: Je lavkar sample tay maday tak
+22/01/23, 9:37 pm - Siddhi Hiray: Khushali pn ahe tila pn majay sobat ch Tak 😅
+22/01/23, 9:39 pm - Kratis: Carrom mostly lavkar sampel within 2-3 baghu aata udhya, start kadhi hota aahe tech mahit nahi aahe ajun
+22/01/23, 9:39 pm - Kratis: Khushali kashat aahe te sang?
+22/01/23, 9:40 pm - Siddhi Hiray: Nhi maythi
+22/01/23, 9:41 pm - Siddhi Hiray: Tila nusta grp maday add kela ahe Ani snagitlach nhi
+22/01/23, 9:43 pm - Kratis: Kuthlya te saang mala tila vicharun karan majhya kade list nahi aahe re volunteer chi
+22/01/23, 9:43 pm - Kratis: Alsoo tine t shirt saathi kela aahe na?
+22/01/23, 9:50 pm - Siddhi Hiray: Tila sangitla ch nhi ahe ajun
+22/01/23, 9:50 pm - Siddhi Hiray: Ho
+22/01/23, 9:55 pm - Kratis: Thamb mag baghtoo miii
+22/01/23, 9:55 pm - Kratis: Are tula mahit aahe aata just pochtoy ghri mi
+22/01/23, 10:12 pm - Siddhi Hiray: Ohh okay
+22/01/23, 10:12 pm - Siddhi Hiray: Ha
+22/01/23, 10:15 pm - Kratis: Udhya ye pan Tu 8-9 paryant
+22/01/23, 11:47 pm - Siddhi Hiray: Okay
+22/01/23, 11:48 pm - Siddhi Hiray: Tshirt cha photo patv na asel tr
+22/01/23, 11:48 pm - Siddhi Hiray: Volunteer vala
+23/01/23, 12:16 am - Kratis: <Media omitted>
+23/01/23, 12:16 am - Kratis: <Media omitted>
+23/01/23, 12:16 am - Kratis: Ha ghe
+23/01/23, 12:16 am - Siddhi Hiray: Okay thanks
+23/01/23, 12:18 am - Kratis: Thanks bolu nakos c++ kr ani pathav 😂😂
+23/01/23, 12:18 am - Siddhi Hiray: 😂😂
+23/01/23, 6:43 pm - Kratis: Tu free ashil tevha call kr
+23/01/23, 6:43 pm - Kratis: Kaam aahe thode
+23/01/23, 6:57 pm - Siddhi Hiray: Kk
+23/01/23, 6:57 pm - Siddhi Hiray: Missed voice call
+23/01/23, 7:06 pm - Siddhi Hiray: Missed voice call
+23/01/23, 8:49 pm - Kratis: Tujha email id dena
+23/01/23, 9:03 pm - Siddhi Hiray: dardesiddhi25@gmail.com
+23/01/23, 9:32 pm - Kratis: Bag aala ka
+24/01/23, 7:24 am - Siddhi Hiray: Ho ala
+24/01/23, 10:40 am - Kratis: Tu aalis ka
+24/01/23, 11:18 am - Siddhi Hiray: Ho kadhich
+24/01/23, 11:18 am - Siddhi Hiray: Tu alas
+24/01/23, 9:58 pm - Siddhi Hiray: Missed voice call
+24/01/23, 9:59 pm - Siddhi Hiray: Uday yena compulsory ahe ka
+24/01/23, 9:59 pm - Siddhi Hiray: Ky idea?
+24/01/23, 10:03 pm - Kratis: Call je
+24/01/23, 10:06 pm - Kratis: Kr
+24/01/23, 10:15 pm - Kratis: <Media omitted>
+25/01/23, 2:42 pm - Kratis: Aaj che photos pathav
+25/01/23, 3:06 pm - Siddhi Hiray: Majay kday nhi ahet
+25/01/23, 3:06 pm - Siddhi Hiray: Khushali kday ahet
+25/01/23, 4:08 pm - Kratis: Tujha snap navta ka tog
+25/01/23, 4:08 pm - Kratis: Mg mag tichya kadun
+25/01/23, 4:11 pm - Siddhi Hiray: Haa
+25/01/23, 4:56 pm - Kratis: Aik ds cha kahi kayla
+25/01/23, 6:55 pm - Siddhi Hiray: Start kela ahe
+25/01/23, 7:12 pm - Kratis: Kay lihite aahe pathav mala
+25/01/23, 7:12 pm - Kratis: Op kadhla ka tu
+25/01/23, 7:15 pm - Siddhi Hiray: Ho
+25/01/23, 7:15 pm - Siddhi Hiray: Nhi
+25/01/23, 7:15 pm - Siddhi Hiray: Program run kartay Ani lihitay
+25/01/23, 7:16 pm - Siddhi Hiray: But op nhi print kela
+25/01/23, 8:34 pm - Kratis: Op cha printout chiktavaycha aahe na?
+25/01/23, 8:52 pm - Siddhi Hiray: Ho
+25/01/23, 9:03 pm - Kratis: Thik aahe mag tu ss nahii kadle ka
+25/01/23, 9:08 pm - Siddhi Hiray: https://we.tl/t-EZUuaTFRIV
+25/01/23, 9:19 pm - Kratis: Thanks bro
+25/01/23, 9:19 pm - Kratis: Udhya ye college la
+25/01/23, 9:20 pm - Siddhi Hiray: Baki che practical patav tu
+25/01/23, 9:20 pm - Siddhi Hiray: 😂😂
+25/01/23, 9:20 pm - Siddhi Hiray: Nhi
+25/01/23, 9:20 pm - Siddhi Hiray: Kon ala navta aaj
+25/01/23, 9:21 pm - Siddhi Hiray: Thanks aaj sathi ✌🏻
+25/01/23, 9:29 pm - Kratis: Ajun aahet kay?
+25/01/23, 9:30 pm - Kratis: Tu kiti pracs paryant kela aaahe
+25/01/23, 9:30 pm - Siddhi Hiray: Kup baki ahe
+25/01/23, 9:31 pm - Kratis: Thik aahe udhya yevtha kay problem nhi aahe but parva compulsory aahe yayla karan aaj arch kade hoti, parva aplya kade asnar mag tyanchi kama amhala karavi lagnar please ye amhala kharach help lagel parva
+25/01/23, 9:31 pm - Kratis: Are tyat kay tujha problem aahe na samjhu shaktoo
+25/01/23, 9:31 pm - Kratis: 37 files already aahet ajun kiti?
+25/01/23, 9:32 pm - Siddhi Hiray: 🥱😂
+25/01/23, 9:32 pm - Siddhi Hiray: Mala tr nhi vatat ky help lagtay nusta volunteer la ubha hoyla lagta😀
+25/01/23, 9:51 pm - Kratis: Aree aik
+25/01/23, 9:51 pm - Kratis: Console white madhye hava aahe ki code
+25/01/23, 10:28 pm - Siddhi Hiray: Console😂
+25/01/23, 10:28 pm - Siddhi Hiray: Code kasa white
+25/01/23, 10:37 pm - Kratis: aree background cha bolto aahe ga
+25/01/23, 10:37 pm - Kratis: kay ga tu
+25/01/23, 10:38 pm - Siddhi Hiray: Code maday background nhi ahe
+25/01/23, 10:38 pm - Siddhi Hiray: Code lihaycha ahe
+25/01/23, 10:48 pm - Kratis: Ss nahi kadaycha aahe codee cha printout?
+25/01/23, 10:48 pm - Siddhi Hiray: Nhi
+25/01/23, 11:00 pm - Kratis: Thik aahe chalel krto mi tujha lihun jhala ki pathav
+25/01/23, 11:07 pm - Siddhi Hiray: Ho
+27/01/23, 10:01 pm - Siddhi Hiray: https://we.tl/t-40Fcik0MlO
+27/01/23, 10:01 pm - Siddhi Hiray: sagle ds programs
+27/01/23, 10:18 pm - Kratis: null
+27/01/23, 10:19 pm - Kratis: Tula mahit aahe ajun ghari pochlo nahi aahe udhya kay denar mi
+27/01/23, 10:19 pm - Kratis: Thanks tashi help karna saathi😁😁
+27/01/23, 10:26 pm - Siddhi Hiray: Aacha je events maday ahe tayna late submission chalnar ahe
+27/01/23, 10:29 pm - Kratis: Hooo madam tr boli hoti
+27/01/23, 10:29 pm - Kratis: Tujha nhi jhala aahe kay
+27/01/23, 10:32 pm - Siddhi Hiray: Nhi zala
+27/01/23, 10:32 pm - Siddhi Hiray: Ata program zale sagle karun
+27/01/23, 10:33 pm - Siddhi Hiray: Lihayche baki ahe
+27/01/23, 10:53 pm - Kratis: Mi svata udhya nahi yet aahe mala khup jasta tap aala aahe
+27/01/23, 10:53 pm - Kratis: Mag lihinar ahees ki ashich dete
+28/01/23, 12:17 am - Siddhi Hiray: Ho
+28/01/23, 12:17 am - Siddhi Hiray: Lihinar ahe
+28/01/23, 12:19 am - Kratis: Sarva?
+28/01/23, 12:19 am - Kratis: Udhya mostly nhi yet aahe bagh mag saang mala
+28/01/23, 11:46 am - Kratis: Call kr
+28/01/23, 1:03 pm - Siddhi Hiray: Ho
+28/01/23, 1:07 pm - Kratis: <Media omitted>
+28/01/23, 1:08 pm - Siddhi Hiray: Ha haych lihla ahe me
+28/01/23, 2:35 pm - Kratis: Chal sahi he check jhali na bas
+28/01/23, 2:35 pm - Kratis: Ha class test 20 cha aahe ki 40
+28/01/23, 4:18 pm - Siddhi Hiray: 20
+28/01/23, 4:18 pm - Siddhi Hiray: Ha
+28/01/23, 9:01 pm - Kratis: Bhaiii tine maths full thevla aahe
+28/01/23, 9:01 pm - Kratis: Ga
+28/01/23, 9:05 pm - Siddhi Hiray: Ha
+28/01/23, 9:06 pm - Siddhi Hiray: Probability parint
+28/01/23, 9:06 pm - Siddhi Hiray: 🙂
+28/01/23, 9:37 pm - Kratis: Probability mala nahii yet 🥲🥲
+28/01/23, 9:37 pm - Kratis: Statistics karu shakato
+28/01/23, 9:37 pm - Kratis: Tu majhya baju la bas na paper madhye 😢😢
+29/01/23, 12:00 am - Siddhi Hiray: Mala pn nhi yet
+29/01/23, 12:01 am - Siddhi Hiray: Mala tr vata test pn nhi honar
+29/01/23, 12:01 am - Siddhi Hiray: 1st chapter ch thevla phje hot
+29/01/23, 12:08 am - Kratis: Ka asa vata aahe tula
+29/01/23, 12:08 am - Kratis: Haa toh yeto mala stats pan yeta thoda thoda fakta scene statements cha honar aahe
+29/01/23, 12:17 am - Siddhi Hiray: Haa
+29/01/23, 12:17 am - Siddhi Hiray: Tech tr problem ahe
+29/01/23, 12:24 am - Kratis: Hoo yaaar aata baghu je hoil te karu
+29/01/23, 12:25 am - Kratis: Tujhya kade notes aahet ka prob che
+29/01/23, 12:45 am - Kratis: <Media omitted>
+29/01/23, 11:30 am - Siddhi Hiray: Je maam ni class maday dilay tech ahe
+29/01/23, 11:31 am - Siddhi Hiray: Hay kuni dila
+29/01/23, 11:41 am - Kratis: Majhi book haravli aahe maths chi kuthe tri
+29/01/23, 11:41 am - Kratis: Mi ani parth ne banavli aahe kal ratri
+29/01/23, 11:45 am - Siddhi Hiray: Waah
+29/01/23, 11:46 am - Siddhi Hiray: Scholars
+29/01/23, 11:46 am - Siddhi Hiray: Okay me patavte notes
+29/01/23, 11:47 am - Siddhi Hiray: <Media omitted>
+29/01/23, 11:47 am - Siddhi Hiray: <Media omitted>
+29/01/23, 11:47 am - Siddhi Hiray: Last last ch nhi ahe vata
+29/01/23, 12:16 pm - Kratis: Scholar tr tumhi aahat je tumhi marnar aahat
+29/01/23, 12:16 pm - Kratis: Thankksss a lot
+29/01/23, 12:16 pm - Kratis: Probability aahe na
+29/01/23, 2:46 pm - Siddhi Hiray: Ho notes mahun tu ready kela na
+29/01/23, 2:46 pm - Siddhi Hiray: Questions send kar m ata😂
+29/01/23, 2:47 pm - Siddhi Hiray: Half ahe
+29/01/23, 3:53 pm - Kratis: Areee tu job krtes na mhanun kela ani dusryana pan use la hoil mhanun
+29/01/23, 3:53 pm - Kratis: Kasle question have aahet
+29/01/23, 3:53 pm - Kratis: Probability nahi aahe tyatt
+29/01/23, 4:01 pm - Siddhi Hiray: Probability
+29/01/23, 4:01 pm - Siddhi Hiray: Ha
+29/01/23, 4:01 pm - Siddhi Hiray: <Media omitted>
+29/01/23, 4:28 pm - Kratis: Majhya kade svata kade book nhi aahe kuthun question deu mi😂
+29/01/23, 4:28 pm - Kratis: Thankss a lot
+29/01/23, 5:06 pm - Siddhi Hiray: Ky sarkha thanks
+29/01/23, 5:07 pm - Siddhi Hiray: Java che fakta imp questions ch karyche ahe ka
+29/01/23, 6:19 pm - Kratis: Hooo tech karaycha aahet
+29/01/23, 6:20 pm - Kratis: Aree eka divshi don papers aahet kay?
+29/01/23, 6:20 pm - Kratis: Mi aata notice kela aahe
+29/01/23, 6:54 pm - Siddhi Hiray: Ho
+29/01/23, 7:20 pm - Kratis: Tujha java jhala. Ka
+29/01/23, 7:26 pm - Kratis: <Media omitted>
+29/01/23, 7:26 pm - Kratis: <Media omitted>
+29/01/23, 7:26 pm - Kratis: <Media omitted>
+29/01/23, 7:26 pm - Kratis: <Media omitted>
+29/01/23, 7:26 pm - Kratis: <Media omitted>
+29/01/23, 7:30 pm - Kratis: Kayta aahe na ki txt file banavu?
+29/01/23, 7:47 pm - Siddhi Hiray: Okay thanks
+29/01/23, 7:47 pm - Siddhi Hiray: Samajtay jass
+29/01/23, 7:47 pm - Siddhi Hiray: Or manje union yeta ki intersection?
+29/01/23, 7:48 pm - Kratis: Union
+29/01/23, 7:48 pm - Kratis: And means intersection
+29/01/23, 8:03 pm - Kratis: <Media omitted>
+29/01/23, 8:03 pm - Kratis: Ha sum tula kayla ka
+29/01/23, 8:45 pm - Siddhi Hiray: 😂
+29/01/23, 8:45 pm - Siddhi Hiray: Mala ch nhi samjal ky lihla ahe
+29/01/23, 8:48 pm - Kratis: Same Yaar
+29/01/23, 8:48 pm - Kratis: Mala ek saang tujhya kade extra sci calci aahe ka
+29/01/23, 8:50 pm - Siddhi Hiray: Nhi
+29/01/23, 8:56 pm - Kratis: Tu kay vaparte aahes mag
+29/01/23, 8:57 pm - Siddhi Hiray: Sci calci
+29/01/23, 9:11 pm - Siddhi Hiray: Hay madla last che don questions samjle tr sang mala pn
+29/01/23, 9:12 pm - Kratis: Majhya kade sci calci aahech nahi ga
+29/01/23, 9:12 pm - Kratis: Thamb bhagto mi
+29/01/23, 9:12 pm - Siddhi Hiray: Ata tu calci shodtoy
+29/01/23, 9:12 pm - Siddhi Hiray: Uday buy kr m ata
+29/01/23, 9:12 pm - Siddhi Hiray: Main grp vr vichar ekda
+29/01/23, 9:22 pm - Kratis: Kay karnar aata majhya kade normall calci aahe sci nahi aahe
+29/01/23, 9:22 pm - Kratis: Tech baghto aata
+29/01/23, 9:22 pm - Kratis: Bhaiii mala kahi kayat nahi aahe b/a and all
+29/01/23, 10:21 pm - Kratis: Normal calcii pan nhi aaye ka tujhya kade
+30/01/23, 2:21 am - Siddhi Hiray: Ha na
+30/01/23, 2:21 am - Siddhi Hiray: Me te options la thevla as
+30/01/23, 2:22 am - Siddhi Hiray: Ahe*
+30/01/23, 2:22 am - Siddhi Hiray: Nhi
+30/01/23, 2:23 pm - Kratis: Option la thevun sarva lagle aahet
+30/01/23, 2:38 pm - Siddhi Hiray: Ha na
+30/01/23, 2:38 pm - Siddhi Hiray: Sadha question bank madun pn aka nhi
+30/01/23, 4:30 pm - Kratis: Haa na ani tula mahit aahe a la fakta 4 question hote attempt any 2🥲🥲
+30/01/23, 4:31 pm - Kratis: Also tarash madhye je loka teeni divashi aale hote tyanchi naav tik keli je navta tyana -25  tujha naav kadla aata tula -25 aahe
+30/01/23, 5:47 pm - Siddhi Hiray: Ka
+30/01/23, 5:47 pm - Siddhi Hiray: Maja naav k akadla
+30/01/23, 5:48 pm - Siddhi Hiray: Kasla*
+30/01/23, 5:48 pm - Siddhi Hiray: Kadla*
+30/01/23, 6:44 pm - Kratis: Masti kr to aahe mi add kela aahee 😂😂
+30/01/23, 7:48 pm - Siddhi Hiray: Aacha😂😂
+30/01/23, 7:48 pm - Siddhi Hiray: Notes ahe ka ?
+30/01/23, 7:53 pm - Kratis: Kahii nahii aahe baba mi svatta magtoo aahe sarvan kade 😂😂
+30/01/23, 7:53 pm - Kratis: Tula miyale kisaang
+30/01/23, 7:54 pm - Siddhi Hiray: <Media omitted>
+30/01/23, 7:54 pm - Siddhi Hiray: Adbms ch unit 1
+30/01/23, 7:55 pm - Siddhi Hiray: Parth cha no. Patv na
+30/01/23, 7:59 pm - Kratis: Tyala svatala kahi yet nahiii aahe toh mala aata message krun bola😂😂
+30/01/23, 7:59 pm - Kratis: Thankssss
+30/01/23, 9:28 pm - Siddhi Hiray: Unit3 bag na
+30/01/23, 9:28 pm - Siddhi Hiray: 🙁🙁🙁
+30/01/23, 9:29 pm - Kratis: Unit 3 ppt aahe na bs toh krr
+30/01/23, 9:30 pm - Kratis: Mostly ek sum yeil tya tun asa vatat aahe mala
+30/01/23, 9:33 pm - Siddhi Hiray: Ka
+30/01/23, 9:33 pm - Siddhi Hiray: Kuthe ahe
+30/01/23, 9:35 pm - Kratis: <Media omitted>
+30/01/23, 9:35 pm - Kratis: Ha bghh hech aahe ata
+30/01/23, 9:35 pm - Siddhi Hiray: Okay thanks
+30/01/23, 9:38 pm - Kratis: Tujha jhala ka vachun
+30/01/23, 9:38 pm - Kratis: Adbms ani spm?
+30/01/23, 11:32 pm - Siddhi Hiray: Nhi
+30/01/23, 11:32 pm - Siddhi Hiray: Kasa honar
+30/01/23, 11:32 pm - Siddhi Hiray: Tuja zala
+30/01/23, 11:43 pm - Kratis: Tujha jhala nahi majha kasa hoil mag😂
+30/01/23, 11:54 pm - Siddhi Hiray: Ka
+30/01/23, 11:54 pm - Siddhi Hiray: Aaj maths ka paper purna attend kela hota ka
+31/01/23, 8:10 pm - Kratis: Hoo mostly pan formula chukiccha takla varti square takla chukun nhi tr aala hota answer even calcii chya bina time khup consume jhala hota majha
+31/01/23, 8:42 pm - Siddhi Hiray: Aaacha
+31/01/23, 8:42 pm - Siddhi Hiray: Normal calci naylla phje hota
+31/01/23, 8:51 pm - Kratis: Navhta na scene toch jhala mi visarloo anaycha
+31/01/23, 8:52 pm - Kratis: Alsoo evolutionary madhye prototyping and spiral asta mala aata kayla mhanje majha ardha answer right aahemi prototyping lihilq aahe
+31/01/23, 9:00 pm - Siddhi Hiray: Scholars Bhai tumhi kuch bhi kar sakte ho😂
+31/01/23, 9:00 pm - Siddhi Hiray: Evolutionary maday prototype models sta vatat
+31/01/23, 10:09 pm - Kratis: Tu bolte aahe scholar mala  rahu de 😂😂 bachelors degree madhye tujha rank lagla extra supplements gheun lihites sarva mahit aahe mala 😂😂
+31/01/23, 10:10 pm - Kratis: Ha prototyping and spiral wala, mala spiral pan yet hota pan time sampla exam cha
+31/01/23, 11:06 pm - Siddhi Hiray: 👀👀👀
+31/01/23, 11:06 pm - Siddhi Hiray: Asa ky nhi ahe😂
+31/01/23, 11:07 pm - Siddhi Hiray: Aacha
+31/01/23, 11:07 pm - Siddhi Hiray: Aaj paper la time purlach nhi
+31/01/23, 11:26 pm - Kratis: Rahuu de baba ikde pnn tujha rank lagnar aahe guarantee
+31/01/23, 11:26 pm - Kratis: Haa naa yaar pan written sample aata practicals madhye majhe aahet
+31/01/23, 11:28 pm - Kratis: Udhya jaates ka college
+01/02/23, 12:33 am - Siddhi Hiray: Ky maje haat
+01/02/23, 12:33 am - Siddhi Hiray: Nhi
+01/02/23, 3:06 pm - Kratis: Bhaii 17 practicals aahet kashe honar tech vichar kart ahe mi
+01/02/23, 3:06 pm - Kratis: Mi pan nhii gelo aahe aaj
+01/02/23, 3:11 pm - Siddhi Hiray: Ha na
+01/02/23, 3:11 pm - Siddhi Hiray: Partical 1 to 6 ch karaych ahe na
+01/02/23, 3:17 pm - Kratis: Haa pan tyat ig multiple code pan aahet na
+01/02/23, 3:21 pm - Siddhi Hiray: Ha
+01/02/23, 3:21 pm - Siddhi Hiray: But 1 to 6 ch ahe na ?
+01/02/23, 3:32 pm - Kratis: Hoo 1-6 aahet
+01/02/23, 3:32 pm - Kratis: Tujhe jhale astil na sarva
+01/02/23, 3:49 pm - Siddhi Hiray: 🥲
+01/02/23, 3:49 pm - Siddhi Hiray: Nhi ajun
+01/02/23, 6:42 pm - Siddhi Hiray: Viva maday ky questions vicharle hote?
+01/02/23, 6:47 pm - Kratis: Code explain karayla sangitla tyana
+01/02/23, 6:47 pm - Kratis: Aniii stack che code aale hote hya sarvana
+01/02/23, 6:47 pm - Kratis: Aplyala mostly queue badal yeil
+01/02/23, 6:51 pm - Siddhi Hiray: Kaa
+01/02/23, 6:52 pm - Siddhi Hiray: Aacha
+01/02/23, 7:05 pm - Kratis: Aaj queue cha question aalach navhta na
+01/02/23, 7:05 pm - Kratis: Fakta stack badal aale hote
+01/02/23, 8:39 pm - Siddhi Hiray: Aacha
+01/02/23, 8:39 pm - Siddhi Hiray: Thik ahe
+01/02/23, 8:39 pm - Siddhi Hiray: Doubly linker list ch navta ala ka
+01/02/23, 8:46 pm - Kratis: Aree purna class la ekach question aala hota stack using linked list ani selection sort bas 😂😂
+01/02/23, 8:53 pm - Siddhi Hiray: Are asa kasa
+01/02/23, 8:53 pm - Siddhi Hiray: Kharach sangtoys ka
+01/02/23, 9:00 pm - Kratis: Hoo re baba kharach sarvana ekach code dila hota karayla 😂😂
+01/02/23, 9:00 pm - Kratis: Udhya cha kay sure nhii baghayla hava
+01/02/23, 9:00 pm - Kratis: Tujha kiti jhala aahe aata paryant
+01/02/23, 9:47 pm - Siddhi Hiray: Haa
+01/02/23, 9:48 pm - Siddhi Hiray: Aaj à division ch aaaiklau pasun kuch karych Maan nhi karat ahe😂
+01/02/23, 9:48 pm - Siddhi Hiray: Mi tr insertion kela ahe selection
+01/02/23, 9:50 pm - Kratis: Rahu de tujha jhala asnar sarva mala bolnya sathi bolte aahes 😂😂
+01/02/23, 9:50 pm - Kratis: Mi pan same donni simple aahet mhanun😂😂
+01/02/23, 9:57 pm - Siddhi Hiray: Aaik na selection sort Ani bubble sort cha program patv na
+01/02/23, 10:14 pm - Kratis: Ho thamb
+01/02/23, 10:15 pm - Kratis: #include<iostream>
+using namespace std;
+void bubbleSort(int arr[],int n)
+{
+	for(int i=0;i<n;i++)
+	{
+		for(int j=0;j<n-i-1;j++)
+		{
+			if(arr[j]>arr[j+1])
+			{
+				int temp=arr[j];
+				arr[j]=arr[j+1];
+				arr[j+1]=temp;
+			}
+		}
+	}
+}
+int main()
+{
+	int n;
+	cout<<"Enter the size of an array: ";
+	cin>>n;
+	int arr[n];
+	cout<<"\nEnter the Elements of an Array: \n";
+	for(int i=0;i<n;i++)
+	{
+		cin>>arr[i];
+	}
+	bubbleSort(arr,n);
+	cout<<"\nAfter Bubble Sorting Array: ";
+	for(int j=0;j<n;j++)
+	{
+		cout<<arr[j]<<" ";
+	}
+	return 0;
+}
+01/02/23, 10:16 pm - Kratis: #include<iostream>
+using namespace std;
+void selectionSort(int arr[],int n)
+{
+	int min;
+	for(int i=0;i<n-1;i++)
+	{
+		min=i;
+		for(int j=i+1;j<n;j++)
+		{
+			
+			if(arr[min]>arr[j])
+				min=j;
+		}
+		if(min!=i){
+			int temp = arr[min];
+			arr[min]=arr[i];
+			arr[i]=temp;
+		}
+	}
+}
+int main()
+{
+	int n;
+	cout<<"Enter the size of an array: ";
+	cin>>n;
+	int arr[n];
+	cout<<"\nEnter the Elements of an Array: \n";
+	for(int i=0;i<n;i++)
+	{
+		cin>>arr[i];
+	}
+	selectionSort(arr,n);
+	cout<<"\nAfter Selection Sorting Array: ";
+	for(int j=0;j<n;j++)
+	{
+		cout<<arr[j]<<" ";
+	}
+	return 0;
+}
+01/02/23, 10:17 pm - Kratis: <Media omitted>
+01/02/23, 10:17 pm - Kratis: <Media omitted>
+02/02/23, 12:03 am - Kratis: https://tinyurl.com/mvt2a8ka
+02/02/23, 12:03 am - Kratis: bit.ly/3Yh6uMm
+02/02/23, 12:03 am - Kratis: He 2 URL lakshat thev jar tula code aale nahii tr url tk chrome wr purna file open hoil kuthla code hava asel saray tak
+02/02/23, 12:42 am - Siddhi Hiray: Thankyou so much✨✨
+02/02/23, 12:42 am - Siddhi Hiray: Me tr kych vachla nhi ahs
+02/02/23, 12:43 am - Siddhi Hiray: Copy chay bharosa janar ahe😂
+02/02/23, 9:31 am - Kratis: Bhaiii Tu kahii nahi kela asel tr amchya  sarkhya lokancha kay mag😂😂
+02/02/23, 9:32 am - Kratis: Kal ratri mala hi idea lakshat aali😂😂
+02/02/23, 9:34 am - Siddhi Hiray: Bas ata copy karyla milu de mg zala
+02/02/23, 9:36 am - Kratis: Aree hii link takli na saray open hota gmail login kra anii faltu giri krnya peksha he lavkar hoil
+02/02/23, 9:36 am - Kratis: Tu kuthe aahes college la nahi aalis ka
+02/02/23, 9:38 am - Siddhi Hiray: Nhi ali ajun
+02/02/23, 9:39 am - Kratis: Mag kadhi yete aahes
+02/02/23, 9:39 am - Kratis: Mi 11 la yenar aahe colleg
+02/02/23, 10:05 am - Siddhi Hiray: Ha me atach nigali ahe
+02/02/23, 10:16 am - Kratis: Same mi pan
+02/02/23, 10:16 am - Kratis: Pochli ki call ke
+02/02/23, 10:16 am - Kratis: Rickshaw miyel ka tula aata ya time war? Kurla varun
+02/02/23, 10:17 am - Siddhi Hiray: Train nhi milat ahe rickshaw ch ky maythi😂
+02/02/23, 10:20 am - Kratis: Frequent trains nahi aahet ka dombivali varun tumhala
+02/02/23, 10:24 am - Siddhi Hiray: Ahe pn saglay full houn yetat
+02/02/23, 10:35 am - Kratis: Same ikde pan, aata slow train pakadlii pann tii extreme slow aahe 😂😂
+02/02/23, 10:35 am - Kratis: Tula miyali ka mag traink
+02/02/23, 10:39 am - Siddhi Hiray: Nhi
+02/02/23, 10:47 am - Kratis: Ajun nhi miyali tula
+02/02/23, 10:47 am - Kratis: Khup late hoil mg tula aata
+02/02/23, 10:48 am - Kratis: Bike asli asti tr alo asto kurlyala
+02/02/23, 11:21 am - Siddhi Hiray: Are shusmita pn ahe sobat mahun late zala aamhala
+02/02/23, 11:21 am - Siddhi Hiray: Nhi tr pochli asti
+02/02/23, 5:00 pm - Kratis: Acha majh hi attendance tasa lagla navhta
+02/02/23, 5:00 pm - Kratis: Mi baslo pan lavla nhii
+02/02/23, 5:17 pm - Siddhi Hiray: Maja pn nhi lagla
+02/02/23, 5:17 pm - Siddhi Hiray: Waah bara zala m nhi baslo te
+02/02/23, 5:23 pm - Kratis: Tu spm basli hotis tri ka 😂
+02/02/23, 5:23 pm - Kratis: Haa naa  amhi ek taas basun suddha kay jhala nahi
+02/02/23, 10:22 pm - Siddhi Hiray: Nhi
+02/02/23, 10:23 pm - Siddhi Hiray: Ha
+02/02/23, 10:54 pm - Kratis: Mag ka attendance lavel mi basun sudhha lavla nhi majha 😂
+03/02/23, 12:02 pm - Siddhi Hiray: 30 min late zale nhi tr basli Asti lec la
+03/02/23, 12:03 pm - Siddhi Hiray: Side chay room madaych thamblo hoto
+03/02/23, 4:06 pm - Kratis: Spm sir tasa hi kahi bolat nahii ali asti tr dilach asta attendance😂
+03/02/23, 4:06 pm - Kratis: Mi tr Baghitlach nhi tula aali tevha
+03/02/23, 4:07 pm - Kratis: Aaj ka nahi aalis?
+03/02/23, 4:07 pm - Kratis: Udhy aj online aahe ani adbms cha minning part practical waala maam offline nhi tr online ghenar aahe asa bolii aahe sat-sum la
+03/02/23, 6:03 pm - Siddhi Hiray: Okay thanks for update
+03/02/23, 6:04 pm - Siddhi Hiray: Late zala😂
+03/02/23, 9:46 pm - Kratis: Adbms madhye khyati che practical kahich nahi jhale aahet ga ani hi Puthchya sunday la ghete aahe mag vichar kar kay hoil apla
+03/02/23, 9:46 pm - Kratis: Kiti late mi pan break nantar aalo aaj
+03/02/23, 10:05 pm - Siddhi Hiray: Ha na
+03/02/23, 10:05 pm - Siddhi Hiray: Aacha me alich nhi jaude mantla
+03/02/23, 10:07 pm - Siddhi Hiray: Java ch practical ch ky maythi padla ka?
+03/02/23, 10:13 pm - Kratis: Jevthe shikavle aahet tevde yetil bas 5 madhun kahi tri
+03/02/23, 10:13 pm - Kratis: A la set iterator ani ig list iterator aala hota aaj exam la
+03/02/23, 10:22 pm - Siddhi Hiray: Konte 5
+03/02/23, 10:22 pm - Siddhi Hiray: Ascha
+03/02/23, 10:37 pm - Kratis: Are jevthe shikavle hote tevdech
+03/02/23, 10:38 pm - Kratis: <Media omitted>
+03/02/23, 10:38 pm - Kratis: <Media omitted>
+03/02/23, 10:38 pm - Kratis: <Media omitted>
+03/02/23, 10:38 pm - Kratis: <Media omitted>
+03/02/23, 10:38 pm - Kratis: <Media omitted>
+03/02/23, 10:38 pm - Kratis: He waale
+03/02/23, 10:38 pm - Kratis: Files pan pathavli aahe tula varti
+03/02/23, 11:13 pm - Siddhi Hiray: Okay thanks
+03/02/23, 11:14 pm - Siddhi Hiray: Pn aaplay la tr Vikram sir ahe
+03/02/23, 11:14 pm - Siddhi Hiray: Tayna Rashmita age
+03/02/23, 11:41 pm - Kratis: Vikram la aaj vicharla toh hech bola jitka jhala aahe tevdach yeil mhanun
+03/02/23, 11:41 pm - Kratis: Aplyala same journal aahe ga
+03/02/23, 11:41 pm - Kratis: Also ds madhye kuthle pracs nahi bole aahet lihayla?
+04/02/23, 12:00 am - Siddhi Hiray: Okay
+04/02/23, 12:02 am - Siddhi Hiray: Thankyou
+04/02/23, 12:02 am - Siddhi Hiray: Bhot bhala kam kar rahe ho bhai tum✨✨
+04/02/23, 12:02 am - Siddhi Hiray: 6 parint lihayche ahe
+04/02/23, 12:32 am - Kratis: Munna bhaiii cha dialogue Martes tu 😂
+04/02/23, 12:33 am - Kratis: Ani baki code and op cha printout na?
+04/02/23, 12:40 am - Siddhi Hiray: Practical 5 parint lihi
+04/02/23, 12:40 am - Siddhi Hiray: Practical 6 ch output Ani code print kr
+04/02/23, 12:40 am - Siddhi Hiray: Ani BSt vala code Ani op print kr
+04/02/23, 12:41 am - Siddhi Hiray: Ani baki code lihi Ani output print ,,,,baki che nantr dilay tari chaleel
+04/02/23, 12:56 am - Kratis: Nantar aata divas kuthe urle aahet abhyas karayla time nhi aahe aatach complete karava lagnar aahe asa vata aahe
+04/02/23, 12:58 am - Kratis: Tujhe total kiti jhale aahet lihun
+04/02/23, 12:58 am - Kratis: Adbms pan boli aahe submit karayla 2 practicals je jhale hote
+04/02/23, 1:01 am - Siddhi Hiray: Ha te pn ahe
+04/02/23, 1:01 am - Siddhi Hiray: Almost sagle
+04/02/23, 1:01 am - Siddhi Hiray: Je shikavle nhi te nhi lihilayt
+04/02/23, 1:01 am - Siddhi Hiray: Konte
+04/02/23, 1:02 am - Siddhi Hiray: Tini ky shikavla ahe ka aadhi te v4la phje
+04/02/23, 1:06 am - Kratis: Waahhh sahii aahe aniii op kashe lavle aahet stick kela aahe ki  direct attach kela aahe
+04/02/23, 1:06 am - Kratis: Kay mahit total 13 aahe yevtha mahit aahe
+04/02/23, 1:07 am - Kratis: R khyati ne 1 practical shikavla aahe asa mula boli idk mi ig absent hoto ani sadhna ne 2 practical kele aahet ek range wala ani partitioning
+04/02/23, 10:16 am - Siddhi Hiray: Attach kela
+04/02/23, 10:17 am - Siddhi Hiray: Nhi maythi
+04/02/23, 10:17 am - Siddhi Hiray: Haa
+04/02/23, 10:17 am - Siddhi Hiray: Te karaycha ahe ka
+04/02/23, 10:28 am - Kratis: Hoo sadhana waale tr karayche aahet ti boli aahe
+04/02/23, 10:48 am - Siddhi Hiray: Okay kadhi submit karycha ahe te
+04/02/23, 11:05 am - Kratis: Next week madhye kr, karan a cha check pan houn jhala aahe aplach jhala nhi aahe ajun mi tr last la dein ikde ds jhala nhi aahe ani adbms kasa kru😂😂
+04/02/23, 11:05 am - Kratis: Tu lec nhi baslis kay
+04/02/23, 11:41 am - Siddhi Hiray: konta
+04/02/23, 11:41 am - Siddhi Hiray: java cha lect attend kartay na
+04/02/23, 12:00 pm - Kratis: Basli hotis mala mahit navhta , I thought tu job karat ashil
+04/02/23, 12:38 pm - Siddhi Hiray: Online lecture kasa miss karel😂
+04/02/23, 1:46 pm - Kratis: Hooo te pann udhya pan ghyayla hava hota portion tri sampla asta
+04/02/23, 1:54 pm - Siddhi Hiray: Ha ghenar ahe uday
+04/02/23, 2:21 pm - Kratis: Nhi ghenar aahe na
+04/02/23, 2:21 pm - Kratis: Sarva janna nahi bole hote
+04/02/23, 4:31 pm - Kratis: Tujha ds jhala aahe na lihun mala photos pathav na tyache
+04/02/23, 5:07 pm - Siddhi Hiray: Ma je
+04/02/23, 5:07 pm - Siddhi Hiray: Manje*
+04/02/23, 5:07 pm - Siddhi Hiray: Haa
+04/02/23, 5:07 pm - Siddhi Hiray: Missed voice call
+04/02/23, 5:20 pm - Kratis: Pathav na mala
+04/02/23, 5:20 pm - Kratis: Mi tula karto call match baghayla aalo aahe
+04/02/23, 5:20 pm - Kratis: null
+04/02/23, 7:04 pm - Siddhi Hiray: Waah
+04/02/23, 7:05 pm - Siddhi Hiray: Ethay practical karyche ahe na match bh😂
+04/02/23, 7:21 pm - Siddhi Hiray: https://we.tl/t-8beywt7GAT
+04/02/23, 7:21 pm - Siddhi Hiray: <Media omitted>
+04/02/23, 7:21 pm - Siddhi Hiray: #include<iostream>
+#include<conio.h>
+#include<stdio.h>
+using namespace std;
+class digit
+{
+long arr[10];
+public:
+void hash()
+{
+long temp,no,pos,n;
+for(int i=0;i<10;i++)
+arr[i]=0;
+cout<<"\n\n hashing with linear probing \n";
+cout<<"\n enter how many numbers you want \n";
+cin>>n;
+for(int i=1;i<=n;i++)
+{
+cout<<"\n\n enter 8 no of 6 digit\n";
+cin>>no;
+//pos=no%9+1;
+pos=((2*no)+3)%10;
+
+for(int j=0;j<10;j++)
+{
+if(arr[pos]==0)
+{
+arr[pos]=no;
+break;
+}
+if(pos==9)
+pos=0;
+else
+{
+pos++;
+}
+}
+}
+for(int i=0;i<=9;i++)
+cout<<"\n arr["<<i<<"]= "<<arr[i]<<"\n";
+}
+};
+int main()
+{
+//clrscr();
+digit d;
+d.hash();
+}
+
+
+
+////Hashing
+04/02/23, 7:22 pm - Siddhi Hiray: This message was deleted
+04/02/23, 7:22 pm - Siddhi Hiray: This message was deleted
+04/02/23, 7:22 pm - Siddhi Hiray: <Media omitted>
+04/02/23, 7:22 pm - Siddhi Hiray: Hay outputs ahe
+04/02/23, 8:39 pm - Kratis: Call kr re
+04/02/23, 8:54 pm - Siddhi Hiray: Java ch sang
+04/02/23, 9:03 pm - Kratis: Hooo sangto
+04/02/23, 9:35 pm - Siddhi Hiray: Ha
+04/02/23, 10:29 pm - Kratis: Aik teachers aquilla rashmika ani vikram hota 
+Set operation and list operation aale hote
+05/02/23, 12:20 am - Siddhi Hiray: Okay
+05/02/23, 12:20 am - Siddhi Hiray: Strict hote ka
+05/02/23, 12:22 am - Kratis: Nope copy karayla det hote yevtha kahi navhta
+05/02/23, 12:22 am - Kratis: Tula kay farak padto tu tr sarva vachun yenar ashil na
+05/02/23, 12:53 am - Siddhi Hiray: Okay
+05/02/23, 12:54 am - Siddhi Hiray: Are 😂 mi pn copy ch kela hota
+05/02/23, 1:01 am - Kratis: Rahu de  baba 😂😂 tu boli hotis na last college madhye rank aala hota tujha aata kayla mala
+05/02/23, 12:51 pm - Siddhi Hiray: Are he master ahe 😂
+05/02/23, 12:51 pm - Siddhi Hiray: Tu ky kami scholar ahe ka
+05/02/23, 1:05 pm - Kratis: Mag kay jhala 😂 paper tr ajun tevdach bharte aahes tu
+05/02/23, 1:05 pm - Kratis: Rahu de 😂
+05/02/23, 1:06 pm - Kratis: Acha Aik na quick sort la time and space complexity nahi aahe ka
+05/02/23, 1:17 pm - Siddhi Hiray: <Media omitted>
+05/02/23, 1:17 pm - Siddhi Hiray: Hay asa lihaycha ahw
+05/02/23, 1:32 pm - Kratis: Pdf madhye navta parth chya mhanun😂
+05/02/23, 1:51 pm - Siddhi Hiray: aacha
+05/02/23, 1:53 pm - Kratis: Tu journal madhye comments Lihile aahet ka ki fakta code lihila aahe
+05/02/23, 2:12 pm - Siddhi Hiray: Nhi
+05/02/23, 2:12 pm - Siddhi Hiray: Fakta code lihla ah
+05/02/23, 2:23 pm - Kratis: Thik he binary search la khup comments hote yaar code peksha jasta
+05/02/23, 2:32 pm - Siddhi Hiray: Mi nhi kela comments
+05/02/23, 2:41 pm - Kratis: Parth chya code madhye aahet khup saare comments tya saathi 😂
+05/02/23, 2:42 pm - Siddhi Hiray: ka
+05/02/23, 2:58 pm - Kratis: Kay mahitt mi baghitla tevha tr ardha comments hote
+05/02/23, 2:59 pm - Kratis: <Media omitted>
+05/02/23, 2:59 pm - Kratis: He bagh
+05/02/23, 3:11 pm - Siddhi Hiray: Waah
+05/02/23, 4:39 pm - Kratis: Aikna  6-9 practical che printout kadaycha aahe na mag tyat time complexity kuthe lihila aahes paper wr ki docs wr
+05/02/23, 5:51 pm - Siddhi Hiray: Printout vr ch lihi na
+05/02/23, 6:13 pm - Kratis: Printout wr lihu kay?
+05/02/23, 6:14 pm - Kratis: Ki word madhye kru
+05/02/23, 6:46 pm - Siddhi Hiray: Ek tr page vr lihi Kiva printout
+05/02/23, 10:20 pm - Kratis: Acha thik he  chalrl
+05/02/23, 10:20 pm - Kratis: Ek tu folder banavla ka? Java sathi
+05/02/23, 10:40 pm - Kratis: https://tinyurl.com/5ybfx9ye
+05/02/23, 11:18 pm - Siddhi Hiray: Ky he
+05/02/23, 11:18 pm - Siddhi Hiray: Ho
+05/02/23, 11:37 pm - Kratis: Java che practicals aahet sarva
+06/02/23, 12:07 am - Siddhi Hiray: Ok
+06/02/23, 11:10 pm - Siddhi Hiray: Hii
+06/02/23, 11:11 pm - Siddhi Hiray: Zala ka maths assignment?
+06/02/23, 11:26 pm - Kratis: <Media omitted>
+06/02/23, 11:27 pm - Kratis: Lolll kay coincidence hota aata jhala hota majha lihun ani pathavla baghitla tu pan message kela ahe😂
+06/02/23, 11:36 pm - Siddhi Hiray: 😂😂
+06/02/23, 11:36 pm - Siddhi Hiray: Maji pn zali lihun
+06/02/23, 11:37 pm - Kratis: Mg kashala magitla re😂
+06/02/23, 11:37 pm - Kratis: Mahiti aahe tu topper aahes te🥲
+06/02/23, 11:37 pm - Siddhi Hiray: Tu lihla ka hay v4la😂
+06/02/23, 11:37 pm - Siddhi Hiray: 😏😏
+06/02/23, 11:38 pm - Siddhi Hiray: Tuja lihun zala Ani ky scholar
+06/02/23, 11:39 pm - Kratis: Acha sorry mala vatla tula hi hawa aahe 😂 vicharla mag
+06/02/23, 11:39 pm - Kratis: Aata just jhala tujha aadhich jhala hota na mag kon scholar aahe saang
+06/02/23, 11:39 pm - Kratis: Answers cross check krna ani right aahe ka saang mala
+06/02/23, 11:40 pm - Siddhi Hiray: Nhi
+06/02/23, 11:40 pm - Siddhi Hiray: Ata g lihla
+06/02/23, 11:40 pm - Siddhi Hiray: Right asnar baba
+07/02/23, 12:43 am - Siddhi Hiray: <Media omitted>
+07/02/23, 12:43 am - Siddhi Hiray: <Media omitted>
+07/02/23, 12:43 am - Siddhi Hiray: Value dusri ghetli tu
+07/02/23, 8:00 am - Kratis: Areee yaar🥲🥲 haach scene hoto majha maths krta na ardha time wrong copy krto mi
+07/02/23, 8:06 am - Siddhi Hiray: 😂😂😂
+07/02/23, 8:06 am - Siddhi Hiray: Mi pn mistake keli hoti
+07/02/23, 8:06 am - Siddhi Hiray: But kela mg nit
+07/02/23, 5:12 pm - Kratis: Mii nhi kela mi direct submit kela kon changes krnar aata 🥲🥲😂
+07/02/23, 5:12 pm - Kratis: 12-30 lach aaj sodla aplya la
+07/02/23, 5:12 pm - Kratis: Ani boltat portion baki aahet
+07/02/23, 6:30 pm - Siddhi Hiray: 😂
+07/02/23, 6:30 pm - Siddhi Hiray: Sodla nhi saglay gelay😂
+07/02/23, 6:30 pm - Siddhi Hiray: Mi tr saral nighun ali
+07/02/23, 7:10 pm - Kratis: Haa saglay gelay mela konich aala nahi tya nantar tr
+07/02/23, 7:21 pm - Siddhi Hiray: 😂😂
+07/02/23, 7:21 pm - Siddhi Hiray: Zala ka adbms
+07/02/23, 7:25 pm - Kratis: Tech baghto aahe mi 2 practicals aahet na?
+07/02/23, 8:12 pm - Siddhi Hiray: Ho
+07/02/23, 8:16 pm - Kratis: Tujha jhala ka
+07/02/23, 9:50 pm - Kratis: Ritik bolto dog type kay tri aala hota object oriented something out of syllabus hota igg kay te
+07/02/23, 11:22 pm - Siddhi Hiray: Hay ky ahe
+08/02/23, 12:03 am - Siddhi Hiray: aaikna
+08/02/23, 12:03 am - Siddhi Hiray: maam output vagre check karat hoti ka
+08/02/23, 12:03 am - Siddhi Hiray: ani kon hota supervisor ky idea?
+08/02/23, 9:11 am - Kratis: Kay mahit bolo na tyana svatala idea navhti ky aahe he te lokani ek question kela ani band kela saray
+08/02/23, 9:11 am - Kratis: Hoo karat hotii hyana eka question lach 55 mins lagle hote
+08/02/23, 9:11 am - Kratis: Khyati madam
+08/02/23, 9:22 am - Siddhi Hiray: Okay
+08/02/23, 9:25 am - Kratis: Tu college la aali aahe ka
+08/02/23, 9:50 am - Siddhi Hiray: Nhi
+08/02/23, 9:50 am - Siddhi Hiray: Ata nightay me
+08/02/23, 9:50 am - Siddhi Hiray: Lavkar ch ye last che don lecture mini project ahe so tay maday practical hou shkate
+08/02/23, 11:08 am - Siddhi Hiray: Aaik na charger gheun ye na
+08/02/23, 11:08 am - Siddhi Hiray: Missed voice call
+08/02/23, 11:24 am - Kratis: Ho anto
+08/02/23, 11:25 am - Kratis: Pan wt cha practicals aahet na aaj
+08/02/23, 11:25 am - Siddhi Hiray: Nhi
+08/02/23, 11:44 am - Kratis: Ho re baba aaj wt aahe kuthla tt baghtes Tu?
+08/02/23, 11:44 am - Kratis: <Media omitted>
+08/02/23, 11:44 am - Kratis: Wednesday bagh
+08/02/23, 11:44 am - Kratis: Tu a cha baghte aahes b cha bagh
+08/02/23, 6:21 pm - Siddhi Hiray: Ha 🤦🏻‍♀️
+08/02/23, 6:46 pm - Kratis: Adbms kasa gela?
+08/02/23, 6:56 pm - Siddhi Hiray: Thik hota
+08/02/23, 6:56 pm - Siddhi Hiray: First question kelw
+08/02/23, 6:56 pm - Siddhi Hiray: Second ch object banvla bas
+08/02/23, 7:08 pm - Kratis: Mi pan mala first question laach 45 mins lagle nashib purna jhala trii
+08/02/23, 7:09 pm - Kratis: Second insert paryant kela mi mag time up bole ani nighalo
+08/02/23, 7:13 pm - Siddhi Hiray: Waah
+08/02/23, 7:13 pm - Siddhi Hiray: Haa same
+08/02/23, 7:46 pm - Kratis: Aaj kai lokana chocolate det hotis tu😂
+08/02/23, 9:16 pm - Siddhi Hiray: 👀
+08/02/23, 9:16 pm - Siddhi Hiray: Tula kasa maythi
+08/02/23, 9:46 pm - Kratis: Atul aala bola mala Tu sarvana chocolate det hotis😂😂
+09/02/23, 12:51 am - Siddhi Hiray: 😂😂asch aapla
+09/02/23, 9:22 am - Kratis: Mala vatla birthday aahe tujha 😂😂
+09/02/23, 10:55 am - Siddhi Hiray: Nhi te
+09/02/23, 10:55 am - Siddhi Hiray: Re*
+09/02/23, 2:56 pm - Kratis: Aaj ka nhii aalis tu
+09/02/23, 3:04 pm - Siddhi Hiray: Tu navta alas
+09/02/23, 3:05 pm - Siddhi Hiray: Me Yeun geli pn
+09/02/23, 3:05 pm - Siddhi Hiray: Maths che notes patv na
+09/02/23, 6:13 pm - Kratis: Mi break nantr aalo hoto aaj😂
+09/02/23, 6:14 pm - Kratis: Are kahi shikavla nahi majhi book deto gheun jaa udhya
+09/02/23, 8:56 pm - Siddhi Hiray: Okau
+09/02/23, 8:56 pm - Siddhi Hiray: <Media omitted>
+09/02/23, 8:57 pm - Siddhi Hiray: Division A cha question paper
+09/02/23, 9:01 pm - Kratis: Kay question aahe he 🥲
+09/02/23, 9:06 pm - Siddhi Hiray: 😂😂😂
+09/02/23, 9:10 pm - Kratis: Code miyala pahije hyacha
+09/02/23, 9:10 pm - Kratis: Saray google open krnar aahe mi tr
+09/02/23, 9:54 pm - Siddhi Hiray: Haa
+09/02/23, 9:54 pm - Siddhi Hiray: Net on tr phje na
+09/02/23, 9:59 pm - Kratis: Asel re yevtha kay tension ghete udhya last exam aahe start la tension ghetle nahi aata kay ghete
+09/02/23, 10:56 pm - Siddhi Hiray: Are last ahe mg changla jayla phje na
+09/02/23, 10:56 pm - Siddhi Hiray: Mg tension nhi rahat
+09/02/23, 11:08 pm - Kratis: He bagh aplyala tasa hi divakar aahe jasta tension gheu nako pd aan code takun nahich aala tr browser wr tak tikde pakka yetil sarva code
+09/02/23, 11:10 pm - Siddhi Hiray: Haa tech
+09/02/23, 11:10 pm - Siddhi Hiray: Aavantika tr asnar ch na re
+09/02/23, 11:10 pm - Siddhi Hiray: Rutik ky nola
+09/02/23, 11:10 pm - Siddhi Hiray: Bola*
+09/02/23, 11:16 pm - Kratis: Aaj navhti aquila and rashmika hoti tyana tr
+09/02/23, 11:17 pm - Kratis: Toh bola db cha tyana parth  cha code anla hota pan tyala 10-15 error aale mag shevti google wrun copy kela tyat pan error mag shevti 2 code with op lavla ani 3 fakta code lavla
+10/02/23, 12:54 am - Siddhi Hiray: Waaaah
+10/02/23, 12:55 am - Siddhi Hiray: Aacha
+10/02/23, 12:55 am - Siddhi Hiray: Thik ahe na
+10/02/23, 12:55 am - Siddhi Hiray: // Importing events
+const EventEmitter = require('events');
+
+// Initializing event emitter instances
+var eventEmitter = new EventEmitter();
+
+// Registering to myEvent
+eventEmitter.on('myEvent', (msg) => {
+console.log(msg);
+});
+
+// Triggering myEvent
+eventEmitter.emit('myEvent', "First event");
+10/02/23, 12:55 am - Siddhi Hiray: //emit method with arguments
+const events = require('events');
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+emitter.on('saved',(arg)=> {
+console.log(`event occured:number 1: ${arg.n1}, number 2: ${arg.n2}`);
+});
+emitter.emit('saved',{
+ n1: '10',
+ n2: '20'
+});
+10/02/23, 12:55 am - Siddhi Hiray: //calculating Area of rectangle
+const events = require('events');
+const EventEmitter = require('events');
+const emitter = new EventEmitter();
+const length=10;
+const breadth=20;
+emitter.on('Area',(arg)=> {
+ console.log(`length = ${length} and breadth = ${breadth}`)
+ console.log(`Area of rectangle is = ${arg.area}`);
+});
+emitter.emit('Area',{
+ area: length*breadth
+});
+10/02/23, 12:55 am - Siddhi Hiray: // Importing events
+const EventEmitter = require('events');
+ 
+// Initializing event emitter instances
+var eventEmitter = new EventEmitter();
+ 
+// Declaring listener fun1 to myEvent1
+var fun1 = (msg) => {
+    console.log("Message from fun1: " + msg);
+};
+ 
+// Declaring listener fun2 to myEvent2
+var fun2 = (msg) => {
+    console.log("Message from fun2: " + msg);
+};
+ 
+// Listening to myEvent with fun1 and fun2
+eventEmitter.addListener('myEvent', fun1);
+ 
+// fun2 will be inserted in front of listeners array
+eventEmitter.prependListener('myEvent', fun2);
+ 
+// Listing listeners
+console.log(eventEmitter.listeners('myEvent'));
+ 
+// Count the listeners registered to myEvent
+console.log(eventEmitter.listenerCount('myEvent'));
+ 
+// Triggering myEvent
+eventEmitter.emit('myEvent', 'Event occurred');
+10/02/23, 12:55 am - Siddhi Hiray: file
+10/02/23, 12:55 am - Siddhi Hiray: var fs = require('fs');
+fs.appendFile('mynewfile.txt', 'Hello content!', function (err) {
+  if (err) throw err;
+  console.log('Saved!');
+});
+10/02/23, 12:55 am - Siddhi Hiray: var fs = require('fs');
+fs.unlink('mynewfile.txt', function (err) {
+    if (err) throw err;
+       console.log('File deleted!');
+    });
+10/02/23, 12:55 am - Siddhi Hiray: var fs = require('fs');
+fs.readFile('mynewfile.txt', 'utf8', (err, data) => {
+  if (err) {
+    console.error(err);
+    return;
+  }
+  console.log(data);
+});
+10/02/23, 12:55 am - Siddhi Hiray: var fs = require('fs');
+fs.writeFile('mynewfile.txt', 'This is my text', function (err) {
+    if (err) throw err;
+    console.log('Replaced!');
+  });
+10/02/23, 12:55 am - Siddhi Hiray: function
+10/02/23, 12:55 am - Siddhi Hiray: console.log("1.Simple function in node js");
+var x = function (a, b) {
+    return a + b;
+}
+console.log(x(10, 20));
+
+console.log("\n2.Simple multiplication function in node js with arrow function");
+var mul=(a,b)=> a*b;
+console.log('Multiplication: '+mul(10,20));
+
+console.log("\n3.Anonymous function");
+let show=function(){
+    console.log('show is anonymous function')
+   };
+   show();
+
+console.log("\n4.To create and execute anonymous function immediately");
+(function(){
+    console.log('this is invoking function immediately after its creation');
+   })();
+
+console.log("\n5.Using anonymous function as a argument of another function") ;
+setTimeout(function(){
+    console.log('it gets execute after 1 second');
+    },1000);
+10/02/23, 12:55 am - Siddhi Hiray: module
+10/02/23, 12:55 am - Siddhi Hiray: console.log("1.Module Console");
+console.log("Hello World");
+console.log("Welcome to the node js session");
+
+console.log("\n2.Using variables in REPL");
+x=40
+y=20
+console.log(x+y);
+
+
+console.log("\n3.Printing fullname in REPL.");
+function fullname(fname,lname)
+{
+ console.log("hello"+" "+fname+" "+lname+".");
+}
+fullname('Siddhi','Darde');
+
+
+console.log("\n4.Using loops in REPL.");
+for(var i=1;i<=5;i++){
+    console.log("Learning REPL")
+}
+
+
+console.log("\n5. Performing Arithmetical operations in REPL")
+var add = function (a, b) {
+    return a + b;
+}
+console.log("Addition of is " + add(10, 20));
+
+var sub = function (a, b) {
+    return a - b;
+}
+console.log("Subtraction of is " + sub(10, 20));
+
+var mul = function (a, b) {
+    return a * b;
+}
+console.log("Multiplication of is " + mul(10, 20));
+
+var div = function (a, b) {
+    return a / b;
+}
+console.log("divsion of is " + div(10, 20));
+10/02/23, 12:55 am - Siddhi Hiray: server
+10/02/23, 12:55 am - Siddhi Hiray: const http = require('http');
+
+//create a server object:
+http.createServer((req, resp)=>{
+  resp.write("Hello siddhi!"); //write a response to the client
+  resp.end(); //end the response
+}).listen(5000); //the server object listens on port 5000
+console.log('Server is running properly on port 5000');
+10/02/23, 12:55 am - Siddhi Hiray: const http=require('http');
+const server=http.createServer(function(req,res){
+ if(req.url=='/') {
+ res.writeHead(200,{'Content-Type': 'text/html'});
+ res.write('<html><body><h1>This is home page.</h1></body></html>');
+ res.end();
+ }else if (req.url=="/contact"){
+ res.writeHead(200,{'Content-Type': 'text/html'});
+ res.write('<html><body><p>This is contact page</p></body></html>');
+ res.end();
+ }else if (req.url=="/admin"){
+ res.writeHead(200,{'Content-Type': 'text/html'});
+ res.write('<html><body><p>This is admin page</p></body></html>');
+ res.end();
+ } else {
+ res.end('Invalid request');
+ }
+});
+server.listen(7000);
+console.log('server running on port 7000');
+10/02/23, 12:55 am - Siddhi Hiray: Hay sagle codes ahe
+10/02/23, 7:45 pm - Kratis: Thankss nashib he sarvach aala hota
+10/02/23, 8:33 pm - Siddhi Hiray: 🤩
+10/02/23, 8:34 pm - Siddhi Hiray: Ha mi pn haych code lihila ahe
+10/02/23, 9:42 pm - Kratis: Majhya purna row majhach copyy krat hota tula mahit aahe 😂😂 bhaii lokana sadha code pn nhijamat hota
+10/02/23, 11:53 pm - Siddhi Hiray: 😂😂😂
+10/02/23, 11:53 pm - Siddhi Hiray: Scholar ahes tu tujach copy karnar na
+11/02/23, 9:17 am - Kratis: Waahhh Tu scholar asun dusryana scholar bolte aahes 😂😂😂
+11/02/23, 9:22 am - Siddhi Hiray: Ha tu pn scholar ch ahes na
+11/02/23, 9:23 am - Siddhi Hiray: Sir bag kiti fast fast shikhvat ahe
+11/02/23, 9:23 am - Siddhi Hiray: Jasa ki portion aaj ch sampavnar😂
+11/02/23, 9:37 am - Kratis: Tula mahit aahe ka pune madhye sem1 finish jhala aahe jan end madhye fatfat shikavun aplya college la hi lakshat aala ki tarash eternia madhye exam ghyaycha visarlo aahot apan mhanun 20 la gheun bhagvat aahe
+11/02/23, 9:38 am - Kratis: Aaj sampavnar aahe java practical udhya mag monday pasun self study jhala😂😂
+11/02/23, 9:38 am - Siddhi Hiray: Haa self study la time dila tr bas m
+11/02/23, 9:38 am - Siddhi Hiray: <Media omitted>
+11/02/23, 9:39 am - Siddhi Hiray: Hayncha change zala  hota date
+11/02/23, 9:39 am - Siddhi Hiray: Hay sir ky shikavtay ky samjatch nhi🤦🏻‍♀️
+11/02/23, 10:25 am - Kratis: Nhi detill tyancha job course complete karaycha aahe te lok self study krayla time denarch nhi aahe
+11/02/23, 10:26 am - Kratis: Kiti date lihila aahe kadhi pasun aahe?
+11/02/23, 10:26 am - Kratis: Mi jhoploaahe madhech join krto aahe mala 103 taap aahe mala tasa hi kay samajhnar nhi aage
+11/02/23, 10:32 am - Siddhi Hiray: 😳😳
+11/02/23, 10:32 am - Siddhi Hiray: Mg attend kashala kartoys
+11/02/23, 10:32 am - Siddhi Hiray: Aaram kr
+11/02/23, 10:32 am - Siddhi Hiray: Te nhi maythi😂
+11/02/23, 11:08 am - Kratis: Attendance baba defaulter madhye taktill toh minesh ek tr sanki aahe fukat paper basvayla nhi denar
+11/02/23, 11:08 am - Kratis: Ha na yaar marathi madhye lihila aahe mhanun jasta samjhat nhi aahe
+11/02/23, 11:08 am - Siddhi Hiray: Haa
+11/02/23, 11:08 am - Siddhi Hiray: Yaar h sir kiti efforts ghetayt
+11/02/23, 11:09 am - Siddhi Hiray: Pn ek program run ho nhi ye
+11/02/23, 11:09 am - Siddhi Hiray: Boltay aaj ka din hi karab h🥹
+11/02/23, 11:17 am - Kratis: Last online lec la pan hech jhala hota 11-45 la run jhala hota ek code 😂
+11/02/23, 11:17 am - Kratis: Typing mistake khup krto toh spellings madhye mhanun error yetat tyala khup
+11/02/23, 11:18 am - Siddhi Hiray: Ha na
+11/02/23, 11:18 am - Siddhi Hiray: Are ha mulga kon ahe
+11/02/23, 11:18 am - Siddhi Hiray: 😂😂
+11/02/23, 11:35 am - Kratis: Punit na kon aahe kay mahit aplya batch cha nahi aahemasti krt aahe asa vatta aahe koni tri
+11/02/23, 11:48 am - Kratis: Attendance kadhi ghetla hyani?
+11/02/23, 11:48 am - Siddhi Hiray: Ghetli bole
+11/02/23, 11:49 am - Kratis: Shevti ghetli na mi 11-15 paryant jhoplo hoto😂
+11/02/23, 1:44 pm - Siddhi Hiray: 😂😂
+12/02/23, 12:52 pm - Kratis: Tu adbms basli hotis ka?
+12/02/23, 12:53 pm - Siddhi Hiray: Ho in karun thevla hota😂😂😂
+12/02/23, 12:54 pm - Kratis: Attendance kasa ghetla mg tine
+12/02/23, 12:55 pm - Kratis: Mi 12-44 paryant in hota majhi battery band jhali join 50 la kela 6 lok disat hoti
+12/02/23, 2:12 pm - Siddhi Hiray: Ss
+12/02/23, 2:12 pm - Siddhi Hiray: 11 la sampla hota lecture
+12/02/23, 3:06 pm - Kratis: Adbms cha lecture pan hota 11 te 1 group wr baghitla nahi kay
+12/02/23, 4:16 pm - Siddhi Hiray: Haa
+12/02/23, 4:16 pm - Siddhi Hiray: Ha kela attend
+12/02/23, 5:33 pm - Kratis: Tyacha attendance baddal bolto aahe mi
+12/02/23, 6:41 pm - Siddhi Hiray: Ha kela attend
+12/02/23, 6:41 pm - Siddhi Hiray: Pn aaikat navti😂
+12/02/23, 8:37 pm - Kratis: Aik na
+12/02/23, 8:37 pm - Kratis: Tujhe files kuthle kuthle complete jhale aahet
+12/02/23, 8:37 pm - Kratis: Saang jara
+12/02/23, 8:37 pm - Kratis: Ani udhya aj cha file submission aahe kay?
+12/02/23, 8:41 pm - Siddhi Hiray: Data Structure
+12/02/23, 8:41 pm - Siddhi Hiray: Nhi
+12/02/23, 9:44 pm - Kratis: 13 sample
+12/02/23, 10:01 pm - Siddhi Hiray: Ky
+12/02/23, 11:07 pm - Kratis: Priyanka evict jhali😂
+12/02/23, 11:19 pm - Siddhi Hiray: waaaahhhhh
+12/02/23, 11:19 pm - Siddhi Hiray: masta
+12/02/23, 11:19 pm - Siddhi Hiray: JSP sathi sirani netbeans use kela hota ka?
+12/02/23, 11:23 pm - Kratis: Sir Netbeans nahi use karat
+12/02/23, 11:23 pm - Kratis: Te fakta eclipse use krtat
+12/02/23, 11:23 pm - Kratis: Tu netbeans waparte aahes kay
+12/02/23, 11:45 pm - Siddhi Hiray: Nhi
+12/02/23, 11:45 pm - Siddhi Hiray: JSP sathi navti me
+12/02/23, 11:46 pm - Siddhi Hiray: So mala maythi nhi ky use kela
+13/02/23, 8:07 am - Kratis: Acha acha sir na tr normally eclipse use krta na baghitla aahe pratyek lecture madhye
+13/02/23, 9:21 am - Siddhi Hiray: Aacha ok
+13/02/23, 7:09 pm - Kratis: File li hu nakkos
+13/02/23, 7:09 pm - Kratis: Purna print maraychi
+13/02/23, 7:10 pm - Siddhi Hiray: Kon bola
+13/02/23, 7:14 pm - Kratis: Aaj college la teacher bole sarva
+13/02/23, 7:14 pm - Kratis: Mhanun tr call kela hota na tula🥲
+13/02/23, 7:17 pm - Siddhi Hiray: Ok
+13/02/23, 7:17 pm - Siddhi Hiray: Ha kartay me call tula
+13/02/23, 7:17 pm - Siddhi Hiray: Lec sampla k
+13/02/23, 7:18 pm - Kratis: 8 paryant aahe tya nantr java 8-9🥲🥲
+13/02/23, 7:21 pm - Siddhi Hiray: Yeday zale ahe g lok
+13/02/23, 7:21 pm - Siddhi Hiray: R studio kasa download karycha ahe
+13/02/23, 7:21 pm - Siddhi Hiray: Link ahe ka
+13/02/23, 7:25 pm - Kratis: Simple aahe rstudio download karayla thamb
+13/02/23, 7:26 pm - Kratis: https://youtu.be/UTFxSn-N2Ps
+13/02/23, 7:26 pm - Kratis: Video bagh 2 mins cha ahe
+13/02/23, 7:30 pm - Siddhi Hiray: Thankyou
+13/02/23, 7:56 pm - Kratis: Call nako karu lec leave hoil majha 😂😂
+13/02/23, 7:56 pm - Kratis: Kal pann attendance nhi miyala hota mal😂
+13/02/23, 8:08 pm - Siddhi Hiray: okay haa
+13/02/23, 8:11 pm - Kratis: 🤦‍♂️
+13/02/23, 8:11 pm - Siddhi Hiray: ky
+13/02/23, 8:21 pm - Kratis: Call kela hota uchala nahi
+13/02/23, 8:23 pm - Siddhi Hiray: Kadhi
+13/02/23, 8:24 pm - Kratis: <Media omitted>
+13/02/23, 8:26 pm - Siddhi Hiray: Are thamb kartay
+14/02/23, 9:08 am - Kratis: Aaj pan nhi aalis tu
+14/02/23, 9:17 am - Siddhi Hiray: On the way ahe
+14/02/23, 9:27 am - Kratis: Bhaiii kahi faida nahi aahe yeun tujha
+14/02/23, 9:28 am - Siddhi Hiray: Ka
+14/02/23, 9:33 am - Kratis: 10-12 aj aahe
+14/02/23, 9:33 am - Kratis: Mag 12-30 to 4-30 wt aahe
+14/02/23, 9:33 am - Kratis: Basnar aahes tu wt
+14/02/23, 9:34 am - Siddhi Hiray: Waah
+14/02/23, 9:34 am - Siddhi Hiray: Mala vatla aaj tari maths houl
+14/02/23, 9:34 am - Siddhi Hiray: Kiva adbms
+14/02/23, 9:36 am - Kratis: Mi kalach bolo Adbms lab kal last hota aata nhi honar aah
+14/02/23, 9:37 am - Kratis: Maths nhi aahe
+14/02/23, 9:39 am - Siddhi Hiray: Haa maths nhi honar ahe ma'am online lecture ghenar ahe
+14/02/23, 9:40 am - Siddhi Hiray: Ethaych basli ahe maam
+14/02/23, 10:03 am - Siddhi Hiray: Lecture sampa ka re?
+14/02/23, 10:06 am - Kratis: Kadhi ghenar aahe lec ti
+14/02/23, 10:07 am - Kratis: Nhiii ajun lab chalu aage
+14/02/23, 6:05 pm - Kratis: Tula pentaho and r cha miyali ka file?
+14/02/23, 6:45 pm - Siddhi Hiray: Nhi ajun
+14/02/23, 6:45 pm - Siddhi Hiray: Me te pendrive maday gheun tr ali ahe
+14/02/23, 6:45 pm - Siddhi Hiray: Bagu ata
+14/02/23, 7:28 pm - Kratis: Fakta parth chya laptop madhye pentaho ajun paryant run jhala aahe ajun kona kadech nhi jhala aahe
+14/02/23, 7:28 pm - Kratis: Also aquilla ne majha naav ghetla hota ka class madhye
+14/02/23, 7:37 pm - Siddhi Hiray: Nhi
+14/02/23, 7:38 pm - Siddhi Hiray: Ha
+14/02/23, 7:38 pm - Siddhi Hiray: R cha milaly ka programme
+14/02/23, 7:38 pm - Siddhi Hiray: Tr please patv
+14/02/23, 7:38 pm - Siddhi Hiray: Submission ahe na aaj
+14/02/23, 7:46 pm - Kratis: Tech krto aahe thoda vey lagel khup aahe na ratrii paryant pathavto tula
+14/02/23, 7:47 pm - Siddhi Hiray: hss
+14/02/23, 7:47 pm - Siddhi Hiray: Haa*
+14/02/23, 7:47 pm - Siddhi Hiray: konta kartoys
+14/02/23, 7:48 pm - Siddhi Hiray: r kar phela chota ahe te
+14/02/23, 8:04 pm - Kratis: chota 16 questions dille aahet tine 1 practical madhye
+14/02/23, 8:05 pm - Siddhi Hiray: ha m
+14/02/23, 8:05 pm - Siddhi Hiray: karu shakto tu😁
+14/02/23, 9:24 pm - Kratis: Tula code deu ka?
+14/02/23, 9:24 pm - Kratis: Kadu shakshil?
+14/02/23, 9:59 pm - Siddhi Hiray: Haa
+14/02/23, 9:59 pm - Siddhi Hiray: Nhi re
+14/02/23, 10:15 pm - Kratis: Thamb majha jhala ki pdf send krto mag tech submit kr
+14/02/23, 10:56 pm - Siddhi Hiray: Haa thik ahe
+14/02/23, 10:57 pm - Siddhi Hiray: Aaik na patv na
+14/02/23, 10:57 pm - Siddhi Hiray: Missed voice call
+14/02/23, 10:59 pm - Kratis: <Media omitted>
+14/02/23, 11:00 pm - Kratis: Parthcha ghe toh pryant mi pathavro
+14/02/23, 11:00 pm - Siddhi Hiray: Ky
+14/02/23, 11:06 pm - Kratis: Callkr
+14/02/23, 11:29 pm - Kratis: Rename kr and submit kr if tula use karaycha aahe tr
+14/02/23, 11:29 pm - Kratis: <Media omitted>
+14/02/23, 11:38 pm - Siddhi Hiray: Are kiti ahe h
+14/02/23, 11:38 pm - Siddhi Hiray: Kasa rename karnar
+15/02/23, 12:02 am - Siddhi Hiray: <Media omitted>
+15/02/23, 12:07 am - Kratis: Thankss a lot😁😁
+15/02/23, 12:47 am - Siddhi Hiray: 😀😀
+15/02/23, 7:07 pm - Kratis: Tujha kasa chala m
+15/02/23, 7:44 pm - Siddhi Hiray: Sagla kar complete
+15/02/23, 8:15 pm - Siddhi Hiray: Attendance hotay
+15/02/23, 9:38 pm - Kratis: Hooo mi khaliii hoto mela majhe mitra pthun absent bolat hote
+15/02/23, 9:39 pm - Kratis: Adbms cha miyta aahe mostly r majha pentaho parth sql atul adbms sorted aahe aata thoda
+15/02/23, 9:40 pm - Siddhi Hiray: Me adbms kela ahe
+15/02/23, 9:40 pm - Siddhi Hiray: R ch patv mala bas
+15/02/23, 9:41 pm - Siddhi Hiray: Pentho me kartat run
+15/02/23, 9:41 pm - Siddhi Hiray: Parth ni nhi dila tr😂
+15/02/23, 10:44 pm - Kratis: Mag Tu ss kadte aahe ka tyacha
+15/02/23, 10:44 pm - Kratis: Run kelala
+15/02/23, 10:44 pm - Kratis: R cha majhach aahe baki udhya baghu aata 😂
+15/02/23, 11:30 pm - Siddhi Hiray: Patv m
+15/02/23, 11:30 pm - Siddhi Hiray: Ajun nhi start kela
+15/02/23, 11:30 pm - Siddhi Hiray: 🤦🏻‍♀️
+15/02/23, 11:41 pm - Kratis: Kal pathav la tevdach aahe ajun kahi nahi practical question kuthe pathvle aahet tine
+15/02/23, 11:41 pm - Kratis: Jhop mag aata kay udhya je sarva krtil te apan kru
+16/02/23, 12:42 am - Siddhi Hiray: Are aaj vala ?
+16/02/23, 12:42 am - Siddhi Hiray: R ch kela na tu
+16/02/23, 12:43 am - Siddhi Hiray: Are mala vatla tu karnar ahes mahun me nhi kela
+16/02/23, 12:43 am - Siddhi Hiray: Are ky tu🤦🏻‍♀️
+16/02/23, 11:40 am - Kratis: <Media omitted>
+16/02/23, 12:43 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 12:54 pm - Kratis: Lavkar
+16/02/23, 12:56 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 12:59 pm - Kratis: Thanks a lot 😁
+16/02/23, 1:01 pm - Siddhi Hiray: 😁
+16/02/23, 2:24 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 2:44 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 2:45 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 5:00 pm - Kratis: Happy Birthday tujhya papala
+16/02/23, 5:18 pm - Kratis: Wt cha op chi file pathav na tujhi
+16/02/23, 6:24 pm - Siddhi Hiray: Thankyou ✨🥰
+16/02/23, 6:24 pm - Siddhi Hiray: Are sir vali ch lavla re
+16/02/23, 6:25 pm - Siddhi Hiray: <Media omitted>
+16/02/23, 6:28 pm - Kratis: Sir ne kuthe takli aahepan
+16/02/23, 6:28 pm - Siddhi Hiray: Grp vr
+16/02/23, 6:29 pm - Siddhi Hiray: Ata haych print kar na
+16/02/23, 6:29 pm - Siddhi Hiray: 5 practical tr lihilay hote na tu
+16/02/23, 6:33 pm - Kratis: Hooo aajach miyali journal tya divshi jii dili hotiii ti
+16/02/23, 6:33 pm - Kratis: Kay check kela mahit nahi tyane
+16/02/23, 6:33 pm - Kratis: Tula file return miyali ka?
+16/02/23, 6:45 pm - Siddhi Hiray: Nhi uday denar
+16/02/23, 6:46 pm - Kratis: Mag parat yets Tu udhya
+16/02/23, 6:46 pm - Siddhi Hiray: Ho😭
+16/02/23, 6:51 pm - Kratis: Areee reee bichari gaa aaj submit kela udhya nahi yenya sathi shevti udhya pan yavla lagta aahe
+16/02/23, 6:57 pm - Siddhi Hiray: Ha na yaar
+16/02/23, 8:25 pm - Siddhi Hiray: Free ashil Teva sang
+16/02/23, 8:26 pm - Siddhi Hiray: JSP ch v4raycha ahe
+16/02/23, 9:05 pm - Kratis: Bolna kay jhala
+16/02/23, 9:06 pm - Kratis: Baba mala kahi yet nhi asa bolu nakos tu😂
+16/02/23, 9:29 pm - Siddhi Hiray: kalch bolas na yeta
+16/02/23, 9:29 pm - Siddhi Hiray: ata ky nhi bolto😒
+16/02/23, 9:32 pm - Kratis: thoda thoda graduation madhye kkela hota na tyavar fakta idea aahe kay asta ani kay karaycha asta purna yet nhi ani mi most probably visarun gelo asin
+16/02/23, 9:32 pm - Kratis: pan problem kay jhala aahe te tri saang
+16/02/23, 9:32 pm - Siddhi Hiray: ky tuu
+16/02/23, 9:32 pm - Siddhi Hiray: kal pn asch kelas r ch
+16/02/23, 9:33 pm - Siddhi Hiray: mala program ky maythi nhi
+16/02/23, 9:33 pm - Siddhi Hiray: ekda bgayhcha ahe kasa karycha
+16/02/23, 9:33 pm - Siddhi Hiray: bas
+16/02/23, 9:33 pm - Kratis: mag parth shi bolun ghe na code related sarva parth la yeta tyala vicharna tu
+16/02/23, 9:34 pm - Siddhi Hiray: okay thik ahe
+16/02/23, 9:42 pm - Kratis: bhadakli aahes kay tu
+16/02/23, 10:17 pm - Siddhi Hiray: Nhi re
+16/02/23, 10:25 pm - Kratis: Mala vatla udhya bhetlyawar marshil mala 😂😂
+17/02/23, 12:39 am - Siddhi Hiray: 😂😂😂😂
+17/02/23, 12:39 am - Siddhi Hiray: Nhi nhi
+17/02/23, 12:30 pm - Kratis: Tu college la nahi aalis?
+17/02/23, 12:42 pm - Siddhi Hiray: Ha nhi ali
+17/02/23, 12:42 pm - Siddhi Hiray: Tu gela ahes?
+17/02/23, 1:19 pm - Kratis: Are adhi bolaycha tujha journals me thevle asta na mag
+17/02/23, 1:19 pm - Kratis: Jaun aalo sakayi
+17/02/23, 1:43 pm - Siddhi Hiray: Are yaar ha na
+17/02/23, 1:44 pm - Siddhi Hiray: Waah
+17/02/23, 1:44 pm - Siddhi Hiray: Zala ka check
+17/02/23, 1:46 pm - Kratis: Hoo zaale stamp pan marun aaloo aamhi sarva journals wr
+17/02/23, 3:29 pm - Siddhi Hiray: Waah
+17/02/23, 3:29 pm - Siddhi Hiray: Te already Marla nastat ka
+17/02/23, 4:52 pm - Kratis: Tula mahit aahe ka stamp marnya saathiii baharun special mansala bolavla hota 😂😂😂
+17/02/23, 4:52 pm - Kratis: Aplya college cha mama😂
+17/02/23, 4:53 pm - Siddhi Hiray: kon mama?
+17/02/23, 5:02 pm - Kratis: Mama re blue t shirt ghalun phirtat na hiraycha
+17/02/23, 5:25 pm - Siddhi Hiray: Ha mg tech denar na
+17/02/23, 5:25 pm - Siddhi Hiray: Ata ky aambani la bolavcha ka😂
+17/02/23, 6:52 pm - Kratis: Mag kalach dyayla hava hota aaj ka parat bolavla mag mama tr kal pan hote ma🥲🥲
+17/02/23, 8:15 pm - Kratis: Tu node js run kelas
+17/02/23, 10:14 pm - Siddhi Hiray: nhi
+17/02/23, 10:40 pm - Kratis: Kr mag ikde run hot nhi
+17/02/23, 11:04 pm - Kratis: <Media omitted>
+17/02/23, 11:04 pm - Kratis: Db wala nhi jhala run majha
+17/02/23, 11:23 pm - Siddhi Hiray: maja pn db nhi zala
+18/02/23, 12:04 am - Kratis: Aaj xaamp open kela mela xaamp error det hota achanak kay mahit kay jhala mhanun db kelach nhi shevti mi
+18/02/23, 12:30 pm - Siddhi Hiray: Konta kartoy tu
+18/02/23, 12:31 pm - Kratis: 6 db wala
+18/02/23, 12:37 pm - Siddhi Hiray: Konta
+18/02/23, 1:04 pm - Kratis: Wt cha 6 aahe na db connect karaycha toh
+18/02/23, 1:08 pm - Siddhi Hiray: aacha ha
+18/02/23, 1:08 pm - Siddhi Hiray: wt ahe ka first tuja
+18/02/23, 1:08 pm - Siddhi Hiray: mala tr wt ch ky yet nhi ahe first 5 sodun
+18/02/23, 1:14 pm - Kratis: Hoooo
+18/02/23, 1:15 pm - Kratis: Tujha kay aahe
+18/02/23, 1:15 pm - Kratis: Tu sodhh tula sarva yet aahe mahit aahe mala
+18/02/23, 1:29 pm - Siddhi Hiray: Are ky pn
+18/02/23, 1:29 pm - Siddhi Hiray: Tu scholar ahes
+18/02/23, 2:46 pm - Kratis: Te baghitla mi class test la kon pages bharat hota te🥲🥲
+18/02/23, 3:34 pm - Siddhi Hiray: 👀
+18/02/23, 3:34 pm - Siddhi Hiray: Result vr samjel ha ata
+18/02/23, 6:13 pm - Kratis: Tech tu top marshil ani amhla kt asel tevha kyel tula🥲
+18/02/23, 6:20 pm - Siddhi Hiray: Ho rahude🤣🤣
+18/02/23, 6:31 pm - Kratis: Tujha kuthla paper aahe monday la
+18/02/23, 8:07 pm - Siddhi Hiray: ADBMS
+18/02/23, 8:08 pm - Kratis: jhala ka tujha vachun sarva
+18/02/23, 8:19 pm - Siddhi Hiray: Nhi re
+18/02/23, 8:30 pm - Kratis: Viva saathi kay krnar aahe tu
+18/02/23, 8:30 pm - Kratis: Notes ke le aahet ka
+18/02/23, 8:52 pm - Siddhi Hiray: Ky Karu
+18/02/23, 8:52 pm - Siddhi Hiray: Nhi re
+18/02/23, 8:52 pm - Siddhi Hiray: Programs try karyche ajun
+18/02/23, 8:52 pm - Siddhi Hiray: 😭
+18/02/23, 8:52 pm - Siddhi Hiray: Kal r ch 3 practical kelay hote
+18/02/23, 8:56 pm - Kratis: Tech tula vicharto aahe mi 😂
+18/02/23, 8:57 pm - Kratis: R yeta aahe na mag tula abhyas nhi jhala asel tr saray pd gheun jaa na try kr teacher nastana
+18/02/23, 8:58 pm - Kratis: Time pn nahi aahe na kay karaycha
+18/02/23, 8:58 pm - Kratis: Pentaho run jhala ka tujhya pc madhye
+18/02/23, 9:04 pm - Siddhi Hiray: Ho
+18/02/23, 9:04 pm - Siddhi Hiray: Are pn konta PC aplay la yenar hay kuthe maythi
+18/02/23, 9:04 pm - Siddhi Hiray: 🙁
+18/02/23, 9:04 pm - Siddhi Hiray: Ha na
+18/02/23, 9:08 pm - Kratis: Practice kelas magtu pentaho? Kasa ahe easy ahe ka?
+18/02/23, 9:09 pm - Kratis: Pendrive gheun jaa na mag,  ani devache ashirwad asle tr data hii chalu asayla hawa mag jhala kaam apla😂
+18/02/23, 9:11 pm - Siddhi Hiray: 2 practical kela
+18/02/23, 9:11 pm - Siddhi Hiray: Te easy hote
+18/02/23, 9:11 pm - Siddhi Hiray: Are ho but tari
+18/02/23, 9:20 pm - Kratis: Jhale na run mg tension nako gheu tu yevtha jevda kela aahe na tevda bas aahe bakicha aata paper chya divashi kyel aplyala
+18/02/23, 9:20 pm - Kratis: Tujhya kade formals aahet aku
+18/02/23, 9:20 pm - Kratis: Kay
+18/02/23, 9:28 pm - Siddhi Hiray: Tension tr aalay yaar
+18/02/23, 9:28 pm - Siddhi Hiray: Ekch ahe🤣
+18/02/23, 10:34 pm - Kratis: Aata kay tension gheun krnar je yet asel na te suddha jail mag tujha aaramat raha baghu je hoil te hoil
+18/02/23, 10:34 pm - Kratis: Majhya kade te pan nahi aahe
+18/02/23, 11:45 pm - Siddhi Hiray: Are but tari re
+18/02/23, 11:45 pm - Siddhi Hiray: Ky yet ch nhi ahe as zalay
+18/02/23, 11:53 pm - Kratis: Mala tr double tension aahe yaar msc cs cha pan dates aale aahe exam che 🥲
+18/02/23, 11:53 pm - Kratis: Mi sakay pasun wt krto aahe sarva bouncer jata aahe aata tr 😂
+19/02/23, 12:00 pm - Siddhi Hiray: Are re
+19/02/23, 12:00 pm - Siddhi Hiray: Kadhi ahe te
+19/02/23, 12:01 pm - Siddhi Hiray: Aacha
+19/02/23, 12:01 pm - Siddhi Hiray: Maja Pentaho zala
+19/02/23, 12:01 pm - Siddhi Hiray: Aaj baki ch karel
+19/02/23, 12:01 pm - Siddhi Hiray: Viva sathi ky questions miltil tr patv na
+19/02/23, 1:43 pm - Kratis: Kal ek exam hotiii aata next week madhye aahe 2-3
+19/02/23, 1:43 pm - Kratis: Easy aahe ka pentahoo amcha parva aahe
+19/02/23, 1:43 pm - Siddhi Hiray: Aacha
+19/02/23, 1:43 pm - Siddhi Hiray: Thik ahe
+19/02/23, 1:43 pm - Siddhi Hiray: WT kasa ahe😂
+19/02/23, 1:44 pm - Kratis: Parth la saang naa toh tujhya batch cha aahe tyachya kade astill na ekda vichar tyala ki mi vicharu?
+19/02/23, 1:45 pm - Kratis: Aree kai lakshatt rahat nahi aahet code
+19/02/23, 1:45 pm - Kratis: Udhya kaii honar kay mahit mii tr pd ready thevla aahe
+19/02/23, 1:45 pm - Kratis: Tujha kaii vichar chalu aahe?
+19/02/23, 2:15 pm - Siddhi Hiray: Tuch vichar ekda
+19/02/23, 2:15 pm - Siddhi Hiray: Kal tayni Java ch sangitla tasa
+19/02/23, 2:15 pm - Siddhi Hiray: Program execution
+19/02/23, 2:15 pm - Siddhi Hiray: Ha na
+19/02/23, 2:16 pm - Siddhi Hiray: Me pn ready karnar ahe
+19/02/23, 3:20 pm - Kratis: Vicharla tyachya kade nahii aahe toh mala bolto aahe shodayla😂
+19/02/23, 3:20 pm - Kratis: Mala pan saang kasa krtat te
+19/02/23, 3:21 pm - Kratis: Ha naa baghu udhya kasa ghetat te papers
+19/02/23, 3:55 pm - Siddhi Hiray: ha
+19/02/23, 3:56 pm - Siddhi Hiray: shod m ata tuch
+19/02/23, 3:56 pm - Siddhi Hiray: aaik na je shikvala ahe tay mahun ch yenar na
+19/02/23, 3:56 pm - Siddhi Hiray: practical question tr aple maam ch kadhnar na
+19/02/23, 7:12 pm - Kratis: Majha wt jhala nahii anii tumhii adbms karayla lavat aahat mala🥲
+19/02/23, 7:12 pm - Kratis: Hooo re practical madhye jevda concepts shikavle tyatlach yenar aahe
+19/02/23, 7:13 pm - Kratis: Hooo most probably tr college kadhel
+19/02/23, 7:13 pm - Siddhi Hiray: Okay baray m
+19/02/23, 7:13 pm - Siddhi Hiray: 🥹🥹
+19/02/23, 8:21 pm - Kratis: Jhala ka tujha mg sarva
+19/02/23, 8:25 pm - Siddhi Hiray: Sarva nhi re
+19/02/23, 8:25 pm - Siddhi Hiray: R nhi zala kycg
+19/02/23, 8:36 pm - Kratis: R jyacha nashib kharab asel tyalach yenar aahe 🥲
+19/02/23, 8:51 pm - Siddhi Hiray: are tayche chnaces jasta ahe asa ata samjla
+19/02/23, 8:51 pm - Siddhi Hiray: 😢
+19/02/23, 9:00 pm - Kratis: Kon bolaa tula asa
+19/02/23, 9:00 pm - Kratis: Mala tr sarvat kami chances vatta aahe
+19/02/23, 11:12 pm - Siddhi Hiray: 7 practicala he R che
+19/02/23, 11:27 pm - Kratis: All d bestt udhya sathi kahii jhala tr thik ahe pd ani ethernet fakta onn asayla hava bakii tr pass houu deva chya krupena
+19/02/23, 11:41 pm - Siddhi Hiray: ha yaar
+19/02/23, 11:42 pm - Siddhi Hiray: All the Best
+19/02/23, 11:42 pm - Siddhi Hiray: Help kar copy karyla
+19/02/23, 11:42 pm - Siddhi Hiray: 🥹
+19/02/23, 11:49 pm - Kratis: Tu pendrive bharla ashil naa? Try kar kivha tiny url banav saray adbms saathi internet lagel mag tevha onn kr, jasta ghabru nakos tu abhyas kela aahes svata wr bharosa thev fakta anii lihh practical aaramat
+20/02/23, 12:09 am - Siddhi Hiray: https://drive.google.com/drive/folders/1M-le9RR6_gs6LYV692X84SCGFOggEZoh?usp=share_link
+20/02/23, 12:09 am - Siddhi Hiray: Mala tiny URL banvun de na
+20/02/23, 12:10 am - Siddhi Hiray: Thankyou ✨
+20/02/23, 12:11 am - Kratis: https://tinyurl.com/bd2h65n6
+20/02/23, 12:11 am - Siddhi Hiray: Thankyou
+20/02/23, 12:13 am - Siddhi Hiray: https://drive.google.com/drive/folders/1M-le9RR6_gs6LYV692X84SCGFOggEZoh?usp=sharing
+20/02/23, 12:14 am - Kratis: https://tinyurl.com/bd2h65n6
+20/02/23, 3:12 pm - Kratis: https://tinyurl.com/33emt62b
+20/02/23, 3:12 pm - Kratis: <Media omitted>
+20/02/23, 3:12 pm - Kratis: <Media omitted>
+20/02/23, 3:12 pm - Kratis: <Media omitted>
+20/02/23, 3:12 pm - Kratis: <Media omitted>
+20/02/23, 3:12 pm - Kratis: <Media omitted>
+20/02/23, 3:53 pm - Siddhi Hiray: Thankyou
+20/02/23, 6:21 pm - Kratis: Hi link tu create keli aahe hyat sarva aahe kay mysql + and r cha
+20/02/23, 6:33 pm - Siddhi Hiray: Ho
+20/02/23, 7:49 pm - Kratis: <Media omitted>
+20/02/23, 7:49 pm - Kratis: Tula first question kayala ka ha?
+20/02/23, 11:34 pm - Siddhi Hiray: aaik
+20/02/23, 11:34 pm - Siddhi Hiray: te redirect page ch kuthe milel?
+20/02/23, 11:43 pm - Kratis: Kuthla waala bolte aahes?
+20/02/23, 11:43 pm - Siddhi Hiray: jo program tula ala hota
+20/02/23, 11:43 pm - Siddhi Hiray: don page la connect kara asa
+20/02/23, 11:44 pm - Kratis: Jr mala aala asta tr direct code dila asta tula malch aala nahi mii signup and login page banavla toh suddha redirect nahii karyla miyala
+20/02/23, 11:45 pm - Siddhi Hiray: ok
+20/02/23, 11:45 pm - Siddhi Hiray: aaik mala jara sang  angular ch ky logic ahe
+20/02/23, 11:45 pm - Siddhi Hiray: me ata satrt kartay angular
+20/02/23, 11:47 pm - Kratis: Bhaiii mala wt na kahich yet nahii mii fakta pd varun copyyy kela aahe, jasta kahii karu nakos link banav anii jaa code copyy kr saray aata tasa hii kahi kaynar nahii tula angular aadhicha hii visarshill te krta krta
+20/02/23, 11:48 pm - Kratis: He sarva pages vachna hyatun tula angular mostly kayel
+20/02/23, 11:48 pm - Siddhi Hiray: okay chalel
+20/02/23, 11:48 pm - Siddhi Hiray: are te maam code madun pn v4tat
+20/02/23, 11:50 pm - Kratis: Areee wt aahe divakar asnar tumhala
+20/02/23, 11:50 pm - Kratis: Kahii vicharat nahii tohh purna chill aahe
+20/02/23, 11:50 pm - Kratis: Kahi nahi tr run kr jhala toh fakta op vicharrl anii sodel kahi question ghet nhii toh
+20/02/23, 11:53 pm - Siddhi Hiray: okay haa
+20/02/23, 11:53 pm - Siddhi Hiray: <html>
+    <head>
+        <title>Angulasjs Controller</title>
+        <script src="angular-min.js"></script>
+    </head>
+    <body ng-app="myapp">
+        <div ng-controller="mycontroller">
+            Enter Message :<input type="text" ng-model="message">
+            <button ng-click="showmsg(message)">Click Me!!</button>
+        </div>
+        <script>
+        var app= angular.module('myapp',[]);
+        app.controller('mycontroller',function($scope){
+            $scope.message="";
+            $scope.showmsg=function(message){
+                alert(message);
+            };
+            })
+            </script>
+            </body>
+            </html
+20/02/23, 11:53 pm - Siddhi Hiray: ha click event ahe
+20/02/23, 11:54 pm - Siddhi Hiray: haycha jara output sang na
+20/02/23, 11:54 pm - Siddhi Hiray: practical 9
+21/02/23, 12:01 am - Kratis: Input box madhye khi type kr mag click me wr click kelyawar pop up yeil Tu type kela hota tyacha
+21/02/23, 12:01 am - Siddhi Hiray: nhi ye ahe popup
+21/02/23, 12:05 am - Kratis: Mala pan nhii aala aahe , file madhye kahii tr problem aahe mamchii
+21/02/23, 12:05 am - Kratis: Mi file madhye baghitla tevha tasa op aala mhanun mahit hota pan run nhii jhala majha toh ani practical 11
+21/02/23, 12:06 am - Siddhi Hiray: are okk
+21/02/23, 12:07 am - Kratis: He sarva code tasahii nahii yenar aahe bhaltech code yetat exam la udhya kayel tula 🥲🥲
+21/02/23, 12:07 am - Kratis: Pahila khupp simple asel second wala jaam khatarbak
+21/02/23, 12:19 am - Siddhi Hiray: Ye tu aadhicha asa noko boli
+21/02/23, 12:19 am - Siddhi Hiray: Bolu*
+21/02/23, 12:19 am - Siddhi Hiray: Aamhala easy yel
+21/02/23, 12:19 am - Siddhi Hiray: 😏
+21/02/23, 2:27 pm - Kratis: Difficult asel tri tula yeilach Tu aahech topper na🥲🥲
+21/02/23, 3:15 pm - Kratis: Pentaho cha pathav ga
+21/02/23, 3:27 pm - Siddhi Hiray: Rahude rahude
+21/02/23, 3:51 pm - Kratis: Sodhhh Tu aahech topper aata kay bolnar sarva run krun yetat loka tr
+21/02/23, 3:51 pm - Kratis: ..
+21/02/23, 4:07 pm - Siddhi Hiray: Saglayn same marks milnar ahe
+21/02/23, 4:07 pm - Siddhi Hiray: <Media omitted>
+21/02/23, 4:07 pm - Siddhi Hiray: <Media omitted>
+21/02/23, 4:07 pm - Siddhi Hiray: <Media omitted>
+21/02/23, 4:07 pm - Siddhi Hiray: <Media omitted>
+21/02/23, 4:07 pm - Siddhi Hiray: <Media omitted>
+21/02/23, 8:41 pm - Kratis: Tula ani mala jar same marks astil tr 500 ruppes ready thev 🥲
+21/02/23, 8:42 pm - Siddhi Hiray: ka
+21/02/23, 8:43 pm - Kratis: Hya question madhe increment  kasa krnar mag tu
+21/02/23, 8:53 pm - Siddhi Hiray: ky
+21/02/23, 8:53 pm - Kratis: Bhaiii amche sarva program run nhii jhale aahet tumchya sarkhe aata kay karnar🥲
+21/02/23, 8:54 pm - Kratis: Tu majha question vachla hota na
+21/02/23, 8:54 pm - Siddhi Hiray: are ky nhi re
+21/02/23, 8:54 pm - Siddhi Hiray: je hoil te hoil
+21/02/23, 8:55 pm - Kratis: Baghu kamit kamii udhya anii parva sarva run hoyla pahije re ajun kahi nahii mela expected peksha jastach tough aala hota
+21/02/23, 9:11 pm - Siddhi Hiray: ha na
+21/02/23, 9:11 pm - Siddhi Hiray: jsp vagre kar
+21/02/23, 9:11 pm - Siddhi Hiray: aop
+21/02/23, 9:19 pm - Kratis: Jsp aata baghitla kasa run krtat and all te houn jaill spring cha kay mahitt packages and all provide kelele astil ki nhi
+21/02/23, 9:23 pm - Siddhi Hiray: haa mala tr ky maythi nhi
+22/02/23, 7:42 am - Kratis: Same same🥲
+22/02/23, 1:44 pm - Siddhi Hiray: Aaj ch kasa hkta
+22/02/23, 1:45 pm - Kratis: Changla gela 2 hi run jhale main te aahe
+22/02/23, 1:45 pm - Kratis: Tujha kasa gela
+22/02/23, 1:53 pm - Siddhi Hiray: Waah
+22/02/23, 1:54 pm - Siddhi Hiray: Changla gela ki nhi maythi nhi🥲
+22/02/23, 1:54 pm - Siddhi Hiray: Code check nhi kela tr changla
+22/02/23, 2:58 pm - Siddhi Hiray: Java patv Please
+22/02/23, 2:58 pm - Siddhi Hiray: Viva pn
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:34 pm - Kratis: <Media omitted>
+22/02/23, 3:35 pm - Siddhi Hiray: 😱
+22/02/23, 3:35 pm - Siddhi Hiray: Tevda
+22/02/23, 3:35 pm - Kratis: He sarva karun jaa pakka vichartil hya tun
+22/02/23, 3:35 pm - Kratis: Jasta nahii aahe ek-don line vaach purna nako vachu
+22/02/23, 3:35 pm - Siddhi Hiray: Okay
+22/02/23, 3:35 pm - Siddhi Hiray: Okay chalel
+22/02/23, 3:35 pm - Siddhi Hiray: Thankyou ✨
+22/02/23, 3:38 pm - Kratis: Aree tyattt kay thank you 🥲
+22/02/23, 7:00 pm - Siddhi Hiray: Are ky bolu ata
+22/02/23, 7:00 pm - Siddhi Hiray: Notes shodayla kiti vel lagto
+22/02/23, 7:01 pm - Siddhi Hiray: Asa milala ki zalaa kaam
+22/02/23, 7:01 pm - Siddhi Hiray: http://shorturl.at/cyNW6
+22/02/23, 7:23 pm - Kratis: Aree ek number thankss 😁😁
+22/02/23, 7:24 pm - Kratis: Baki zhala ki nahiii tujha vachun
+22/02/23, 7:28 pm - Siddhi Hiray: Ata kasa thanks m😂
+22/02/23, 7:28 pm - Siddhi Hiray: Mi ata start kartay
+22/02/23, 7:28 pm - Siddhi Hiray: Double ended queue cha shodun karun ja
+22/02/23, 7:29 pm - Siddhi Hiray: Don te thin paper maday ahe tho question
+22/02/23, 7:32 pm - Siddhi Hiray: Java che programs patv
+22/02/23, 7:36 pm - Siddhi Hiray: Missed voice call
+22/02/23, 8:11 pm - Kratis: <Media omitted>
+22/02/23, 8:12 pm - Kratis: Tu thanks bolshil mag mi pan bolnar😂😂
+22/02/23, 8:12 pm - Kratis: Kayyy aahe he double ended queue
+22/02/23, 8:43 pm - Siddhi Hiray: Missed voice call
+22/02/23, 9:04 pm - Siddhi Hiray: Thankyou ✨
+22/02/23, 9:11 pm - Kratis: Bhaiii kiti te thank you majhii tr kahich madat hot nahi aahe tula 🥲🥲
+22/02/23, 9:23 pm - Kratis: https://www-softwaretestinghelp-com.cdn.ampproject.org/v/s/www.softwaretestinghelp.com/deque-in-cpp/amp/?amp_gsa=1&amp_js_v=a9&usqp=mq331AQKKAFQArABIIACAw%3D%3D#amp_tf=From%20%251%24s&aoh=16770811653886&referrer=https%3A%2F%2Fwww.google.com&ampshare=https%3A%2F%2Fwww.softwaretestinghelp.com%2Fdeque-in-cpp%2F
+22/02/23, 9:23 pm - Kratis: Ha code right aahe ky bgh jara
+22/02/23, 9:51 pm - Siddhi Hiray: Insert front ni nhi hot
+22/02/23, 10:02 pm - Kratis: Mag tula code miytoo tr pathav mala 😂😂
+22/02/23, 10:03 pm - Siddhi Hiray: Nhi maythi na
+22/02/23, 10:13 pm - Kratis: Udhyach baghu aata
+22/02/23, 10:13 pm - Kratis: Parth ne ghetla ka tujha meet?
+22/02/23, 10:13 pm - Kratis: Also 2nd question kay aala hota tula
+22/02/23, 10:15 pm - Siddhi Hiray: Nhi
+22/02/23, 10:15 pm - Siddhi Hiray: Selection sort
+22/02/23, 10:15 pm - Siddhi Hiray: Karun ja nhi milat ahe Google
+22/02/23, 10:23 pm - Kratis: Mag aata kay karnar aahe tu
+22/02/23, 10:24 pm - Kratis: First easy hota second difficult aala mag tula
+22/02/23, 10:34 pm - Siddhi Hiray: <Media omitted>
+22/02/23, 10:34 pm - Siddhi Hiray: <Media omitted>
+22/02/23, 10:35 pm - Kratis: Op browser wr yeil na
+22/02/23, 10:35 pm - Siddhi Hiray: Nhi yet ahe
+22/02/23, 10:35 pm - Siddhi Hiray: Location ky yeta
+22/02/23, 10:35 pm - Kratis: Thamb mi majha pc wr ekda baghtoo without jdbc run karun
+22/02/23, 10:36 pm - Siddhi Hiray: Ha
+22/02/23, 10:36 pm - Siddhi Hiray: Practical 6E
+22/02/23, 10:44 pm - Kratis: <Media omitted>
+22/02/23, 10:44 pm - Kratis: Db chi garaj nahi aahe ya prac la saray jhala run
+22/02/23, 10:49 pm - Siddhi Hiray: Nhi hot ahe maja
+22/02/23, 10:50 pm - Kratis: Error ky yet aahe
+22/02/23, 10:50 pm - Kratis: Mag laptop kay problem asel
+22/02/23, 10:50 pm - Kratis: Maven project ka takla aahe?
+22/02/23, 10:51 pm - Kratis: Java web madhye web application choose krycha hota
+22/02/23, 11:37 pm - Siddhi Hiray: Ho
+22/02/23, 11:37 pm - Siddhi Hiray: Maja tech option yeto
+22/02/23, 11:42 pm - Kratis: Mag udhya he tak exam la hech yeil ani run hoil tujha
+22/02/23, 11:42 pm - Kratis: Baki meet jhala tumcha
+23/02/23, 12:12 am - Siddhi Hiray: Ho zala
+23/02/23, 12:12 am - Siddhi Hiray: Kup hard ahe
+23/02/23, 12:12 am - Siddhi Hiray: Nhi yenar mala 🥲
+23/02/23, 12:12 am - Siddhi Hiray: JSP cha run zala finally
+23/02/23, 12:12 am - Siddhi Hiray: Web application me wrong open karat hoti mi
+23/02/23, 7:45 am - Kratis: Easy aahe ga kashala yevdha tension ghete houn jail tujhya kadun aaramat ghabru nakos
+23/02/23, 7:46 am - Kratis: Mag mi tech bolat hoto na tula wrong web open krte aahes
+23/02/23, 5:13 pm - Kratis: Kasa gela java?
+23/02/23, 5:13 pm - Kratis: 🤦‍♂️🤦‍♂️
+23/02/23, 7:24 pm - Siddhi Hiray: Thik hota
+23/02/23, 7:24 pm - Siddhi Hiray: External ekdum strict hotu
+23/02/23, 7:26 pm - Kratis: Code cha bolto aahe external kayy rahu de 😂😂
+23/02/23, 7:26 pm - Siddhi Hiray: Doni excuted
+23/02/23, 7:26 pm - Kratis: Takla na sirani both executed mhanun😂😂 aadhich bolo hoto fukat tension ghet hotiss tu
+23/02/23, 7:27 pm - Kratis: Mag kay kadhii mjha aikat jaa tu🥲
+23/02/23, 7:27 pm - Siddhi Hiray: Are tayni pdf banvayla sangitla hota
+23/02/23, 7:27 pm - Siddhi Hiray: Ekth output
+23/02/23, 7:27 pm - Siddhi Hiray: With*
+23/02/23, 7:27 pm - Siddhi Hiray: Maja program run zala asta pn tayt xxamp server navta
+23/02/23, 7:30 pm - Kratis: Are siranii pdf dilii hotii na tyatla snipping tool madhun kadaycha hota ajun kaii
+23/02/23, 7:31 pm - Kratis: But tya pdf madhye pan error hote mahit aahe tya code madhye
+23/02/23, 7:31 pm - Kratis: 50 percent main tr db connect krna asta tyatt xaamp and all
+23/02/23, 7:31 pm - Siddhi Hiray: Are ho but code pn pahje hota
+23/02/23, 7:31 pm - Siddhi Hiray: Arni ajun ky tari phje hota
+23/02/23, 7:32 pm - Siddhi Hiray: Tr m parth la pn same program ala hota
+23/02/23, 7:32 pm - Siddhi Hiray: Pn taycha error hota
+23/02/23, 8:55 pm - Kratis: Tula thoda knowledge aahe ka data science cha?
+23/02/23, 9:18 pm - Siddhi Hiray: Nhi🤣
+23/02/23, 9:18 pm - Kratis: Tyane mala full github chi link pathavli aahe 😂😂 data science chi😂😂
+23/02/23, 9:20 pm - Siddhi Hiray: Waah
+23/02/23, 9:20 pm - Siddhi Hiray: Patvna mala pn
+23/02/23, 9:21 pm - Kratis: https://github.com/vsuraj25?tab=repositories
+23/02/23, 9:22 pm - Kratis: Bagh jara samjhat asel tr saang mala hi 😂😂
+23/02/23, 9:22 pm - Siddhi Hiray: Ha
+23/02/23, 9:22 pm - Siddhi Hiray: Me tr naav pn first time vachtay r
+23/02/23, 9:22 pm - Siddhi Hiray: 😂
+23/02/23, 9:24 pm - Kratis: Areee te sarva predictions kele aahet te
+23/02/23, 9:24 pm - Kratis: Ds madhye mostly sarva code predictions related astat
+23/02/23, 9:41 pm - Siddhi Hiray: Ky maythi
+23/02/23, 9:41 pm - Siddhi Hiray: Aacha
+23/02/23, 9:44 pm - Kratis: Ds is all about predictions 😂😂 bagh aata tula uchlaycha aahe kuthla uchal
+23/02/23, 9:51 pm - Siddhi Hiray: Samjayla padel aadhi
+23/02/23, 10:21 pm - Kratis: Offcourse te tr aahech
+23/02/23, 11:28 pm - Siddhi Hiray: Haa
+23/02/23, 11:28 pm - Siddhi Hiray: Sada topic bagtoy aamhi
+23/02/23, 11:29 pm - Siddhi Hiray: Ds nanatr karu
+23/02/23, 11:37 pm - Kratis: Kuthla wala saang tr
+23/02/23, 11:37 pm - Siddhi Hiray: Trust management system
+23/02/23, 11:37 pm - Siddhi Hiray: Confirm nhi ajun but hach karu asa vatay
+23/02/23, 11:39 pm - Kratis: website aahe kay
+23/02/23, 11:39 pm - Siddhi Hiray: Website
+23/02/23, 11:39 pm - Siddhi Hiray: Tu kontay grp maday
+23/02/23, 11:40 pm - Kratis: kay group sarvani aple aple banavle group mi ani nishikant urlo aahe aata amhi dogha karto aahe
+23/02/23, 11:41 pm - Siddhi Hiray: Aacha thik ahe na m
+23/02/23, 11:41 pm - Siddhi Hiray: Ky tension
+23/02/23, 11:41 pm - Siddhi Hiray: Tumhi tr ajun bhari project arrange kara
+23/02/23, 11:46 pm - Kratis: Kasla bhari project amhi dogha aahot fakta tyat pan mi karto aahe scene haa aahe kasa honar ikde synopsis ready nahi aahet
+23/02/23, 11:53 pm - Siddhi Hiray: Are google kr
+23/02/23, 11:53 pm - Siddhi Hiray: Ky lagla help tr sang m
+23/02/23, 11:56 pm - Kratis: Apart from website tula kay watta changla option kay asel?
+23/02/23, 11:57 pm - Kratis: Project saathi
+24/02/23, 12:37 am - Siddhi Hiray: Simple easy end la Ani lavkar honay sarkha website ch ahe
+24/02/23, 12:38 am - Siddhi Hiray: Application pn thik ahe pn banvayla vel lagto
+24/02/23, 12:39 am - Kratis: kay aata baghu jeh miyta te takin ajjun kay
+24/02/23, 1:02 am - Siddhi Hiray: Haa
+24/02/23, 1:02 am - Siddhi Hiray: Ky kartoys project
+24/02/23, 1:17 am - Kratis: aata sathi tri friend ne dile aahet ds cha tyatla 2 shortlist kela aahe tya var documentation banvin ani friendla pathvin toh bolel right tr tech karin othervise bus booking management system back up aahe
+24/02/23, 1:17 am - Kratis: tujha kay jhala
+24/02/23, 1:18 am - Siddhi Hiray: Trust sathi banvla tr trust pn phje ka
+24/02/23, 1:19 am - Siddhi Hiray: Ngo vahre
+24/02/23, 1:19 am - Siddhi Hiray: Asch xyz sathi banvu sakti na
+24/02/23, 1:20 am - Kratis: Hoo asach banav tujha naav kivha xyz naav de fakta dummy name in shortt
+24/02/23, 1:20 am - Kratis: Pan code kuthun kadhnar aahe tu
+24/02/23, 1:25 am - Siddhi Hiray: Paid ahe ek project
+24/02/23, 1:25 am - Siddhi Hiray: 1000 rs per person maday
+24/02/23, 1:25 am - Siddhi Hiray: Thoch bagu asa vichar ahe
+24/02/23, 1:30 am - Kratis: Areee paid ka ghete aahes? Te suddha itka mahag?  Konacha github warun uchal na kuthla hiii code kon yevtha nahiii baghnar aahe apla project atleast hya sem la tariii
+24/02/23, 1:30 am - Kratis: 3 rd sem la pahije tr vikat ghe aata nako
+24/02/23, 1:31 am - Kratis: Urla prashan synopsis cha chat gpt wr project cha naav takk synopsis direct miyel tula kuthla hii
+24/02/23, 1:42 am - Siddhi Hiray: Jaude ata
+24/02/23, 1:42 am - Siddhi Hiray: Mala tr bilkul doka nhi lavach Maan ahe
+24/02/23, 1:42 am - Siddhi Hiray: Asa ready made ch daych  ma'an kartay
+24/02/23, 1:42 am - Siddhi Hiray: Swasta miltoy
+24/02/23, 1:43 am - Siddhi Hiray: Nhi tr 5000,6000,8000 la milto
+24/02/23, 9:19 am - Kratis: Explain kasa krnar mag tu project? Te pan asta ba
+24/02/23, 9:20 am - Kratis: Mi tech bolto aahe thoda efforts ghe github wrun code maar konacha triii anii saray synopsis chat gpt wrun kadhh 2 mins cha pan kaam nhi aahe he
+24/02/23, 9:21 am - Kratis: Are tarii pan yaar paise nako waste kruu code saathii
+24/02/23, 11:37 am - Siddhi Hiray: Wait bagtay ekda
+24/02/23, 11:47 am - Kratis: Tula bus management system cha project hava aahe ja?
+24/02/23, 11:48 am - Kratis: Saang mala? Eka yt video miyala hota changla aahe ani run hoto
+24/02/23, 11:48 am - Kratis: Asp. Net basics wr aahe
+24/02/23, 11:48 am - Kratis: Pan changla aahe khup
+24/02/23, 12:20 pm - Kratis: https://youtu.be/aldfI4O0elM
+24/02/23, 12:20 pm - Kratis: <Media omitted>
+24/02/23, 12:20 pm - Kratis: <Media omitted>
+24/02/23, 12:20 pm - Kratis: https://github.com/vsuraj25?tab=repositories
+24/02/23, 12:44 pm - Siddhi Hiray: ajundon project maythi ka
+24/02/23, 12:44 pm - Siddhi Hiray: management  related
+24/02/23, 12:48 pm - Kratis: Student management system aahe toh mi bsc la banavla hota
+24/02/23, 12:48 pm - Kratis: Toh ek aahe
+24/02/23, 12:48 pm - Kratis: Kaa haa wala nahi avdla ka
+24/02/23, 12:49 pm - Siddhi Hiray: Bus management ha ekch Jaan cha project ahe re
+24/02/23, 12:49 pm - Siddhi Hiray: Tayt thin Jaan ch ky g kaam nhi
+24/02/23, 12:49 pm - Siddhi Hiray: Ek tr aamhi vichar kartoy individual karu Ani m bus management krel
+24/02/23, 12:49 pm - Siddhi Hiray: Ani ajun don
+24/02/23, 1:02 pm - Kratis: https://docs.google.com/document/u/0/d/1SnD7ypQHHPW0yv2WqZRzgE3yyVCJKGiR/mobilebasic
+24/02/23, 1:02 pm - Kratis: Hyat module bagh na kuthle aahe
+24/02/23, 1:13 pm - Siddhi Hiray: backend ky ahe
+24/02/23, 1:13 pm - Siddhi Hiray: database sathi
+24/02/23, 1:30 pm - Kratis: Microsoft mysql
+24/02/23, 1:33 pm - Siddhi Hiray: ok
+24/02/23, 2:12 pm - Kratis: Kay decide kela mag
+24/02/23, 2:12 pm - Siddhi Hiray: busmanagement kartayme
+24/02/23, 2:13 pm - Siddhi Hiray: individual
+24/02/23, 2:28 pm - Kratis: Acha thik he
+24/02/23, 2:49 pm - Siddhi Hiray: Hm
+24/02/23, 2:49 pm - Siddhi Hiray: Thankyou ✨
+24/02/23, 3:04 pm - Kratis: Aree kitiii te thank youuu baba
+24/02/23, 3:57 pm - Siddhi Hiray: 😅😅
+24/02/23, 5:19 pm - Kratis: Tu banavla ka?
+24/02/23, 5:19 pm - Kratis: Synopsis
+24/02/23, 5:19 pm - Siddhi Hiray: Nhi ajun
+24/02/23, 5:41 pm - Kratis: Mag kadhi krnar aahes tu?
+24/02/23, 5:41 pm - Kratis: He kay faltu giri aahe yaar?
+24/02/23, 5:41 pm - Kratis: Deccan college ka lagla aahe aplyala
+24/02/23, 5:54 pm - Siddhi Hiray: Ha na
+24/02/23, 5:54 pm - Siddhi Hiray: Apla clg lagla phje hota
+24/02/23, 7:15 pm - Kratis: Hoo na kay faltu giri aahe ek tr te college jaam dur aahe dadar mhanje
+24/02/23, 7:15 pm - Kratis: Majha admission process sathi tikdech gelo hoto
+24/02/23, 7:37 pm - Siddhi Hiray: Ha na
+24/02/23, 7:37 pm - Siddhi Hiray: Hiray clg ch yela phje hota re
+24/02/23, 7:37 pm - Siddhi Hiray: 😭
+24/02/23, 8:21 pm - Kratis: Kay bolnar aataa re abhyas karava lgnar ajun ky
+24/02/23, 9:01 pm - Siddhi Hiray: Ha
+25/02/23, 11:34 am - Kratis: Hicha kay faltugiri chalu aahe yaar?
+25/02/23, 11:34 am - Kratis: Yevtha kay shikvat basli aahe yaar hu
+25/02/23, 11:36 am - Siddhi Hiray: Ha na
+25/02/23, 11:37 am - Siddhi Hiray: Yeday ahe baba h clg vale
+25/02/23, 11:37 am - Siddhi Hiray: 🥲
+25/02/23, 11:37 am - Siddhi Hiray: Hall ticket clg maday ghayla jaicha ahe
+25/02/23, 11:42 am - Kratis: Tii boli kay asa?
+25/02/23, 11:42 am - Kratis: Mhanje hall ticket aale ahet kay?
+25/02/23, 11:42 am - Kratis: Aata tr ti tejashree bolii na praful kay kay bola hota te
+25/02/23, 11:48 am - Siddhi Hiray: Ha
+25/02/23, 11:48 am - Siddhi Hiray: But hall ticket tr yenarch na
+25/02/23, 12:16 pm - Kratis: Hoo pan pdf madhyr yeil na?
+25/02/23, 12:17 pm - Kratis: Aplyala printout kadhava lagnar na
+25/02/23, 12:17 pm - Kratis: Kay faltugiri chali aahe college chi yaar
+25/02/23, 12:18 pm - Kratis: Bhaii aplach college aala pahije yaar kahi hi karun
+25/02/23, 1:07 pm - Siddhi Hiray: Ha
+25/02/23, 1:07 pm - Siddhi Hiray: Tasa tayni ky honar tr nhi🤣
+25/02/23, 1:07 pm - Kratis: Tila vichar mcq aahe?
+25/02/23, 1:07 pm - Siddhi Hiray: Nhi
+25/02/23, 1:07 pm - Siddhi Hiray: Nhi ahe
+25/02/23, 1:07 pm - Siddhi Hiray: 🥲
+25/02/23, 1:08 pm - Kratis: Chapayla triu thoda chance aahe na
+25/02/23, 1:08 pm - Siddhi Hiray: Ky maythi
+25/02/23, 1:08 pm - Siddhi Hiray: Copy kunacha karnar🤣
+25/02/23, 1:08 pm - Siddhi Hiray: Kunala yetay
+25/02/23, 1:09 pm - Kratis: Kay boluu mala aata khup fate aahe yaarrr🥲🥲
+25/02/23, 1:09 pm - Kratis: Atul 😂😂
+25/02/23, 1:09 pm - Kratis: <Media omitted>
+25/02/23, 1:11 pm - Siddhi Hiray: Are aamhi
+25/02/23, 1:11 pm - Siddhi Hiray: Ha
+25/02/23, 1:11 pm - Kratis: Parth cha krr toh topper aahe
+25/02/23, 1:11 pm - Siddhi Hiray: Division A vale tr maths ch tension veglach
+25/02/23, 1:13 pm - Kratis: Bhaiii mii tr maths chya bharose hoto thoda easy jailll aata shevtcha ek week madhye je shikavla aahe na te baghun khup tension yeta aahe mala
+25/02/23, 1:13 pm - Kratis: Tula jr kayla tr shikav mala
+25/02/23, 1:14 pm - Siddhi Hiray: Are probability nanatr ch nhi samajat
+25/02/23, 1:16 pm - Kratis: Mala tr probability pan nahii samjhat
+25/02/23, 1:16 pm - Kratis: Bhaii te sarva probability madhyech add hota aahe ga
+25/02/23, 1:16 pm - Siddhi Hiray: Ha probability include re
+25/02/23, 1:16 pm - Siddhi Hiray: Haa
+25/02/23, 1:21 pm - Kratis: Tula sarva yeta aahe mala mahit aahe na🥲🥲
+25/02/23, 1:21 pm - Kratis: Bhaii vichar kela hota don divas aj karin aani aaj udhya maths don divas kashe gele kaylach nahi
+25/02/23, 1:22 pm - Siddhi Hiray: Chup re
+25/02/23, 1:22 pm - Siddhi Hiray: Ha na
+25/02/23, 1:22 pm - Siddhi Hiray: Ethay doka hatla ahe
+25/02/23, 1:25 pm - Kratis: Mala maar magg aata kay option urla aahe kay 🥲
+25/02/23, 1:25 pm - Kratis: Ek kaam krna
+25/02/23, 1:26 pm - Kratis: He notes Tu jara check krna complete aahet kay?
+25/02/23, 1:26 pm - Siddhi Hiray: incomplete ch asnar
+25/02/23, 1:26 pm - Siddhi Hiray: guarantee
+25/02/23, 1:32 pm - Kratis: Miss che notes aahet te
+25/02/23, 1:32 pm - Kratis: Tichya book cha ss aahe
+25/02/23, 1:32 pm - Kratis: Majhii udhya pan exam aahe yar msc cs chii kay boluu mii aata mala tension aala aahe
+25/02/23, 1:33 pm - Siddhi Hiray: mg ata
+25/02/23, 1:33 pm - Siddhi Hiray: zala ka aabhys
+25/02/23, 2:04 pm - Kratis: Kasla? 🥲
+25/02/23, 3:11 pm - Siddhi Hiray: MSC cha
+25/02/23, 3:13 pm - Kratis: Thoda thoda jhala inshort mca sarkhach jhala aahe majha 🥲
+25/02/23, 3:13 pm - Kratis: Tikde pan journals submit karaychi aahe
+25/02/23, 3:14 pm - Siddhi Hiray: waah
+25/02/23, 3:14 pm - Siddhi Hiray: all the best
+25/02/23, 3:15 pm - Kratis: Acha aik tujha kade extra calciii aahe ka normall calcii pan chalel
+25/02/23, 3:15 pm - Kratis: Multiply krnya sathi
+25/02/23, 3:20 pm - Siddhi Hiray: Maja pd dila hota mi tula?
+25/02/23, 3:23 pm - Kratis: Nahiii majhya kade kasa asel tujha
+25/02/23, 3:24 pm - Kratis: Parth la vichar tyani ghetla asel op sathi
+25/02/23, 3:24 pm - Siddhi Hiray: Nhi ahe taychay kdya pn
+25/02/23, 3:24 pm - Siddhi Hiray: Milat ch nhi ahe pd
+25/02/23, 3:24 pm - Siddhi Hiray: 😭
+25/02/23, 3:27 pm - Kratis: Konala dila hotas ka op copy karayla tu
+25/02/23, 3:27 pm - Kratis: Ki sirana deta na visarlis gheta na
+25/02/23, 3:27 pm - Kratis: Kiti gb cha hota pd
+25/02/23, 4:05 pm - Siddhi Hiray: 64
+25/02/23, 4:05 pm - Siddhi Hiray: ghetla hota
+25/02/23, 4:05 pm - Siddhi Hiray: bhavtayk me majay pc lach thevla
+25/02/23, 4:22 pm - Siddhi Hiray: Hay maday integration vala nhi abe
+25/02/23, 4:22 pm - Siddhi Hiray: Ahe*
+25/02/23, 5:52 pm - Kratis: Hoo pc madhyech rahila hota asa vata ekda jaun check kr college la
+25/02/23, 5:53 pm - Kratis: Aata kay karu je miyala te pathavla mi tula
+25/02/23, 5:54 pm - Kratis: Areee kay faltugiri aahe hiii yaaarrrr
+25/02/23, 5:54 pm - Siddhi Hiray: Ha
+25/02/23, 5:54 pm - Kratis: Vivekanand college shittt
+25/02/23, 5:54 pm - Siddhi Hiray: Ha na
+25/02/23, 5:54 pm - Kratis: Kiti dur aahe te amchya ghara pasun
+25/02/23, 5:54 pm - Siddhi Hiray: Kup lamb ahe te clg
+25/02/23, 5:54 pm - Siddhi Hiray: Majay ethun pn lamb ahe te
+25/02/23, 6:15 pm - Kratis: Tumhala javay aahe?  Central side la aahe
+25/02/23, 6:16 pm - Siddhi Hiray: Nhi kup aath ahe h clg
+25/02/23, 6:34 pm - Kratis: Mala tr western wrun yava lagnar aahe 2 trains sodun🥲
+25/02/23, 6:38 pm - Siddhi Hiray: ha na
+25/02/23, 6:38 pm - Siddhi Hiray: pagal ahet h sagle
+25/02/23, 9:11 pm - Kratis: <Media omitted>
+25/02/23, 9:11 pm - Kratis: <Media omitted>
+25/02/23, 9:28 pm - Siddhi Hiray: Thankyou ✨😇
+25/02/23, 9:40 pm - Siddhi Hiray: Aaik na
+25/02/23, 9:40 pm - Siddhi Hiray: Me rutik la sangitla ahe maja pn Ani ajun don ch hall ticket ghayla
+25/02/23, 9:40 pm - Siddhi Hiray: Pn tula maythi ka kiti vasta janar ahe tho?
+25/02/23, 10:09 pm - Kratis: Hooo 10-30 la jaato aahe toh asa bola aahe mala
+25/02/23, 10:11 pm - Siddhi Hiray: ok
+25/02/23, 10:11 pm - Siddhi Hiray: je nhi dila tr jayla lagel na
+25/02/23, 10:11 pm - Siddhi Hiray: jr*
+25/02/23, 10:28 pm - Kratis: Tuch tr boli hotis kii prafull bola aahe kii dusrya la dila tr chaltay
+25/02/23, 10:39 pm - Siddhi Hiray: Ho
+25/02/23, 10:39 pm - Siddhi Hiray: <Media omitted>
+25/02/23, 10:39 pm - Siddhi Hiray: But ky palti khatat ugach
+25/02/23, 10:40 pm - Kratis: Koniii paltii khali aahe?
+25/02/23, 10:40 pm - Siddhi Hiray: Clg vale
+25/02/23, 10:41 pm - Kratis: Detil dw nahii dilii tr majhe lagtil ajun kahi nahi 🥲
+25/02/23, 10:41 pm - Siddhi Hiray: 😅😂😂
+25/02/23, 10:42 pm - Kratis: Aquilla madam ne group wr joh paper takla aahe na tasa paper aala tr mii top marin yaar😂😂
+25/02/23, 10:52 pm - Siddhi Hiray: Waah
+25/02/23, 10:52 pm - Siddhi Hiray: Mala tr taytla pn nhi yet ahe
+25/02/23, 10:52 pm - Siddhi Hiray: Manje maja ky hoil🤦🏻‍♀️
+25/02/23, 11:04 pm - Kratis: Bhaii kay masti krte aahe tyatle 3-4 question tr stats che aahet te tr na bagta konala hi yeil
+25/02/23, 11:19 pm - Siddhi Hiray: baki che nhi yet
+25/02/23, 11:20 pm - Siddhi Hiray: probability  vale
+25/02/23, 11:29 pm - Kratis: Mala pan mi fakta skewness baghun bolo hoto🥲🥲
+25/02/23, 11:32 pm - Siddhi Hiray: Raude
+25/02/23, 11:33 pm - Siddhi Hiray: Top marnar bolas
+25/02/23, 11:33 pm - Siddhi Hiray: Sab aata h
+25/02/23, 11:33 pm - Siddhi Hiray: <Media omitted>
+25/02/23, 11:33 pm - Siddhi Hiray: Ha question solve kar na ky smajat nhi ahe
+25/02/23, 11:38 pm - Kratis: Udhya saangu chalel ka? Majha ajun prob start nahii jhala aahe mii stats and last che topics aadhi krto aahe aata shikavla hota te? Udhya karin tevha tula sangto mii
+26/02/23, 12:14 am - Kratis: Ha question barobar frame nahii kela aahe asa vatat nahi aahe ka tula mii 3 da read kela pan kayla nahii mala
+26/02/23, 12:15 am - Kratis: Kuthun kadhla aahes ha question Tu?
+26/02/23, 12:15 am - Siddhi Hiray: Ok
+26/02/23, 12:15 am - Siddhi Hiray: .
+26/02/23, 12:15 am - Siddhi Hiray: Hay maday
+26/02/23, 12:23 am - Kratis: Acha udhya baghto mii aata msc cs krtoo nahii tr mca madhye pan kt msc cs madhye pan kt 🥲🥲
+26/02/23, 1:10 am - Siddhi Hiray: Haa
+26/02/23, 9:24 am - Kratis: Tujha kiti jhala maths
+26/02/23, 10:04 am - Siddhi Hiray: Nhi
+26/02/23, 10:04 am - Siddhi Hiray: Kup ahe maths
+26/02/23, 10:10 am - Kratis: Mi tr ajun probability start nahii kela aahe
+26/02/23, 10:10 am - Kratis: Tujha prob kiti jhala
+26/02/23, 11:07 am - Siddhi Hiray: 4-5 question
+26/02/23, 3:02 pm - Kratis: Kay bolte🥲
+26/02/23, 3:02 pm - Kratis: Anii lecture madhye utara kon deta aahe 🥲🥲
+26/02/23, 3:27 pm - Siddhi Hiray: Te tr samor hota😂
+26/02/23, 3:27 pm - Siddhi Hiray: Me jevayla geli hoti
+26/02/23, 3:27 pm - Siddhi Hiray: Haa
+26/02/23, 3:27 pm - Siddhi Hiray: Probability hard ahe re
+26/02/23, 3:34 pm - Kratis: Samehr😂😂
+26/02/23, 3:34 pm - Kratis: Option madhye taknar jar majha pan nahi jhala tr
+26/02/23, 3:39 pm - Siddhi Hiray: Ha na
+26/02/23, 3:39 pm - Siddhi Hiray: Ma'am disconnect zale ka
+26/02/23, 3:46 pm - Kratis: Nahi re
+26/02/23, 4:03 pm - Kratis: Tula haa part kayla ka?
+26/02/23, 4:08 pm - Siddhi Hiray: Nhi
+26/02/23, 4:08 pm - Siddhi Hiray: Ti yedi zali ahe
+26/02/23, 4:08 pm - Siddhi Hiray: 3-x kasa ky
+26/02/23, 4:12 pm - Kratis: Are tech bolto aahe te kasa aala 🥲🥲
+26/02/23, 4:21 pm - Siddhi Hiray: Are he lokh kasa ahe re
+26/02/23, 4:21 pm - Siddhi Hiray: Kal tari shikavycha na hini
+26/02/23, 4:23 pm - Kratis: Kal tr normal distribution shikvat hotiii na hii 🥲🥲
+26/02/23, 4:34 pm - Siddhi Hiray: Te aaj kela asata tr chala asta
+26/02/23, 4:35 pm - Kratis: Acha aikna, tine start la aaj normal ani poisson distribution che question ghetle ka?
+26/02/23, 4:38 pm - Siddhi Hiray: Mi navti
+26/02/23, 4:38 pm - Siddhi Hiray: Me 30 min nantr join kela
+26/02/23, 4:38 pm - Kratis: Same hrrr 🥲
+26/02/23, 4:38 pm - Kratis: Tula yeta ka normal ani poisson?
+26/02/23, 4:39 pm - Kratis: Tila saang probability ani normal poisson ghe he tr chotya mulana hi yeta
+26/02/23, 4:41 pm - Siddhi Hiray: Ha but division a nhi yet
+26/02/23, 4:41 pm - Siddhi Hiray: Tu sang na
+26/02/23, 4:41 pm - Kratis: Div a nhi yet mhanje
+26/02/23, 4:42 pm - Kratis: Mii yevtha vey kahi nahii bolo aata bolin na sarva raag kadhel majhyawar 😂
+26/02/23, 4:44 pm - Siddhi Hiray: Ha
+26/02/23, 4:45 pm - Siddhi Hiray: Nhi re
+26/02/23, 4:45 pm - Siddhi Hiray: Shane manje me shivay khau😒
+26/02/23, 4:46 pm - Kratis: Tula kahiii bolnar nahiii tii🥲 Tu favorite aahe tichi
+26/02/23, 4:46 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 4:46 pm - Siddhi Hiray: Hay bg division a vale na nhi yet
+26/02/23, 4:47 pm - Kratis: Kayy faltugiri aahe
+26/02/23, 4:47 pm - Kratis: Itke simple sums aahet hee
+26/02/23, 4:48 pm - Kratis: He nahiii aala tr kay yenar a walyana
+26/02/23, 4:49 pm - Siddhi Hiray: Ha na
+26/02/23, 4:49 pm - Siddhi Hiray: Aaplay hun baykat halat ahe
+26/02/23, 4:59 pm - Kratis: Hooo pn aplya kade pn notess nhi aahe
+26/02/23, 4:59 pm - Siddhi Hiray: Ha na
+26/02/23, 5:00 pm - Kratis: Tila saanga notes triii de normal and poisson che🥲🥲
+26/02/23, 5:00 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:01 pm - Kratis: Question aahet he tr
+26/02/23, 5:01 pm - Siddhi Hiray: Aacha
+26/02/23, 5:03 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:04 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:05 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:05 pm - Siddhi Hiray: Ma'am shikvat astna me kela hota rough maday
+26/02/23, 5:05 pm - Siddhi Hiray: Refrence sathi use Karu shakto
+26/02/23, 5:06 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 5:06 pm - Siddhi Hiray: He vala solve karun sang ha
+26/02/23, 5:33 pm - Kratis: Easy aahe ha wala tr
+26/02/23, 5:34 pm - Kratis: Normal cha nahi aahe na?
+26/02/23, 6:03 pm - Kratis: Khali a aahe ki 0
+26/02/23, 6:08 pm - Siddhi Hiray: a
+26/02/23, 6:26 pm - Kratis: A aahe tr raise to 5 nahii jaanar ka ha question?
+26/02/23, 6:29 pm - Kratis: https://youtu.be/hfBeF8jdO6U
+26/02/23, 6:29 pm - Kratis: Normal distribution aahe miss walach
+26/02/23, 6:42 pm - Siddhi Hiray: Ok
+26/02/23, 6:43 pm - Siddhi Hiray: <Media omitted>
+26/02/23, 6:43 pm - Siddhi Hiray: Ha ahe question
+26/02/23, 7:04 pm - Kratis: same ch jhala na question?  Multiplication sign fakta add keli
+26/02/23, 8:59 pm - Siddhi Hiray: .
+26/02/23, 8:59 pm - Siddhi Hiray: .
+26/02/23, 9:00 pm - Siddhi Hiray: Mahun mi thoch question nit lihun dila😂
+26/02/23, 9:00 pm - Kratis: Miii just book madhye toh question baghitla aahe mi pan finalanswer lihila hota😂😂
+26/02/23, 9:01 pm - Siddhi Hiray: Ky ahe m
+26/02/23, 9:02 pm - Siddhi Hiray: Covariance cha formula ky asto
+26/02/23, 9:10 pm - Kratis: <Media omitted>
+26/02/23, 9:11 pm - Kratis: <Media omitted>
+26/02/23, 9:12 pm - Siddhi Hiray: Okay
+26/02/23, 9:12 pm - Siddhi Hiray: Hay kya he
+26/02/23, 9:12 pm - Siddhi Hiray: Syllabus
+26/02/23, 9:13 pm - Kratis: Are sorry
+26/02/23, 9:14 pm - Kratis: <Media omitted>
+26/02/23, 10:02 pm - Kratis: https://youtu.be/eyJDZBwFbds
+26/02/23, 10:27 pm - Kratis: Bernoulis distribution mhanje binomial aahe
+26/02/23, 10:37 pm - Siddhi Hiray: Okkk
+26/02/23, 10:45 pm - Kratis: Dear All,
+
+From tomorrow onwards MCA sem 1 University theory examination will be scheduled , kindly note some important points:
+
+1. Reporting time sharp at 10:00 AM
+
+2. After 10:00 am the gate will be closed.
+
+3. Seating arrangements are pasted on the door as well as on the notice board.
+
+4.kindly Carry Black pen to fill Bubble marking on Answer sheet.
+
+5. Answer you can write Black or blue pen
+
+6.College ID card & Hall ticket is Must.
+
+7. Any type of misbehave with supervisors or cheating will not be acceptable.
+
+8. Writing pad not allowed.
+
+9. Calculator Depends on subjects
+
+10. Those who have not collected hall ticket, kindly visit 9:30 am
+
+Wish you all the best.....
+26/02/23, 11:14 pm - Siddhi Hiray: Okay thanks
+26/02/23, 11:15 pm - Siddhi Hiray: Hay tr sod jaude😭😂
+26/02/23, 11:21 pm - Kratis: Kay bolo hoto jhalis na demotivate
+26/02/23, 11:22 pm - Kratis: Tu hypothesis kelas ky
+26/02/23, 11:36 pm - Siddhi Hiray: Nhi
+26/02/23, 11:38 pm - Kratis: Aik page 15 wala sum kr khup simple aahe chances aahet tyache yayche
+26/02/23, 11:38 pm - Kratis: Ani hypothesis cha formula kr bass ajun kahi nako karus
+27/02/23, 12:00 am - Siddhi Hiray: Konti pdf
+27/02/23, 12:04 am - Kratis: Hypothesis waali ga
+27/02/23, 12:04 am - Kratis: <Media omitted>
+27/02/23, 1:48 am - Siddhi Hiray: <Media omitted>
+27/02/23, 1:48 am - Siddhi Hiray: Hay vala mala nhi smajla
+27/02/23, 1:48 am - Siddhi Hiray: 1000 kasa ala
+27/02/23, 1:49 am - Siddhi Hiray: Ky naki ky smajat nhi
+27/02/23, 2:27 am - Siddhi Hiray: <Media omitted>
+27/02/23, 2:27 am - Siddhi Hiray: Hay vala kasa solve karnar
+27/02/23, 8:15 am - Kratis: Are mean kadla ga
+27/02/23, 8:15 am - Siddhi Hiray: Aacha mg
+27/02/23, 8:16 am - Kratis: Frequency la minus ke la mean shi
+27/02/23, 8:16 am - Kratis: Mag square kela tya values
+27/02/23, 8:16 am - Siddhi Hiray: Ok
+27/02/23, 8:17 am - Kratis: Square values la mean ne divide ke la if ti value significance chya kami aage tr hypothesis accepted yeil
+27/02/23, 8:17 am - Kratis: Tu kuthe aahes
+27/02/23, 8:18 am - Kratis: Sarvana add kr ani =1 tak c chi value kayel mag
+27/02/23, 9:10 am - Siddhi Hiray: Pochel ata
+27/02/23, 9:10 am - Kratis: Kuthe college ki kurla
+27/02/23, 9:11 am - Siddhi Hiray: Richsaw maday
+27/02/23, 3:17 pm - Kratis: Kasa gela paper
+27/02/23, 3:20 pm - Siddhi Hiray: Thik hota
+27/02/23, 3:20 pm - Siddhi Hiray: Tu tr sagla.lihila na
+27/02/23, 3:22 pm - Kratis: Formula sarva right hote values pan thode maati khali aahe taktana mii mostly 🥲🥲 ani time khup kamii miyala yaar paper
+27/02/23, 3:22 pm - Kratis: La
+27/02/23, 3:23 pm - Siddhi Hiray: Tula yet hota mahun kami time
+27/02/23, 3:23 pm - Siddhi Hiray: Jayna yet navta tayncha time jaat navat
+27/02/23, 3:23 pm - Siddhi Hiray: 😂
+27/02/23, 3:24 pm - Siddhi Hiray: 60/80 na m
+27/02/23, 3:25 pm - Kratis: Mi actually 60 marks cha attempt kela aahe mala ajun ek yet hota mag 70 cha jhala asta pan thik aahe 50-60 hii
+27/02/23, 3:25 pm - Kratis: 50-60 chya aas paas miyel mostly
+27/02/23, 3:26 pm - Kratis: Te sodh udhya cha kay
+27/02/23, 3:26 pm - Kratis: Aajcha asa hota udhya kay hoil
+27/02/23, 3:26 pm - Kratis: Tu tr boluch nakos 80 marks cha lihun aali aahe
+27/02/23, 3:28 pm - Siddhi Hiray: Nhi
+27/02/23, 3:28 pm - Siddhi Hiray: Mi 40 marks cha lilihla ahe
+27/02/23, 3:28 pm - Siddhi Hiray: First maday 2 attempt kela
+27/02/23, 6:28 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 7:02 pm - Kratis: <Media omitted>
+27/02/23, 8:07 pm - Siddhi Hiray: Thankyou ✨
+27/02/23, 8:09 pm - Kratis: Kiti jhala ga abhyas te saang🥲
+27/02/23, 8:09 pm - Kratis: Aree kiti thanks
+27/02/23, 8:11 pm - Siddhi Hiray: Generics ch vachal fakta
+27/02/23, 8:11 pm - Siddhi Hiray: Answers ch navte milat
+27/02/23, 8:11 pm - Kratis: Tu ky ky krnar aahes?
+27/02/23, 8:11 pm - Kratis: Topics
+27/02/23, 8:26 pm - Siddhi Hiray: Jevda hoil thevada karnar ahe re
+27/02/23, 8:26 pm - Siddhi Hiray: Kup mote ahe topics
+27/02/23, 8:31 pm - Kratis: Hooo naa majha pn kahich hot nhi aahe
+27/02/23, 8:43 pm - Kratis: Aikna
+27/02/23, 8:43 pm - Kratis: Tu kurla la kiti vajta pochtes?
+27/02/23, 8:50 pm - Siddhi Hiray: Maje tr generics zala nit bas
+27/02/23, 8:50 pm - Siddhi Hiray: Tay nantr ky nhi hot ahe
+27/02/23, 8:51 pm - Siddhi Hiray: 8:30 -8:45 parint
+27/02/23, 8:58 pm - Kratis: Same mala tr putcha kaii samjhta pan nahii aahe
+27/02/23, 8:58 pm - Kratis: Itka lavkar kay yetes tu
+27/02/23, 8:59 pm - Kratis: Mii tr utoch 8 vajta 🥲
+27/02/23, 8:59 pm - Siddhi Hiray: Ha
+27/02/23, 8:59 pm - Siddhi Hiray: 9 la pochto m
+27/02/23, 8:59 pm - Siddhi Hiray: Sakali train full astat
+27/02/23, 9:00 pm - Kratis: College la na?
+27/02/23, 9:00 pm - Kratis: Hoo yaar aaj tr kasa tri aalooo mii latkat
+27/02/23, 9:01 pm - Kratis: Ghatkoper la chadayla suddha nahi miyat hota nashib kasa toh ghusloo mi
+27/02/23, 10:08 pm - Siddhi Hiray: Ha mahun ch lavkar janar
+27/02/23, 10:08 pm - Siddhi Hiray: Ho
+27/02/23, 10:10 pm - Kratis: Baghu aata abhyas kay mela hota nahi aahe udhay kay lihnar aahe kay mahit
+27/02/23, 10:10 pm - Kratis: Tujha kiti jhala
+27/02/23, 10:27 pm - Siddhi Hiray: Aaik na
+27/02/23, 10:27 pm - Siddhi Hiray: Advice vala answer patv ba
+27/02/23, 10:27 pm - Siddhi Hiray: Imp questions madla 17 and 5
+27/02/23, 10:39 pm - Kratis: <Media omitted>
+27/02/23, 10:39 pm - Kratis: <Media omitted>
+27/02/23, 10:39 pm - Kratis: <Media omitted>
+27/02/23, 10:48 pm - Kratis: <Media omitted>
+27/02/23, 10:48 pm - Kratis: 3 page bagh
+27/02/23, 11:25 pm - Siddhi Hiray: Nhi re
+27/02/23, 11:25 pm - Siddhi Hiray: Te nhi ahe
+27/02/23, 11:37 pm - Kratis: Kay mahit mag sirancha pdf madhye pan nahii miyala mala he wala
+27/02/23, 11:52 pm - Siddhi Hiray: Ha na
+28/02/23, 5:53 pm - Siddhi Hiray: Are notes patv na
+28/02/23, 6:06 pm - Kratis: <Media omitted>
+28/02/23, 6:06 pm - Kratis: He ekach miyala aahe ajun paryant tri
+28/02/23, 7:13 pm - Siddhi Hiray: Ok
+28/02/23, 7:15 pm - Kratis: Pathav mala adbms che maths sum
+28/02/23, 7:27 pm - Kratis: <Media omitted>
+28/02/23, 7:56 pm - Siddhi Hiray: Ha patvtay jara time de
+28/02/23, 7:56 pm - Siddhi Hiray: Me meeting maday ahe
+28/02/23, 7:57 pm - Kratis: acha thikkk he
+28/02/23, 7:57 pm - Kratis: Konachi meeting ghetay Tu
+28/02/23, 8:00 pm - Kratis: <Media omitted>
+28/02/23, 8:00 pm - Kratis: <Media omitted>
+28/02/23, 8:00 pm - Kratis: <Media omitted>
+28/02/23, 8:59 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 8:59 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 9:41 pm - Kratis: Tujhya kade te waale q nhi aahet ka tr normalization and last la jeh yes no waale hot
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:41 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:42 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:42 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 10:42 pm - Siddhi Hiray: <Media omitted>
+28/02/23, 11:05 pm - Kratis: Thanks a lot
+28/02/23, 11:06 pm - Siddhi Hiray: kiti te thnaks
+28/02/23, 11:06 pm - Siddhi Hiray: kiti zala vachun?
+28/02/23, 11:16 pm - Kratis: Module 1 anii sarva sums kele aahet mostlyy
+28/02/23, 11:17 pm - Kratis: Tujha tr sarva jhala asnr na
+28/02/23, 11:18 pm - Siddhi Hiray: masta
+28/02/23, 11:18 pm - Siddhi Hiray: nhi zhala maja
+28/02/23, 11:18 pm - Siddhi Hiray: sums baki ahe module 1 pn baki ahe
+28/02/23, 11:18 pm - Siddhi Hiray: noko te kartay me😵‍💫 asa vatay ata
+28/02/23, 11:26 pm - Kratis: Pan bakiche moduless jhale na mag tujhe? Majhe bakiche baki aahet main minning and warehouse che 🥲🥲
+28/02/23, 11:26 pm - Kratis: Sums aadhi kr 2-3 pakka yenar aahet guarantee
+28/02/23, 11:29 pm - Siddhi Hiray: nhi re
+28/02/23, 11:33 pm - Kratis: Aree aata sathhiii main sumss aahett kahi hii kr te kr and even parallel distributed kr hya war aaramat pass hoshil tu
+28/02/23, 11:33 pm - Siddhi Hiray: aaik
+28/02/23, 11:33 pm - Siddhi Hiray: text mining ch easy asa answer patv na
+28/02/23, 11:34 pm - Siddhi Hiray: accha  kartay m tech ata
+28/02/23, 11:34 pm - Kratis: Tya 280 pages madhye nahii aahe ka te?
+28/02/23, 11:34 pm - Siddhi Hiray: kup motha ahe ani explaination pn hard ahe
+28/02/23, 11:34 pm - Kratis: https://youtu.be/YwlBCZVdpmI
+28/02/23, 11:34 pm - Kratis: https://youtu.be/IVlfuA4LdrU
+28/02/23, 11:34 pm - Kratis: https://youtu.be/WCK09hVXI9M
+28/02/23, 11:34 pm - Kratis: https://youtu.be/ffZ0ShPi-wg
+28/02/23, 11:34 pm - Kratis: https://youtu.be/RVuy1ezN_qA
+28/02/23, 11:34 pm - Kratis: https://youtu.be/CLKW6uWJtTc
+28/02/23, 11:34 pm - Kratis: https://youtu.be/CJjSPCslxqQ
+28/02/23, 11:35 pm - Siddhi Hiray: hay ky ahe
+28/02/23, 11:35 pm - Kratis: Aree aata tech kr jasta time nahii aahet aplya kade extra kahi karayla aata
+28/02/23, 11:35 pm - Kratis: Sarva videos aahet he
+28/02/23, 11:35 pm - Kratis: Sums che jar kuthla sum nahi samajhla baghun jaa he
+28/02/23, 11:36 pm - Siddhi Hiray: okay thanks
+01/03/23, 12:38 am - Kratis: Jhala ka vachun?
+01/03/23, 12:38 am - Kratis: Alll thee besttt udhya saathii tula changla loh paper
+01/03/23, 12:42 am - Siddhi Hiray: Nhi
+01/03/23, 12:42 am - Siddhi Hiray: Sums ata start kartat
+01/03/23, 12:42 am - Siddhi Hiray: Tula pn all the best
+01/03/23, 8:21 am - Kratis: <Media omitted>
+01/03/23, 8:21 am - Kratis: 2nd walyacha bagh tu
+01/03/23, 8:22 am - Kratis: <Media omitted>
+01/03/23, 8:22 am - Kratis: <Media omitted>
+01/03/23, 8:56 am - Siddhi Hiray: Last line kasa ala
+01/03/23, 6:08 pm - Kratis: Phone band jhala aahe ka
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:07 pm - Kratis: <Media omitted>
+01/03/23, 7:23 pm - Siddhi Hiray: Okay thanks
+01/03/23, 7:23 pm - Siddhi Hiray: Yevday imp questions
+01/03/23, 7:34 pm - Kratis: Group wr aale aahet he aata kay mahit🥲😂
+01/03/23, 7:52 pm - Siddhi Hiray: Ha na
+01/03/23, 8:06 pm - Kratis: Kiti jhala tujha
+01/03/23, 8:08 pm - Siddhi Hiray: Ky nhi zala
+01/03/23, 8:17 pm - Kratis: Kuthun vachte aahe
+01/03/23, 8:20 pm - Siddhi Hiray: Start ch nhi kela
+01/03/23, 8:21 pm - Siddhi Hiray: <Media omitted>
+01/03/23, 8:21 pm - Siddhi Hiray: <Media omitted>
+01/03/23, 8:25 pm - Kratis: https://youtu.be/CeKP0rUIotc
+01/03/23, 8:25 pm - Kratis: https://youtu.be/97uJdktK4sE
+01/03/23, 9:50 pm - Kratis: Bhaiii tyane 4-5 sums takle aahet paper madhye tula idea aahe kay kasa krtat te
+01/03/23, 10:38 pm - Siddhi Hiray: Nhi
+01/03/23, 10:51 pm - Kratis: Ani vachun kay jhala aah
+01/03/23, 11:08 pm - Kratis: https://youtu.be/kj-CxhG7XBw
+01/03/23, 11:35 pm - Siddhi Hiray: Module 1
+01/03/23, 11:35 pm - Siddhi Hiray: Call kela hota?
+01/03/23, 11:44 pm - Kratis: Nhiii ree ka?
+01/03/23, 11:44 pm - Kratis: Sums jhale ka)
+01/03/23, 11:48 pm - Siddhi Hiray: Message ala hota
+01/03/23, 11:48 pm - Siddhi Hiray: Nhi
+01/03/23, 11:48 pm - Siddhi Hiray: Sums nhi kelayt
+01/03/23, 11:49 pm - Siddhi Hiray: Uday lavkar ye Ani sang mg aamhla
+01/03/23, 11:49 pm - Kratis: <Media omitted>
+01/03/23, 11:50 pm - Kratis: Ha wala module start to end waach hyat 25 page paryant je aahe na sarva numericals aahet yaat ekda vaach nahi kayla tr udhya krto explain
+01/03/23, 11:50 pm - Kratis: Ani he ek kar
+01/03/23, 11:50 pm - Kratis: Hya 2 goshti kelyawar tujhe spm che questions clear hotill simple aahet
+01/03/23, 11:50 pm - Kratis: Nhiii re nhi kela hota
+02/03/23, 12:04 am - Kratis: Alsoo aikk udhya calcciiii an lagnar aahe
+02/03/23, 1:10 am - Siddhi Hiray: Okay
+02/03/23, 1:10 am - Siddhi Hiray: Okay ha
+02/03/23, 1:10 am - Siddhi Hiray: Gheun yetay
+02/03/23, 1:10 am - Siddhi Hiray: Thanks
+02/03/23, 9:22 am - Kratis: U reached collegeya station wr ahe
+02/03/23, 3:00 pm - Siddhi Hiray: Clg
+02/03/23, 3:58 pm - Kratis: Ajun college madhyech aahe
+02/03/23, 4:18 pm - Siddhi Hiray: Nhi
+02/03/23, 8:34 pm - Kratis: Mag clg ka boli re 😂
+02/03/23, 8:48 pm - Siddhi Hiray: Are asch
+02/03/23, 8:48 pm - Siddhi Hiray: Uday sutti ahe na
+02/03/23, 8:58 pm - Kratis: Nahii udhya project submission aahe visarlis kay
+02/03/23, 9:01 pm - Siddhi Hiray: Ky
+02/03/23, 9:01 pm - Siddhi Hiray: Kon bola
+02/03/23, 9:24 pm - Kratis: Aquila ma'am la mi cl kela hota
+ Mini project kadhi submit karycha tr ma'am boli ki ajch meeting zali tr maybe 28 march la submit karyacha asel
+Ani clg reopen 20 or 21 la hoil
+02/03/23, 9:24 pm - Kratis: He ghe
+02/03/23, 10:21 pm - Siddhi Hiray: Sem2 kadhi suru karnar m
+02/03/23, 10:21 pm - Kratis: 20,21 la as per message
+02/03/23, 10:35 pm - Siddhi Hiray: Waah
+02/03/23, 10:35 pm - Siddhi Hiray: Manje palavnar
+02/03/23, 10:36 pm - Kratis: Ha kasa sem baghavla tasach ajun kay😭😭
+03/03/23, 4:04 pm - Siddhi Hiray: Haa
+07/03/23, 9:57 pm - Siddhi Hiray: Hi
+07/03/23, 9:58 pm - Siddhi Hiray: Aaik na te project sathi konta visual studio download karycha?
+07/03/23, 10:47 pm - Kratis: Visual Studio kr purple icon wala
+08/03/23, 7:12 am - Siddhi Hiray: Okay
+08/03/23, 7:12 am - Siddhi Hiray: Thanks
+08/03/23, 9:48 am - Kratis: Ha
+08/03/23, 2:26 pm - Kratis: Happy women's day ❤️
+08/03/23, 4:15 pm - Siddhi Hiray: Thankyou ✨
+08/03/23, 4:29 pm - Kratis: Vacation kasa chala aahe tujha
+08/03/23, 5:22 pm - Siddhi Hiray: Thik chalay
+08/03/23, 5:29 pm - Kratis: Acha
+08/03/23, 5:39 pm - Siddhi Hiray: Tuja kasa chalay vacation
+08/03/23, 5:48 pm - Kratis: Thikach chalay, bore hoto aahe pan khup
+08/03/23, 6:19 pm - Siddhi Hiray: 😂ha na
+08/03/23, 6:30 pm - Kratis: Kal amhi match baghyla gelo isl chii
+08/03/23, 6:30 pm - Kratis: College madhye tri time jaato ikde ghari basun kay hota nahi
+08/03/23, 6:57 pm - Siddhi Hiray: Acha masta
+08/03/23, 6:58 pm - Siddhi Hiray: Ha te re ahe
+08/03/23, 6:58 pm - Siddhi Hiray: Kadhi pasun ahe clg
+08/03/23, 7:01 pm - Kratis: 20 la exam aahe na tya divashi pasun ya va lagnar aahe aplyal
+08/03/23, 7:03 pm - Siddhi Hiray: Aacha ha
+08/03/23, 7:03 pm - Siddhi Hiray: Exam Kom ghenar ahe
+08/03/23, 7:04 pm - Siddhi Hiray: Ani ky asnar mini project chi exam?
+08/03/23, 7:08 pm - Kratis: Ig mentor gheil last year mentors neghetla hota baghu aata 20 la kayel sarvana
+08/03/23, 7:08 pm - Kratis: Kay mahit re majha pan first time aahe 😂😂
+08/03/23, 7:16 pm - Siddhi Hiray: Ha na timing pn nhi snagitla ahe
+08/03/23, 7:16 pm - Siddhi Hiray: Tu senior shi bolto naahun v4la
+08/03/23, 7:16 pm - Siddhi Hiray: Mahun*
+08/03/23, 7:16 pm - Siddhi Hiray: Vikram sir ni ghetla tr bara hoil
+08/03/23, 7:24 pm - Kratis: Last minute asta aplya college cha adhi 28 bole aata 21  yede aahet sarva college waale
+08/03/23, 7:25 pm - Kratis: Kay mahit pass tr aaramat krtil karan  college gheto aahe na
+08/03/23, 7:30 pm - Siddhi Hiray: Ha na
+08/03/23, 7:30 pm - Siddhi Hiray: Ky maythi mentor nich gheu de bas
+08/03/23, 7:30 pm - Siddhi Hiray: Mg miltil marks
+08/03/23, 7:40 pm - Kratis: Hoo na tumhala kay vikram aahe na mentor changla nashib gheun aala ahat tumhi 🥲🥲 amcha tr mineshh aahe baba bomb fodel saray tondavar
+08/03/23, 7:40 pm - Kratis: Ppt presentation asel most probably
+08/03/23, 7:40 pm - Kratis: Projector wr explain karava lagnar
+08/03/23, 7:47 pm - Siddhi Hiray: ky maythi naki kon ahe te
+08/03/23, 7:47 pm - Siddhi Hiray: kon bola?
+08/03/23, 7:51 pm - Kratis: Mala asa vatta karan mi admission chya time la alo hoto na tevha 3 sem che mula explain karat hotii project projector wr documentation in short
+08/03/23, 7:52 pm - Kratis: Mentor astil ga kay ghabartes mala ikde gham sutto aahe minesh cha naav aiklayawar
+08/03/23, 8:13 pm - Siddhi Hiray: Aacha pn aaplay la ky bole nhi prepare karyla
+08/03/23, 8:14 pm - Siddhi Hiray: Are kunala maythi mentor ch asnar la
+08/03/23, 8:32 pm - Kratis: Kay mahitt re Tu hiray madhye aahe aata tula surprise miyat jaatil😂
+08/03/23, 8:32 pm - Kratis: Last time tr mentors ne ghetla hota g
+08/03/23, 8:50 pm - Siddhi Hiray: asa surprise noko
+08/03/23, 8:50 pm - Siddhi Hiray: accha
+08/03/23, 8:58 pm - Kratis: Khupp surprises asnar aahett😂😂
+09/03/23, 12:46 am - Siddhi Hiray: Ha😭😂
+09/03/23, 7:56 pm - Kratis: Project cha documentation jhala ka mag tujha
+09/03/23, 8:42 pm - Siddhi Hiray: Nhi
+09/03/23, 8:42 pm - Siddhi Hiray: Ky documentation?
+09/03/23, 8:57 pm - Kratis: Sir ne pathavla aahe bagh group wr
+09/03/23, 8:57 pm - Kratis: Te banavla ka
+09/03/23, 11:22 pm - Siddhi Hiray: Nhi banvla
+09/03/23, 11:22 pm - Siddhi Hiray: Ajun project nhi install kela
+09/03/23, 11:22 pm - Siddhi Hiray: Tu kela ka
+09/03/23, 11:29 pm - Kratis: Waah😂
+09/03/23, 11:30 pm - Kratis: Nopee sunday la baghin
+10/03/23, 12:37 am - Siddhi Hiray: Kk
+10/03/23, 12:37 am - Siddhi Hiray: Karshil Teva patv m mala
+10/03/23, 1:11 am - Kratis: Majha mostly ekda sirana vicharava lagnar karan prediction madhye he diagram mostly use nhi hot
+10/03/23, 1:40 pm - Siddhi Hiray: Manje
+10/03/23, 2:04 pm - Kratis: Documentation che points baghitle aahes ka tu? Tyat 4-5 diagrams dile aahet banvayla pn data science chy project madhye na diagrams use hota nahii mostlyy
+10/03/23, 2:04 pm - Kratis: Tr mala doubt aahe tyat taku kay
+10/03/23, 2:08 pm - Siddhi Hiray: Nhi
+10/03/23, 2:08 pm - Siddhi Hiray: Are flow Tak na
+10/03/23, 2:09 pm - Siddhi Hiray: Kasa flow ahe ky kunala connect ahe
+10/03/23, 3:02 pm - Kratis: What's app prediction madhye kay connect kru 🥲🥲 mala tr kay samjht nahi
+10/03/23, 3:50 pm - Siddhi Hiray: Ky prediction
+10/03/23, 3:51 pm - Siddhi Hiray: Mala tr project ch nhi samjala tuja
+10/03/23, 4:26 pm - Kratis: Aree see jeh aple what's app chat astat na te predict krnar ki kashe chats aahet  in short foul language use ke le aahet normall aahet asa kahii trii he project nadhye
+10/03/23, 5:30 pm - Siddhi Hiray: Aacha
+10/03/23, 5:30 pm - Siddhi Hiray: Hay mg tayt ky diagram banvnar right
+10/03/23, 5:53 pm - Kratis: Hoo tech tr ani vikram bolto aahe kahii difference nahii aahe 😂
+10/03/23, 7:48 pm - Siddhi Hiray: M ata
+10/03/23, 7:48 pm - Siddhi Hiray: V4 na tayna exam maday ky asnar t

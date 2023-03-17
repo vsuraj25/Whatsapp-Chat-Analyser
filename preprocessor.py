@@ -10,7 +10,7 @@ def preprocess(data):
     dates = [i.replace(',', '') for i in dates]
 
     df = pd.DataFrame({'message_date': dates,'user_message': messages})
-    df['message_date'] = pd.to_datetime(df['message_date'])
+    df['message_date'] = pd.to_datetime(df['message_date'],dayfirst=True)
 
     users = []
     sep_messages = []
@@ -28,6 +28,7 @@ def preprocess(data):
             
     df['year'] = df['message_date'].dt.year
     df['month'] = df['message_date'].dt.month_name()
+    df['month_num'] = df['message_date'].dt.month
     df['day'] = df['message_date'].dt.day
     df['hour'] = df['message_date'].dt.hour
     df['minute'] = df['message_date'].dt.minute
@@ -43,5 +44,7 @@ def preprocess(data):
         else:
             period.append(str(hour) + '-' + str(hour+1))
     df['period'] = period
+
+    df = df[df['user'] != 'group_nortification']
 
     return df
